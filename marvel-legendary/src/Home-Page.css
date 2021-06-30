@@ -1,0 +1,16 @@
+.Home-Page {
+  text-align: center;
+}
+
+.Home-Page-Header {
+  background-color: #2d3a55;
+  color: white;
+}
+
+.Legendary-Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 100px;
+}
