@@ -17,5 +17,5 @@ Randomizer for Marvel Legendary Deck building Game
 - _ Add Expanison selection
 
 Key: 
-X -> done
-_ -> TODO
+- X -> done
+- _ -> TODO
