@@ -1,0 +1,152 @@
+[
+    {
+        "ID": "1",
+        "name": "Black Widow",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Base Set"
+    },
+    {
+        "ID": "2",
+        "name": "Captain America",
+        "faction": "Avengers",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Red",
+        "set": "Base Set"
+    },
+    {
+        "ID": "3",
+        "name": "Cyclops",
+        "faction": "XMen",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Base Set"
+    },
+    {
+        "ID": "4",
+        "name": "Deadpool",
+        "faction": "None",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Base Set"
+    },
+    {
+        "ID": "5",
+        "name": "Emma Frost",
+        "faction": "XMen",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "Yellow",
+        "color4": "Green",
+        "set": "Base Set"
+    },    
+    {
+        "ID": "6",
+        "name": "Gambit",
+        "faction": "XMen",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Base Set"
+    },
+    {
+        "ID": "7",
+        "name": "Hawkeye",
+        "faction": "Yellow",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "Base Set"
+    },    
+    {
+        "ID": "8",
+        "name": "Hulk",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Base Set"
+    },
+    {
+        "ID": "9",
+        "name": "Iron Man",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "Base Set"
+    },    
+    {
+        "ID": "10",
+        "name": "Nick Fury",
+        "faction": "Shield",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "Black",
+        "set": "Base Set"
+    },
+    {
+        "ID": "11",
+        "name": "Rogue",
+        "faction": "XMen",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "Base Set"
+    },    
+    {
+        "ID": "12",
+        "name": "Spider-Man",
+        "faction": "Spiderverse",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Black",
+        "color4": "Red",
+        "set": "Base Set"
+    },
+    {
+        "ID": "13",
+        "name": "Storm",
+        "faction": "XMen",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Base Set"
+    },    
+    {
+        "ID": "14",
+        "name": "Thor",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Base Set"
+    },
+    {
+        "ID": "15",
+        "name": "Wolverine",
+        "faction": "XMen",
+        "color1": "Yellow",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Base Set"
+    }
+]

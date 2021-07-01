@@ -1,0 +1,22 @@
+[
+    {
+        "ID": "1",
+        "name": "Doombot Legion",
+        "set": "Base Set"
+    },
+    {
+        "ID": "2",
+        "name": "Hand Ninjas",
+        "set": "Base Set"
+    },
+    {
+        "ID": "3",
+        "name": "Savage Land Mutates",
+        "set": "Base Set"
+    },
+    {
+        "ID": "4",
+        "name": "Sentinel",
+        "set": "Base Set"
+    }
+]

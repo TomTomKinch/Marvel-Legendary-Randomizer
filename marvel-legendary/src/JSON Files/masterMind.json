@@ -1,0 +1,38 @@
+[
+    {
+        "ID": "1",
+        "name": "Dr. Doom",
+        "hp": "9",
+        "masterStrike": "Each Player with exactly 6 cards in hand reveals a Black Hero or puts 2 cards from their hand on top of their deck",
+        "leads": "Doombot Legion",
+        "leadsType": "henchmen",
+        "set": "Base Set"
+    },
+    {
+        "ID": "2",
+        "name": "Loki",
+        "hp": "10",
+        "masterStrike": "Each Player Reveals Green Hero or gains a wound.",
+        "leads": "Enemies of Asgard",
+        "leadsType": "villains",
+        "set": "Base Set"
+    },
+    {
+        "ID": "3",
+        "name": "Magneto",
+        "hp": "8",
+        "masterStrike": "Each Player Reveals an X-Men Hero or discards down to four cards.",
+        "leads": "Brotherhood",
+        "leadsType": "villains",
+        "set": "Base Set"
+    },
+    {
+        "ID": "4",
+        "name": "Red Skull",
+        "hp": "7",
+        "masterStrike": "Each Player KOs a Hero from their hand.",
+        "leads": "HYDRA",
+        "leadsType": "villains",
+        "set": "Base Set"
+    }
+]

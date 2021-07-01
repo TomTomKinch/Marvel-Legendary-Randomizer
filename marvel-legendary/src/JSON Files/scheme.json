@@ -1,0 +1,58 @@
+[
+    {
+        "ID": "1",
+        "name": "Midtown Bank Robbery",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "2",
+        "name": "Negative Zone Prison Breakout",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "3",
+        "name": "Portals to the Dark Dimension",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "4",
+        "name": "Replace Earths Leaders with Killbots",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "5",
+        "name": "Secret Invastion of the Skrull Shapeshifters",
+        "leads": "Skrulls",
+        "leadsType": "villians",
+        "set": "Base Set"
+    },
+    {
+        "ID": "6",
+        "name": "Super Hero Civil War",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "7",
+        "name": "The Legacy Virus",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "8",
+        "name": "Unleash the Power of the Cosmic Cube",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    }
+]

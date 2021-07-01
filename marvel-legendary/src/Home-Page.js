@@ -4,8 +4,8 @@ import './Home-Page.css';
 import legendary from './Images/LegendaryLogo.png';
 
 function App() {
-  const [ playerCount, setPlayerCount ] = useState(0);
-  const { register, handleSubmit } = useForm();
+  const [ playerCount, setPlayerCount ] = useState(0); //Player Count Data
+  const { register, handleSubmit } = useForm(); 
   
   // Sets Player Count Based off Form Selection
   const onSubmit = (data) => {

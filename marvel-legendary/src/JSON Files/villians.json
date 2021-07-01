@@ -1,0 +1,37 @@
+[
+    {
+        "ID": "1",
+        "name": "Brotherhood",
+        "set": "Base Set"
+    },
+    {
+        "ID": "2",
+        "name": "Enemies of Asgard",
+        "set": "Base Set"
+    },
+    {
+        "ID": "3",
+        "name": "HYDRA",
+        "set": "Base Set"
+    },
+    {
+        "ID": "4",
+        "name": "Masters of Evil",
+        "set": "Base Set"
+    },
+    {
+        "ID": "5",
+        "name": "Radiation",
+        "set": "Base Set"
+    },
+    {
+        "ID": "6",
+        "name": "Skrulls",
+        "set": "Base Set"
+    },
+    {
+        "ID": "7",
+        "name": "Spider-Foes",
+        "set": "Base Set"
+    }
+]
