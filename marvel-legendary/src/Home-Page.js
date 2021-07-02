@@ -5,6 +5,9 @@ import legendary from './Images/LegendaryLogo.png';
 
 function App() {
 
+  //Random Number
+  const [ randomNum, setRandomNumber ] = useState(0);
+
   //Player Count
   const [ playerCount, setPlayerCount ] = useState(0); //Player Count Data
   const { register, handleSubmit } = useForm(); 
@@ -52,6 +55,59 @@ function App() {
     })
   }, []);
 
+  //Villain Group
+  const [ villains, setVillains ] = useState([{
+    "ID": "",
+    "name": "",
+    "set": ""
+  }]); 
+  useEffect(() => {
+    fetch('./JSON Files/villains.json')
+    .then(response => response.json())
+    .then(data => {
+      //console.log(data);
+      setVillains(data);
+      //console.log(villains[0].name);
+    })
+  }, []);
+
+  //Henchmen
+  const [ henchmen, setHenchmen ] = useState([{
+    "ID": "",
+    "name": "",
+    "set": ""
+  }]); 
+  useEffect(() => {
+    fetch('./JSON Files/henchmen.json')
+    .then(response => response.json())
+    .then(data => {
+      //console.log(data);
+      setHenchmen(data);
+      //console.log(henchmen[0].name);
+    })
+  }, []);
+
+  //Heroes
+  const [ heroes, setHeroes ] = useState([{
+    "ID": "", 
+    "name": "",
+    "faction": "",
+    "color1": "",
+    "color2": "",
+    "color3": "",
+    "color4": "",
+    "set": ""
+  }]); 
+  useEffect(() => {
+    fetch('./JSON Files/heroes.json')
+    .then(response => response.json())
+    .then(data => {
+      //console.log(data);
+      setHeroes(data);
+      //console.log(heroes[0].name);
+    })
+  }, []);
+
   return (
     <div className="Home-Page">
       <header className="Home-Page-Header">
@@ -85,6 +141,27 @@ function App() {
       <h2>Scheme Data: </h2>
       <p>Scheme: {scheme[0].name} </p>
       <p>Set: {scheme[0].set}</p>
+
+      {/* Villain Info */}
+      <h2>Villain Data: </h2>
+      <p>Villain Group: {villains[0].name} </p>
+      <p>Set: {villains[0].set}</p>
+
+      {/* Henchmen Info */}
+      <h2>Henchemn Data: </h2>
+      <p>Henchmen Group: {henchmen[0].name} </p>
+      <p>Set: {henchmen[0].set}</p>
+
+      {/* Heroes Info */}
+      <h2>Hero Data: </h2>
+      <p>Hero Name: {heroes[0].name}</p>
+      <p>Faction: {heroes[0].faction}</p>
+      <p>Color1: {heroes[0].color1}</p>
+      <p>Color2: {heroes[0].color2}</p>
+      <p>Color3: {heroes[0].color3}</p>
+      <p>Color4: {heroes[0].color4}</p>
+      <p>Set: {heroes[0].set}</p>
+
     </div>
   );
 }

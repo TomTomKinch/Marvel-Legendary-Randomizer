@@ -4,12 +4,12 @@ Randomizer for Marvel Legendary Deck building Game
 # Todo List
 - _ Basic Layout (CSS styling)
 - X Card Values to JSON file
-- _ Load Values from JSON (App functionality) 
+- X Load Values from JSON (App functionality) 
     - X Scheme
     - X Mastermind
-    - _ Villain
-    - _ Henchmen
-    - _ Heroes
+    - X Villain
+    - X Henchmen
+    - X Heroes
 - _ Randomize Values
 - _ Refresh Buttons for villains, scenario, heroes etc.
 - _ Finish Styling
