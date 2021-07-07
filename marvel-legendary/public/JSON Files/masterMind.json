@@ -1,5 +1,14 @@
 [
     {
+        "ID": "0",
+        "name": "",
+        "hp": "",
+        "masterStrike": "",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "None"
+    },
+    {
         "ID": "1",
         "name": "Dr. Doom",
         "hp": "9",

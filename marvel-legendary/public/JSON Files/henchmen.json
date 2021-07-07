@@ -1,5 +1,10 @@
 [
     {
+        "ID": "0",
+        "name": "",
+        "set": "None"
+    },
+    {
         "ID": "1",
         "name": "Doombot Legion",
         "set": "Base Set"
