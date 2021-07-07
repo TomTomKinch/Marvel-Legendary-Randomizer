@@ -4,20 +4,10 @@ import './Home-Page.css';
 import legendary from './Images/LegendaryLogo.png';
 
 function App() {
-
-  //Random Number
-  const [ randomNum, setRandomNumber ] = useState(0);
-
-  //Player Count
-  const [ playerCount, setPlayerCount ] = useState(0); //Player Count Data
-  const { register, handleSubmit } = useForm(); 
-  // Sets Player Count Based off Form Selection
-  const onSubmit = (data) => {
-    console.log(data[0]);
-    setPlayerCount(data[0]);
-  }
-
-  //Scheme
+  //______________________________________________________
+  //
+  //------------------Scheme------------------------------
+  //______________________________________________________
   const [ scheme, setScheme ] = useState([{
     "ID": "",
     "name": "",
@@ -34,8 +24,10 @@ function App() {
       //console.log(scheme[0].name);
     })
   },[]);
-
-  //MasterMind
+  //______________________________________________________
+  //
+  //-------------MasterMind-------------------------------
+  //______________________________________________________
   const [ masterMind, setMasterMind ] = useState([{
     "ID": "",
     "name": "",
@@ -54,8 +46,10 @@ function App() {
       // console.log(masterMind[0].name);
     })
   }, []);
-
-  //Villain Group
+  //______________________________________________________
+  //
+  //--------------Villain Group---------------------------
+  //______________________________________________________
   const [ villains, setVillains ] = useState([{
     "ID": "",
     "name": "",
@@ -70,8 +64,10 @@ function App() {
       //console.log(villains[0].name);
     })
   }, []);
-
-  //Henchmen
+  //______________________________________________________
+  //
+  //------------------Henchmen----------------------------
+  //______________________________________________________
   const [ henchmen, setHenchmen ] = useState([{
     "ID": "",
     "name": "",
@@ -87,7 +83,10 @@ function App() {
     })
   }, []);
 
-  //Heroes
+  //______________________________________________________
+  //
+  //----------------Heroes--------------------------------
+  //______________________________________________________
   const [ heroes, setHeroes ] = useState([{
     "ID": "", 
     "name": "",
@@ -107,7 +106,98 @@ function App() {
       //console.log(heroes[0].name);
     })
   }, []);
+  //______________________________________________________
+  //
+  //-------------------Player Count-----------------------
+  //______________________________________________________
+  
+  const [ playerCount, setPlayerCount ] = useState(1); //Player Count Data
+  const { register, handleSubmit } = useForm(); 
+  // Sets Player Count Based off Form Selection
+  const readPlayerCount = (data) => {
+    setPlayerCount(data[0]);
+    console.log("Data: " + data[0]);
+  }
+  //______________________________________________________
+  //
+  //----------------Random Functions----------------------
+  //______________________________________________________
 
+  //---Random MasterMind---
+  const [ randMasterMind, setRandMasterMind ] = useState(0);
+  useEffect(() => {
+    console.log("setrandMasterMind: " + masterMind[randMasterMind].name);
+    getAlwaysLeads();
+  }, [randMasterMind, masterMind]);
+  const getRandMasterMind = () => {
+    setRandMasterMind(Math.floor(Math.random() * masterMind.length));
+  }; 
+
+  //---Adjusts Always Leads Villain Group based off Random MasterMind---
+  const [ alwaysLeads, setAlwaysLeads ] = useState(0);
+  useEffect(() => {
+    if(masterMind[randMasterMind].leadsType === "villains"){
+      console.log("setAlwaysLeads: " + villains[alwaysLeads].name);
+    }
+    else{
+      console.log("setAlwaysLeads: " + henchmen[alwaysLeads].name);
+    }
+  }, [alwaysLeads, masterMind, villains, henchmen, randMasterMind]);
+
+  const getAlwaysLeads = () => {
+    //Pick Villain of Henchmen
+    if(masterMind[randMasterMind].leadsType === "villains"){
+      for(let i = 0; i < villains.length; i++){
+        if(villains[i].name === masterMind[randMasterMind].leads){
+          setAlwaysLeads(i);
+        }
+      }
+    }
+    else{
+      for(let i = 0; i < henchmen.length; i++){
+        if(henchmen[i].name === masterMind[randMasterMind].leads){
+          setAlwaysLeads(i);
+        }
+      }
+    }
+  }
+
+  const displayAlwaysLeads = () => {
+    if(masterMind[randMasterMind].leadsType === "villains"){
+      return(
+        <div>
+          <p>Villain: {villains[alwaysLeads].name}</p> 
+          <p>Set: {villains[alwaysLeads].set}</p>
+        </div>
+      );
+    }
+    else{
+      return(
+        <div>
+          <p>Henchmen: {henchmen[alwaysLeads].name}</p>  
+          <p>Set: {henchmen[alwaysLeads].set}</p>
+        </div>
+      );
+    }
+  }
+
+  //---Random Scheme---
+  const [ randScheme, setRandScheme ] = useState(0);
+  useEffect(() => {
+    console.log("setRandScheme: " + scheme[randScheme].name);
+  }, [randScheme, scheme]);
+  const getRandScheme = () => {
+    setRandScheme(Math.floor(Math.random() * scheme.length));
+  };
+
+  //---Creates Game---
+  function createGame(){
+    console.log("Player Count: " + playerCount);
+    getRandMasterMind();
+    getRandScheme();
+  };
+
+ // ------------------- Render -------------------------------------------
   return (
     <div className="Home-Page">
       <header className="Home-Page-Header">
@@ -116,7 +206,8 @@ function App() {
       </header>
 
       {/* Player Select Dropdown */}
-      <form onSubmit={handleSubmit(onSubmit)}>        
+      {/* <form onSubmit={handleSubmit(readPlayerCount)}>         */}
+      <form onSubmit={handleSubmit(readPlayerCount)}> 
         <label>Select Number of Players: 
           <select {...register("0")}>
             <option value="1"> 1 </option>
@@ -129,18 +220,27 @@ function App() {
         <input type="submit"/>
       </form>
       <p>Number of Players: {playerCount}</p>
+
+      <button onClick={createGame}> Create Game </button>
       <p>-----------------------------------------------------</p>
       {/* MasterMind Info */}
       <h2>MasterMind Data: </h2>
-      <p>MasterMind: {masterMind[0].name} </p>
-      <p>HP: {masterMind[0].hp} </p>
-      <p>MasterStrike: {masterMind[0].masterStrike} </p>
-      <p>Set: {masterMind[0].set} </p>
+      <p>MasterMind: {masterMind[randMasterMind].name} </p>
+      <p>HP: {masterMind[randMasterMind].hp} </p>
+      <p>MasterStrike: {masterMind[randMasterMind].masterStrike} </p>
+      <p>Set: {masterMind[randMasterMind].set} </p>
+      <p>Leads: {masterMind[randMasterMind].leads} </p>
+      <button onClick={() => {getRandMasterMind();}}> RandomMasterMind</button>
 
       {/* Scheme Info */}
       <h2>Scheme Data: </h2>
-      <p>Scheme: {scheme[0].name} </p>
-      <p>Set: {scheme[0].set}</p>
+      <p>Scheme: {scheme[randScheme].name} </p>
+      <p>Set: {scheme[randScheme].set}</p>
+      <button onClick={() => {getRandScheme();}}>RandomScheme</button>
+
+      {/* Always Leads */}
+      <h2>Always Leads Villain Data: </h2>
+      <div> {displayAlwaysLeads()} </div>
 
       {/* Villain Info */}
       <h2>Villain Data: </h2>
