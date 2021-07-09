@@ -17,7 +17,7 @@ Randomizer for Marvel Legendary Deck building Game
     - X Scheme Villain Group
     - X Villains
     - X Henchmen
-    - _ Heroes
+    - X Heroes
 - _ Refresh Buttons for villains, scenario, heroes etc.
     - _ Villains
     - _ Scheme
