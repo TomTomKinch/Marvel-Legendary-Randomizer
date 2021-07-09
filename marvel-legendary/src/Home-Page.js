@@ -170,6 +170,8 @@ function App() {
         if(henchmen[i].name === masterMind[randMasterMind].leads){
           setAlwaysLeads(i);
           //Add index to Henchmen Array
+          henchmenArray.push(i);
+          henchmenCount--;
         }
       }
     }
@@ -237,6 +239,8 @@ function App() {
           if(henchmen[i].name === scheme[randScheme].leads){
             setSchemeLeads(i);
             //Add indexto Henchmen Arrray
+            henchmenArray.push(i);
+            henchmenCount--;
           }
         }
       }
@@ -311,7 +315,23 @@ function App() {
     setVillainsArrayFinal(villainsArray);
   };
   //Creates Other Henchmen
+  const [ henchmenArrayFinal, setHenchmenArrayFinal ] = useState([]);
 
+  const randomHenchmenFunction = () => {
+    console.log("COUNT: " + henchmenCount);
+    for(henchmenCount; henchmenCount > 0; henchmenCount--){
+      var hen = (Math.floor(Math.random() * (henchmen.length - 1)) + 1);
+      if(henchmenArray.indexOf(hen) === -1){
+        henchmenArray.push(hen);
+      }
+      else{
+        henchmenCount = henchmenCount + 1;
+      }
+    };
+    console.log("Henchmen Array: [ " + henchmenArray + " ]");
+
+    setHenchmenArrayFinal(henchmenArray);
+  };
   //---Creates Game---
 
   const [ gameGenerated, setGameGenerated ] = useState(false);
@@ -324,6 +344,7 @@ function App() {
       generateVillainsCount();
       generateHenchmenCount();
       randomVillainsFunction();
+      randomHenchmenFunction();
       setGameGenerated(false);
     }
   },[gameGenerated]);
@@ -383,20 +404,20 @@ function App() {
       <p>MasterStrike: {masterMind[randMasterMind].masterStrike} </p>
       <p>Set: {masterMind[randMasterMind].set} </p>
       <p>Leads: {masterMind[randMasterMind].leads} </p>
-      <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button>
+      {/* <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button> */}
 
       {/* Scheme Info */}
       <h2>Scheme Data: </h2>
       <p>Scheme: {scheme[randScheme].name} </p>
       <p>Set: {scheme[randScheme].set}</p>
-      <button onClick={() => {generateRandScheme();}}>RandomScheme</button>
+      {/* <button onClick={() => {generateRandScheme();}}>RandomScheme</button> */}
 
       {/* Always Leads */}
       {/* <h2>Always Leads Villain Data: </h2>
       <div> {displayAlwaysLeads()} </div> */}
 
       {/* Scheme Leads */}
-      <div> {displaySchemeLeads()} </div>
+      {/* <div> {displaySchemeLeads()} </div> */}
 
       {/* Villain Info */}
       <h2>Villain Data: </h2>
@@ -413,8 +434,16 @@ function App() {
 
       {/* Henchmen Info */}
       <h2>Henchemn Data: </h2>
-      <p>Henchmen Group: {henchmen[0].name} </p>
-      <p>Set: {henchmen[0].set}</p>
+      <div>
+      {henchmenArrayFinal.map((num) => {
+        return(
+          <div>
+            <p>{henchmen[num].name}</p> 
+            <p>Set: {henchmen[num].set}</p>
+          </div>
+        )
+      }  )}
+      </div>
 
       {/* Heroes Info */}
       <h2>Hero Data: </h2>

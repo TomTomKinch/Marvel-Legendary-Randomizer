@@ -14,13 +14,13 @@ Randomizer for Marvel Legendary Deck building Game
     - X Villains
     - X Always Leads Villain Group
     - X Scheme
-    - _ Scheme Villain Group
-    - _ Villains
-    - _ Henchmen
+    - X Scheme Villain Group
+    - X Villains
+    - X Henchmen
     - _ Heroes
 - _ Refresh Buttons for villains, scenario, heroes etc.
-    - X Villains
-    - X Scheme
+    - _ Villains
+    - _ Scheme
     - _ Villains
     - _ Henchmen
     - _ Heroes
