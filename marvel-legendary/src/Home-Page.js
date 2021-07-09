@@ -4,8 +4,12 @@ import './Home-Page.css';
 import legendary from './Images/LegendaryLogo.png';
 
 function App() {
-  const villainSettings = [1, 2, 3, 3, 4]
-  const henchmenSettings = [1, 1, 1, 2, 2]
+  const villainSettings = [1, 2, 3, 3, 4];
+  const henchmenSettings = [1, 1, 1, 2, 2];
+  let villainsCount;
+  let henchmenCount;
+  let villainsArray = [];
+  let henchmenArray = [];
 
   //______________________________________________________
   //
@@ -130,9 +134,10 @@ function App() {
   const [ randMasterMind, setRandMasterMind ] = useState(0);
   useEffect(() => {
     console.log("setrandMasterMind: " + masterMind[randMasterMind].name);
-    generateAlwaysLeads();
   }, [randMasterMind, masterMind]);
+
   const generateRandMasterMind = () => {
+    console.log("generateRandMasterMind");
     setRandMasterMind(Math.floor(Math.random() * (masterMind.length - 1)) + 1);
   }; 
 
@@ -145,15 +150,18 @@ function App() {
     else{
       console.log("setAlwaysLeads: " + henchmen[alwaysLeads].name);
     }
-  }, [alwaysLeads, masterMind, villains, henchmen, randMasterMind]);
+  }, [alwaysLeads]);
 
   const generateAlwaysLeads = () => {
+    console.log("generateAlwaysLeads");
     //Pick Villain of Henchmen
     if(masterMind[randMasterMind].leadsType === "villains"){
       for(let i = 0; i < villains.length; i++){
         if(villains[i].name === masterMind[randMasterMind].leads){
           setAlwaysLeads(i);
-          generateVillainsCount();
+          //Add index to Villains Array
+          villainsArray.push(i);
+          villainsCount--;
         }
       }
     }
@@ -161,7 +169,7 @@ function App() {
       for(let i = 0; i < henchmen.length; i++){
         if(henchmen[i].name === masterMind[randMasterMind].leads){
           setAlwaysLeads(i);
-          generateHenchmenCount();
+          //Add index to Henchmen Array
         }
       }
     }
@@ -190,9 +198,10 @@ function App() {
   const [ randScheme, setRandScheme ] = useState(0);
   useEffect(() => {
     console.log("setRandScheme: " + scheme[randScheme].name);
-    generateSchemeLeads();
   }, [randScheme, scheme]);
+
   const generateRandScheme = () => {
+    console.log("generateRandScheme");
     setRandScheme(Math.floor(Math.random() * scheme.length));
   };
 
@@ -210,13 +219,16 @@ function App() {
   }, [schemeLeads, scheme, villains, henchmen, randScheme]);
 
   const generateSchemeLeads = () => {
+    console.log("generateSchemeLeads");
     //Pick Villain of Henchmen
     if(scheme[randScheme].leadsType !== "None"){
       if(scheme[randScheme].leadsType === "villains"){
         for(let i = 0; i < villains.length; i++){
           if(villains[i].name === scheme[randScheme].leads){
             setSchemeLeads(i);
-            generateVillainsCount();
+            //Add index to Villain Arrray
+            villainsArray.push(i);
+            villainsCount--;
           }
         }
       }
@@ -224,7 +236,7 @@ function App() {
         for(let i = 0; i < henchmen.length; i++){
           if(henchmen[i].name === scheme[randScheme].leads){
             setSchemeLeads(i);
-            generateHenchmenCount();
+            //Add indexto Henchmen Arrray
           }
         }
       }
@@ -258,46 +270,84 @@ function App() {
   }
 
   //---Creates Villain/Henchmen Counts
-  const [ villainsCount, setVillainsCount ] = useState(0);
-  useEffect(() => {
-    console.log("villainsCount: " + villainsCount);
-  }, [villainsCount, randMasterMind, randScheme, playerCount]);
-
-  const [ henchmenCount, setHenchmenCount ] = useState(0);
-  useEffect(() => {
-    console.log("henchmenCount: " + henchmenCount)
-  }, [henchmenCount, randMasterMind, randScheme, playerCount]);
-
   const generateVillainsCount = () => {
-    setVillainsCount(villainSettings[playerCount - 1]);
+    console.log("generateVillainsCount");
+    villainsCount = villainSettings[playerCount - 1];
     if(masterMind[randMasterMind].leadsType === "villains"){
-      setVillainsCount(prevVillainsCount => prevVillainsCount - 1);
-      console.log("sub by 1: " + villainsCount);
+      villainsCount--;
     };
     if(scheme[randScheme].leadsType === "villains"){
-      setVillainsCount(prevVillainsCount => prevVillainsCount - 1);
-      console.log("(2)sub by 1 " + villainsCount);
+      villainsCount--; 
     };
   };
 
   const generateHenchmenCount = () => {
-    setHenchmenCount(henchmenSettings[playerCount - 1]);
+    console.log("generateHenchmenCount");
+    henchmenCount = henchmenSettings[playerCount - 1];
     if(masterMind[randMasterMind].leadsType === "henchmen"){
-      setHenchmenCount(prevHenchmenCount => prevHenchmenCount - 1);
+      henchmenCount--; 
     };
     if(scheme[randScheme].leadsType === "henchmen"){
-      setHenchmenCount(prevHenchmenCount => prevHenchmenCount - 1);
+      henchmenCount--; 
     };
   };
 
+  //Creates Other Villains
+  const [ villainsArrayFinal, setVillainsArrayFinal ] = useState([]);
+
+  const randomVillainsFunction = () => {
+    console.log("COUNT: " + villainsCount);
+    for(villainsCount; villainsCount > 0; villainsCount--){
+      var vil = (Math.floor(Math.random() * (villains.length - 1)) + 1);
+      if(villainsArray.indexOf(vil) === -1){
+        villainsArray.push(vil);
+      }
+      else{
+        villainsCount = villainsCount + 1;
+      }
+    };
+    console.log("Villains Array: [ " + villainsArray + " ]");
+
+    setVillainsArrayFinal(villainsArray);
+  };
+  //Creates Other Henchmen
+
   //---Creates Game---
-  function createGame(){
+
+  const [ gameGenerated, setGameGenerated ] = useState(false);
+  useEffect(() => {
+    if(gameGenerated === true){
+      console.log("------Dependent Data--------");
+      //Clear Villains Array
+      generateAlwaysLeads();
+      generateSchemeLeads();
+      generateVillainsCount();
+      generateHenchmenCount();
+      randomVillainsFunction();
+      setGameGenerated(false);
+    }
+  },[gameGenerated]);
+
+  const createGame = () => {
+    console.log("-------New Game------------");
     console.log("Player Count: " + playerCount);
     generateRandMasterMind();
     generateRandScheme();
     generateVillainsCount();
     generateHenchmenCount();
+    if(gameGenerated === false){
+      setGameGenerated(true);
+    }
   };
+
+  //---Refresh MasterMind Button---
+  function refreshMasterMind(){
+    // setVillainsArray([]);
+    // generateRandMasterMind();
+    // generateVillainsCount();
+    // generateHenchmenCount();
+    // randomVillainsFunction();
+  }
 
  // ------------------- Render -------------------------------------------
   return (
@@ -324,6 +374,7 @@ function App() {
       <p>Number of Players: {playerCount}</p>
 
       <button onClick={createGame}> Create Game </button>
+
       <p>-----------------------------------------------------</p>
       {/* MasterMind Info */}
       <h2>MasterMind Data: </h2>
@@ -332,7 +383,7 @@ function App() {
       <p>MasterStrike: {masterMind[randMasterMind].masterStrike} </p>
       <p>Set: {masterMind[randMasterMind].set} </p>
       <p>Leads: {masterMind[randMasterMind].leads} </p>
-      <button onClick={() => {generateRandMasterMind();}}> RandomMasterMind</button>
+      <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button>
 
       {/* Scheme Info */}
       <h2>Scheme Data: </h2>
@@ -341,16 +392,24 @@ function App() {
       <button onClick={() => {generateRandScheme();}}>RandomScheme</button>
 
       {/* Always Leads */}
-      <h2>Always Leads Villain Data: </h2>
-      <div> {displayAlwaysLeads()} </div>
+      {/* <h2>Always Leads Villain Data: </h2>
+      <div> {displayAlwaysLeads()} </div> */}
 
       {/* Scheme Leads */}
       <div> {displaySchemeLeads()} </div>
 
       {/* Villain Info */}
       <h2>Villain Data: </h2>
-      <p>Villain Group: {villains[0].name} </p>
-      <p>Set: {villains[0].set}</p>
+      <div>
+      {villainsArrayFinal.map((num) => {
+        return(
+          <div>
+            <p>{villains[num].name}</p> 
+            <p>Set: {villains[num].set}</p>
+          </div>
+        )
+      }  )}
+      </div>
 
       {/* Henchmen Info */}
       <h2>Henchemn Data: </h2>
