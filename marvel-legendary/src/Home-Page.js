@@ -8,8 +8,10 @@ function App() {
   const henchmenSettings = [1, 1, 1, 2, 2];
   let villainsCount;
   let henchmenCount;
+  let heroCount;
   let villainsArray = [];
   let henchmenArray = [];
+  let heroArray = [];
 
   //______________________________________________________
   //
@@ -123,7 +125,6 @@ function App() {
   // Sets Player Count Based off Form Selection
   const readPlayerCount = (data) => {
     setPlayerCount(data[0]);
-    console.log("Data: " + data[0]);
   }
   //______________________________________________________
   //
@@ -300,7 +301,6 @@ function App() {
   const [ villainsArrayFinal, setVillainsArrayFinal ] = useState([]);
 
   const randomVillainsFunction = () => {
-    console.log("COUNT: " + villainsCount);
     for(villainsCount; villainsCount > 0; villainsCount--){
       var vil = (Math.floor(Math.random() * (villains.length - 1)) + 1);
       if(villainsArray.indexOf(vil) === -1){
@@ -318,7 +318,6 @@ function App() {
   const [ henchmenArrayFinal, setHenchmenArrayFinal ] = useState([]);
 
   const randomHenchmenFunction = () => {
-    console.log("COUNT: " + henchmenCount);
     for(henchmenCount; henchmenCount > 0; henchmenCount--){
       var hen = (Math.floor(Math.random() * (henchmen.length - 1)) + 1);
       if(henchmenArray.indexOf(hen) === -1){
@@ -332,8 +331,37 @@ function App() {
 
     setHenchmenArrayFinal(henchmenArray);
   };
-  //---Creates Game---
 
+  //---Creates Hero Count
+  const generateHeroCount = () => {
+    console.log("generateHeroCount");
+    if(playerCount === 6){
+      heroCount = 6;
+    }
+    else{
+      heroCount = 5;
+    }
+  };
+
+  //---Creates Hero Pool---
+  const [ heroArrayFinal, setHeroArrayFinal ] = useState([]);
+
+  const randomHeroFunction = () => {
+    for(heroCount; heroCount > 0; heroCount--){
+      var h = (Math.floor(Math.random() * (heroes.length - 1)) + 1);
+      if(heroArray.indexOf(h) === -1){
+        heroArray.push(h);
+      }
+      else{
+        heroCount = heroCount + 1;
+      }
+    };
+    console.log("Hero Array: [ " + heroArray + " ]");
+
+    setHeroArrayFinal(heroArray);
+  };
+
+  //---Creates Game---
   const [ gameGenerated, setGameGenerated ] = useState(false);
   useEffect(() => {
     if(gameGenerated === true){
@@ -343,8 +371,10 @@ function App() {
       generateSchemeLeads();
       generateVillainsCount();
       generateHenchmenCount();
+      generateHeroCount();
       randomVillainsFunction();
       randomHenchmenFunction();
+      randomHeroFunction();
       setGameGenerated(false);
     }
   },[gameGenerated]);
@@ -422,39 +452,49 @@ function App() {
       {/* Villain Info */}
       <h2>Villain Data: </h2>
       <div>
-      {villainsArrayFinal.map((num) => {
-        return(
-          <div>
-            <p>{villains[num].name}</p> 
-            <p>Set: {villains[num].set}</p>
-          </div>
-        )
-      }  )}
+        {villainsArrayFinal.map((num) => {
+          return(
+            <div>
+              <p>{villains[num].name}</p> 
+              <p>Set: {villains[num].set}</p>
+              <p>-------------------------------</p>
+            </div>
+          )
+        })}
       </div>
 
       {/* Henchmen Info */}
       <h2>Henchemn Data: </h2>
       <div>
-      {henchmenArrayFinal.map((num) => {
-        return(
-          <div>
-            <p>{henchmen[num].name}</p> 
-            <p>Set: {henchmen[num].set}</p>
-          </div>
-        )
-      }  )}
+        {henchmenArrayFinal.map((num) => {
+          return(
+            <div>
+              <p>{henchmen[num].name}</p> 
+              <p>Set: {henchmen[num].set}</p>
+              <p>-------------------------------</p>
+            </div>
+          )
+        })}
       </div>
 
       {/* Heroes Info */}
       <h2>Hero Data: </h2>
-      <p>Hero Name: {heroes[0].name}</p>
-      <p>Faction: {heroes[0].faction}</p>
-      <p>Color1: {heroes[0].color1}</p>
-      <p>Color2: {heroes[0].color2}</p>
-      <p>Color3: {heroes[0].color3}</p>
-      <p>Color4: {heroes[0].color4}</p>
-      <p>Set: {heroes[0].set}</p>
-
+      <div>
+        {heroArrayFinal.map((num) => {
+          return(
+            <div>
+              <p>Hero Name: {heroes[num].name}</p>
+              <p>Faction: {heroes[num].faction}</p>
+              <p>Color1: {heroes[num].color1}</p>
+              <p>Color2: {heroes[num].color2}</p>
+              <p>Color3: {heroes[num].color3}</p>
+              <p>Color4: {heroes[num].color4}</p>
+              <p>Set: {heroes[num].set}</p>
+              <p>-------------------------------</p>
+            </div>
+          )
+        })}
+      </div>
     </div>
   );
 }
