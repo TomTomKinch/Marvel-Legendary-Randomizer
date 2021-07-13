@@ -23,5 +23,10 @@
         "ID": "4",
         "name": "Sentinel",
         "set": "Base Set"
+    },
+    {
+        "ID": "5",
+        "name": "Test",
+        "set": "Civil War"
     }
 ]

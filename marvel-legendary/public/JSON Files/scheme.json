@@ -1,5 +1,12 @@
 [
     {
+        "ID": "0",
+        "name": "",
+        "leads": "",
+        "leadsType": "",
+        "set": ""
+    },
+    {
         "ID": "1",
         "name": "Midtown Bank Robbery",
         "leads": "None",
@@ -54,5 +61,12 @@
         "leads": "None",
         "leadsType": "None",
         "set": "Base Set"
+    },
+    {
+        "ID": "9",
+        "name": "Test",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
     }
 ]

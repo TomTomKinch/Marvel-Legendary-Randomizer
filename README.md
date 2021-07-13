@@ -26,8 +26,15 @@ Randomizer for Marvel Legendary Deck building Game
     - _ Heroes
 - _ Finish Styling
 - _ Transition from JSON to DB
-- _ Add Expanison selection
-
+- X Add Expanison selection
+    - X Randomize Values With Expansion Selection
+        - X Scheme
+        - X Mastermind
+        - X Villain
+        - X Henchmen
+        - X Heroes
+        - Note: Infinite Loop when not enough values
+            -ex. not enough villains to populate based off expansion -> loops forever looking for values
 Key: 
 - X -> done
 - _ -> TODO

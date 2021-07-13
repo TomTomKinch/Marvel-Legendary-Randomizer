@@ -38,5 +38,10 @@
         "ID": "7",
         "name": "Spider-Foes",
         "set": "Base Set"
+    },
+    {
+        "ID": "8",
+        "name": "Test",
+        "set": "Civil War"
     }
 ]

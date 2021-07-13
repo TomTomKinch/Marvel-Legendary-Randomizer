@@ -5,6 +5,7 @@ import './Home-Page.css';
 import legendary from './Images/LegendaryLogo.png';
 
 function App() {
+  let bufferNum = 100;
   const villainSettings = [1, 2, 3, 3, 4];
   const henchmenSettings = [1, 1, 1, 2, 2];
   let villainsCount;
@@ -187,6 +188,19 @@ const handleCheck = (event) => {
   //----------------Random Functions----------------------
   //______________________________________________________
 
+  //---Expansion Check---
+  const expansionCheck = (list, val) => {
+    console.log("expansionCheck");
+    let available = false;
+    for(let i = 0; i < checkedArr.length; i++){
+      //Verifies value is in an available Expansion
+      if(list[val].set === checkedArr[i]){
+        available = true;
+      }
+    }
+    return available;
+  }
+
   //---Random MasterMind---
   const [ randMasterMind, setRandMasterMind ] = useState(0);
   useEffect(() => {
@@ -195,21 +209,15 @@ const handleCheck = (event) => {
 
   const generateRandMasterMind = () => {
     console.log("generateRandMasterMind");
-
-    //TODO : enter check to make sure MasterMind is part of expansion
-    //Make function?
-    // let testVal = Math.floor(Math.random() * (masterMind.length - 1)) + 1;
-    // let stop = false;
-    // while(stop === false){
-    //   for(let i = 0; i < checkedName.length; i++){
-    //     if(masterMind[testVal].set === checkedName[i]){
-    //       setRandMasterMind(testVal);
-    //       stop = true;
-    //     }
-    //   }
-    // }
-
-    setRandMasterMind(Math.floor(Math.random() * (masterMind.length - 1)) + 1);
+    //Generates MasterMind Position Value
+    for(let count = 0; count <= bufferNum; count++){
+      let testVal = Math.floor(Math.random() * (masterMind.length - 1)) + 1;
+      let expCheck = expansionCheck(masterMind, testVal);
+      if(expCheck === true){
+        setRandMasterMind(testVal);
+        break;
+      };
+    };
   }; 
 
   //---Adjusts Always Leads Villain Group based off Random MasterMind---
@@ -275,7 +283,16 @@ const handleCheck = (event) => {
 
   const generateRandScheme = () => {
     console.log("generateRandScheme");
-    setRandScheme(Math.floor(Math.random() * scheme.length));
+    for(let count = 0; count <= bufferNum; count++){
+      let testVal = Math.floor(Math.random() * (scheme.length - 1)) + 1;
+      let expCheck = expansionCheck(scheme, testVal);
+      if(expCheck === true){
+        setRandScheme(testVal);
+        break;
+      };
+    };
+
+    //setRandScheme(Math.floor(Math.random() * scheme.length));
   };
 
   //---Adjusts Scheme Villain Group based off Random Scheme---
@@ -372,16 +389,23 @@ const handleCheck = (event) => {
 
   const randomVillainsFunction = () => {
     for(villainsCount; villainsCount > 0; villainsCount--){
-      var vil = (Math.floor(Math.random() * (villains.length - 1)) + 1);
-      if(villainsArray.indexOf(vil) === -1){
-        villainsArray.push(vil);
-      }
-      else{
-        villainsCount = villainsCount + 1;
-      }
+      //var vil = (Math.floor(Math.random() * (villains.length - 1)) + 1);
+      let vil = 0;
+      for(let count = 0; count <= bufferNum; count++){
+        vil = Math.floor(Math.random() * (villains.length - 1)) + 1;
+        let expCheck = expansionCheck(villains, vil);
+        if(expCheck === true){
+          if(villainsArray.indexOf(vil) === -1){
+            villainsArray.push(vil);
+          }
+          else{
+            villainsCount = villainsCount + 1;
+          }
+          break;
+        };
+      };
     };
     console.log("Villains Array: [ " + villainsArray + " ]");
-
     setVillainsArrayFinal(villainsArray);
   };
   //Creates Other Henchmen
@@ -389,16 +413,23 @@ const handleCheck = (event) => {
 
   const randomHenchmenFunction = () => {
     for(henchmenCount; henchmenCount > 0; henchmenCount--){
-      var hen = (Math.floor(Math.random() * (henchmen.length - 1)) + 1);
-      if(henchmenArray.indexOf(hen) === -1){
-        henchmenArray.push(hen);
-      }
-      else{
-        henchmenCount = henchmenCount + 1;
-      }
+      //var hen = (Math.floor(Math.random() * (henchmen.length - 1)) + 1);\
+      let hen = 0;
+      for(let count = 0; count <= bufferNum; count++){
+        hen = Math.floor(Math.random() * (henchmen.length - 1)) + 1;
+        let expCheck = expansionCheck(henchmen, hen);
+        if(expCheck === true){
+          if(henchmenArray.indexOf(hen) === -1){
+            henchmenArray.push(hen);
+          }
+          else{
+            henchmenCount = henchmenCount + 1;
+          }
+          break;
+        };
+      };
     };
     console.log("Henchmen Array: [ " + henchmenArray + " ]");
-
     setHenchmenArrayFinal(henchmenArray);
   };
 
@@ -417,16 +448,23 @@ const handleCheck = (event) => {
 
   const randomHeroFunction = () => {
     for(heroCount; heroCount > 0; heroCount--){
-      var h = (Math.floor(Math.random() * (heroes.length - 1)) + 1);
-      if(heroArray.indexOf(h) === -1){
-        heroArray.push(h);
-      }
-      else{
-        heroCount = heroCount + 1;
-      }
+      //var h = (Math.floor(Math.random() * (heroes.length - 1)) + 1);
+      let h = 0;
+      for(let count = 0; count <= bufferNum; count++){
+        h = Math.floor(Math.random() * (heroes.length - 1)) + 1;
+        let expCheck = expansionCheck(heroes, h);
+        if(expCheck === true){
+          if(heroArray.indexOf(h) === -1){
+            heroArray.push(h);
+          }
+          else{
+            heroCount = heroCount + 1;
+          }
+          break;
+        };
+      };
     };
     console.log("Hero Array: [ " + heroArray + " ]");
-
     setHeroArrayFinal(heroArray);
   };
 

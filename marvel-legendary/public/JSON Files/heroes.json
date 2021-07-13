@@ -148,5 +148,15 @@
         "color3": "Yellow",
         "color4": "Yellow",
         "set": "Base Set"
+    },
+    {
+        "ID": "16",
+        "name": "Test",
+        "faction": "",
+        "color1": "",
+        "color2": "",
+        "color3": "",
+        "color4": "",
+        "set": "Civil War"
     }
 ]

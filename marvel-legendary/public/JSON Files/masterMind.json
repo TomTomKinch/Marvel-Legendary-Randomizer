@@ -43,5 +43,14 @@
         "leads": "HYDRA",
         "leadsType": "villains",
         "set": "Base Set"
+    },
+    {        
+        "ID": "5",
+        "name": "Test",
+        "hp": "",
+        "masterStrike": "",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
     }
 ]
