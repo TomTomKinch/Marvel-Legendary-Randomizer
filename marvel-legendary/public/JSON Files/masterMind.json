@@ -44,13 +44,11 @@
         "leadsType": "villains",
         "set": "Base Set"
     },
-
-
     {        
         "ID": "5",
         "name": "Authoritarian Iron Man",
         "hp": "12",
-        "masterStrike": "",
+        "masterStrike": "Authoritarian Iron Man fortifies the next city space to his right, starting with the Bridge. You can't fight him while there's a Villain in that space.",
         "leads": "Superhuman Registration Act",
         "leadsType": "villains",
         "set": "Civil War"
@@ -59,7 +57,7 @@
         "ID": "6",
         "name": "Baron Helmut Zero",
         "hp": "16",
-        "masterStrike": "",
+        "masterStrike": "Each player KOs a Villain from their Victory Pile. Any player who cannot do so gains a Wound.",
         "leads": "Thunderbolts",
         "leadsType": "villains",
         "set": "Civil War"
@@ -68,7 +66,7 @@
         "ID": "7",
         "name": "Maria Hill, Director of SHIELD",
         "hp": "7",
-        "masterStrike": "",
+        "masterStrike": "Two S.H.I.E.L.D. Officers enter the city as 3 Attack Villains. When you fight them, gain them as Heroes.",
         "leads": "SHIELD Elite",
         "leadsType": "villains",
         "set": "Civil War"
@@ -77,7 +75,7 @@
         "ID": "8",
         "name": "Misty Knight",
         "hp": "14",
-        "masterStrike": "",
+        "masterStrike": "Each player reveals 4 cards with Recruit icons or gains a Wound.",
         "leads": "Heroes for Hire",
         "leadsType": "villains",
         "set": "Civil War"
@@ -86,7 +84,7 @@
         "ID": "9",
         "name": "Ragnarok",
         "hp": "6",
-        "masterStrike": "",
+        "masterStrike": "Each player says 'zero' or 'not zero.' Then, each player discards all their cards with that cost.",
         "leads": "Registration Enforcers",
         "leadsType": "villains",
         "set": "Civil War"
@@ -95,7 +93,7 @@
         "ID": "10",
         "name": "Apocalypse",
         "hp": "12",
-        "masterStrike": "",
+        "masterStrike": "Each player reveals their hand and puts all their Heroes that cost 1 or more on top of their deck.",
         "leads": "Four Horsemen",
         "leadsType": "villains",
         "set": "Dark City"
@@ -104,7 +102,7 @@
         "ID": "11",
         "name": "Kingpin",
         "hp": "13",
-        "masterStrike": "",
+        "masterStrike": "Each player reveals a Marvel Knights Hero or discards their hand and draws 5 cards.",
         "leads": "Streets of New York",
         "leadsType": "villians",
         "set": "Dark City"
@@ -113,7 +111,7 @@
         "ID": "12",
         "name": "Mephisto",
         "hp": "10",
-        "masterStrike": "",
+        "masterStrike": "Each player reveals a Marvel Knights Hero or gains a Wound.",
         "leads": "Underworld",
         "leadsType": "villains",
         "set": "Dark City"
@@ -122,7 +120,7 @@
         "ID": "13",
         "name": "Mr. Sinister",
         "hp": "8",
-        "masterStrike": "",
+        "masterStrike": "Mr. Sinister captures a Bystander. Then each player with exactly 6 cards reveals a RED Hero or discards cards equal to the number of Bystanders Mr. Sinister has.",
         "leads": "Marauders",
         "leadsType": "villains",
         "set": "Dark City"
@@ -131,7 +129,7 @@
         "ID": "14",
         "name": "Stryfe",
         "hp": "7",
-        "masterStrike": "",
+        "masterStrike": "Stack this Master Strike next to Stryfe. Stryfe gets +1 Attack for each Master Strike stacked next to him. Each player reveals an X-Force Hero or discards a card at random.",
         "leads": "MLF",
         "leadsType": "villains",
         "set": "Dark City"

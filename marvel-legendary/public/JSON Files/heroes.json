@@ -1,5 +1,15 @@
 [
     {
+        "ID": "0",
+        "name": "",
+        "faction": "",
+        "color1": "",
+        "color2": "",
+        "color3": "",
+        "color4": "",
+        "set": ""
+    },
+    {
         "ID": "1",
         "name": "Black Widow",
         "faction": "Avengers",
