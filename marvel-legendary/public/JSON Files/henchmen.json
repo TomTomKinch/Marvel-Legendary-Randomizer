@@ -33,5 +33,15 @@
         "ID": "6",
         "name": "Mandroid",
         "set": "Civil War"
+    },
+    {
+        "ID": "7",
+        "name": "Maggia Goons",
+        "set": "Dark City"
+    },
+    {
+        "ID": "8",
+        "name": "Phalanx",
+        "set": "Dark City"
     }
 ]

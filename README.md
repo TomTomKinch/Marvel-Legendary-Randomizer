@@ -35,6 +35,14 @@ Randomizer for Marvel Legendary Deck building Game
         - X Heroes
         - Note: Infinite Loop when not enough values
             -ex. not enough villains to populate based off expansion -> loops forever looking for values
+
+---------
+Future TODO:
+-(Civil War) Avengers vs. X-Men scheme -> need to adjust heroes
+-(Civil War) Predict Future Crime -> Add an extra Villain Group
+-(Dark City) Steal the Weaponized Plutonium -> Add an extra Villain Group.
+
+
 Key: 
 - X -> done
 - _ -> TODO

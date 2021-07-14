@@ -22,7 +22,7 @@
     {
         "ID": "3",
         "name": "Cyclops",
-        "faction": "XMen",
+        "faction": "X-Men",
         "color1": "Green",
         "color2": "Blue",
         "color3": "Blue",
@@ -42,7 +42,7 @@
     {
         "ID": "5",
         "name": "Emma Frost",
-        "faction": "XMen",
+        "faction": "X-Men",
         "color1": "Blue",
         "color2": "Red",
         "color3": "Yellow",
@@ -52,7 +52,7 @@
     {
         "ID": "6",
         "name": "Gambit",
-        "faction": "XMen",
+        "faction": "X-Men",
         "color1": "Blue",
         "color2": "Red",
         "color3": "Yellow",
@@ -92,7 +92,7 @@
     {
         "ID": "10",
         "name": "Nick Fury",
-        "faction": "Shield",
+        "faction": "SHIELD",
         "color1": "Black",
         "color2": "Red",
         "color3": "Green",
@@ -102,7 +102,7 @@
     {
         "ID": "11",
         "name": "Rogue",
-        "faction": "XMen",
+        "faction": "X-Men",
         "color1": "Red",
         "color2": "Green",
         "color3": "Red",
@@ -122,7 +122,7 @@
     {
         "ID": "13",
         "name": "Storm",
-        "faction": "XMen",
+        "faction": "X-Men",
         "color1": "Blue",
         "color2": "Blue",
         "color3": "Red",
@@ -142,7 +142,7 @@
     {
         "ID": "15",
         "name": "Wolverine",
-        "faction": "XMen",
+        "faction": "X-Men",
         "color1": "Yellow",
         "color2": "Yellow",
         "color3": "Yellow",
@@ -308,5 +308,175 @@
         "color3": "RedBlue",
         "color4": "Blue",
         "set": "Civil War"
+    },
+    {
+        "ID": "30",
+        "name": "Angel",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Yellow",
+        "color4": "Green",
+        "set": "Dark City"
+    },
+    {
+        "ID": "31",
+        "name": "Bishop",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Black",
+        "set": "Dark City"
+    },
+    {
+        "ID": "32",
+        "name": "Blade",
+        "faction": "Marvel Knights",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Yellow",
+        "set": "Dark City"
+    },
+    {
+        "ID": "33",
+        "name": "Cable",
+        "faction": "X-Force",
+        "color1": "Black",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Dark City"
+    },
+    {
+        "ID": "34",
+        "name": "Colossus",
+        "faction": "X-Force",
+        "color1": "Green",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Dark City"
+    },
+    {
+        "ID": "35",
+        "name": "Daredevil",
+        "faction": "Marvel Knights",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Dark City"
+    },
+    {
+        "ID": "36",
+        "name": "Domino",
+        "faction": "X-Force",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Yellow",
+        "color4": "Red",
+        "set": "Dark City"
+    },
+    {
+        "ID": "37",
+        "name": "Elektra",
+        "faction": "Marvel Knights",
+        "color1": "Red",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Dark City"
+    },
+    {
+        "ID": "38",
+        "name": "Forge",
+        "faction": "X-Force",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "Dark City"
+    },
+    {
+        "ID": "39",
+        "name": "Ghost Rider",
+        "faction": "Marvel Knights",
+        "color1": "Black",
+        "color2": "Blue",
+        "color3": "Green",
+        "color4": "Blue",
+        "set": "Dark City"
+    },
+    {
+        "ID": "40",
+        "name": "Iceman",
+        "faction": "X-Men",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Green",
+        "color4": "Blue",
+        "set": "Dark City"
+    },
+    {
+        "ID": "41",
+        "name": "Iron Fist",
+        "faction": "Marvel Knights",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Dark City"
+    },
+    {
+        "ID": "42",
+        "name": "Jean Grey",
+        "faction": "X-Men",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Dark City"
+    },
+    {
+        "ID": "43",
+        "name": "Nightcrawler",
+        "faction": "X-Men",
+        "color1": "Yellow",
+        "color2": "Red",
+        "color3": "Yellow",
+        "color4": "Red",
+        "set": "Dark City"
+    },
+    {
+        "ID": "44",
+        "name": "Professor X",
+        "faction": "X-Men",
+        "color1": "Blue",
+        "color2": "Yellow",
+        "color3": "Blue",
+        "color4": "Red",
+        "set": "Dark City"
+    },
+    {
+        "ID": "45",
+        "name": "Punisher",
+        "faction": "Marvel Knights",
+        "color1": "Black",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "Dark City"
+    },
+    {
+        "ID": "46",
+        "name": "Wolverine",
+        "faction": "X-Force",
+        "color1": "Yellow",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Dark City"
     }
 ]

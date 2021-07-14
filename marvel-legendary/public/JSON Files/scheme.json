@@ -62,32 +62,119 @@
         "leadsType": "None",
         "set": "Base Set"
     },
+
     {
         "ID": "9",
+        "name": "Avengers vs. X-Men",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },    
+    {
+        "ID": "10",
+        "name": "Dark Reign of H.A.M.M.E.R. Officers",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+
+
+    {
+        "ID": "11",
         "name": "Epic Super Hero Civil War",
         "leads": "None",
         "leadsType": "None",
         "set": "Civil War"
     },
     {
-        "ID": "10",
+        "ID": "12",
         "name": "Imprison Unregistered SuperHumans",
         "leads": "None",
         "leadsType": "None",
         "set": "Civil War"
     },
     {
-        "ID": "11",
+        "ID": "13",
         "name": "Nitro the Supervillain Threatens Crowds",
         "leads": "None",
         "leadsType": "None",
         "set": "Civil War"
     },
     {
-        "ID": "12",
+        "ID": "14",
+        "name": "Predict Future Crime",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "15",
         "name": "Reveal Heroes Secret Identities",
         "leads": "None",
         "leadsType": "None",
         "set": "Civil War"
+    },
+    {
+        "ID": "16",
+        "name": "United States Split by Civil War",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "17",
+        "name": "Capture Baby Hope",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "18",
+        "name": "Detonate the Helicarrier",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "19",
+        "name": "Massive Earthquake Generator",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "20",
+        "name": "Organized Crime Wave",
+        "leads": "Maggia Goons",
+        "leadsType": "henchmen",
+        "set": "Dark City"
+    },
+    {
+        "ID": "21",
+        "name": "Save Humanity",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "22",
+        "name": "Transform Citizens Into Demons",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "23",
+        "name": "Steal the Weaponized Plutonium",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "24",
+        "name": "X-Cutioner's Song",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
     }
 ]

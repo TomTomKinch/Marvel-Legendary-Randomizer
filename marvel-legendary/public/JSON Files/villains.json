@@ -75,5 +75,35 @@
         "ID": "15",
         "name": "Thunderbolts",
         "set": "Civil War"
+    },
+    {
+        "ID": "16",
+        "name": "Emissaries of Evil",
+        "set": "Dark City"
+    },
+    {
+        "ID": "17",
+        "name": "Four Horsemen",
+        "set": "Dark City"
+    },
+    {
+        "ID": "18",
+        "name": "Marauders",
+        "set": "Dark City"
+    },
+    {
+        "ID": "19",
+        "name": "Mutant Liberation Front",
+        "set": "Dark City"
+    },
+    {
+        "ID": "20",
+        "name": "Streets of New York",
+        "set": "Dark City"
+    },
+    {
+        "ID": "21",
+        "name": "Underworld",
+        "set": "Dark City"
     }
 ]

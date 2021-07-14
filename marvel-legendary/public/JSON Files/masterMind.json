@@ -90,5 +90,50 @@
         "leads": "Registration Enforcers",
         "leadsType": "villains",
         "set": "Civil War"
+    },
+    {
+        "ID": "10",
+        "name": "Apocalypse",
+        "hp": "12",
+        "masterStrike": "",
+        "leads": "Four Horsemen",
+        "leadsType": "villains",
+        "set": "Dark City"
+    },
+    {
+        "ID": "11",
+        "name": "Kingpin",
+        "hp": "13",
+        "masterStrike": "",
+        "leads": "Streets of New York",
+        "leadsType": "villians",
+        "set": "Dark City"
+    },
+    {
+        "ID": "12",
+        "name": "Mephisto",
+        "hp": "10",
+        "masterStrike": "",
+        "leads": "Underworld",
+        "leadsType": "villains",
+        "set": "Dark City"
+    },
+    {
+        "ID": "13",
+        "name": "Mr. Sinister",
+        "hp": "8",
+        "masterStrike": "",
+        "leads": "Marauders",
+        "leadsType": "villains",
+        "set": "Dark City"
+    },
+    {
+        "ID": "14",
+        "name": "Stryfe",
+        "hp": "7",
+        "masterStrike": "",
+        "leads": "MLF",
+        "leadsType": "villains",
+        "set": "Dark City"
     }
 ]
