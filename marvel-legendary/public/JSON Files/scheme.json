@@ -64,7 +64,28 @@
     },
     {
         "ID": "9",
-        "name": "Test",
+        "name": "Epic Super Hero Civil War",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "10",
+        "name": "Imprison Unregistered SuperHumans",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "11",
+        "name": "Nitro the Supervillain Threatens Crowds",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "12",
+        "name": "Reveal Heroes Secret Identities",
         "leads": "None",
         "leadsType": "None",
         "set": "Civil War"

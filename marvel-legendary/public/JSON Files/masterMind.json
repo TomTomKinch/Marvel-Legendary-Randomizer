@@ -44,13 +44,51 @@
         "leadsType": "villains",
         "set": "Base Set"
     },
+
+
     {        
         "ID": "5",
-        "name": "Test",
-        "hp": "",
+        "name": "Authoritarian Iron Man",
+        "hp": "12",
         "masterStrike": "",
-        "leads": "None",
-        "leadsType": "None",
+        "leads": "Superhuman Registration Act",
+        "leadsType": "villains",
+        "set": "Civil War"
+    },
+    {
+        "ID": "6",
+        "name": "Baron Helmut Zero",
+        "hp": "16",
+        "masterStrike": "",
+        "leads": "Thunderbolts",
+        "leadsType": "villains",
+        "set": "Civil War"
+    },
+    {
+        "ID": "7",
+        "name": "Maria Hill, Director of SHIELD",
+        "hp": "7",
+        "masterStrike": "",
+        "leads": "SHIELD Elite",
+        "leadsType": "villains",
+        "set": "Civil War"
+    },
+    {
+        "ID": "8",
+        "name": "Misty Knight",
+        "hp": "14",
+        "masterStrike": "",
+        "leads": "Heroes for Hire",
+        "leadsType": "villains",
+        "set": "Civil War"
+    },
+    {
+        "ID": "9",
+        "name": "Ragnarok",
+        "hp": "6",
+        "masterStrike": "",
+        "leads": "Registration Enforcers",
+        "leadsType": "villains",
         "set": "Civil War"
     }
 ]

@@ -151,12 +151,162 @@
     },
     {
         "ID": "16",
-        "name": "Test",
-        "faction": "",
-        "color1": "",
-        "color2": "",
-        "color3": "",
-        "color4": "",
+        "name": "Captain America, Secret Avenger - ft. BattleStar",
+        "faction": "Avengers",
+        "color1": "Red",
+        "color2": "YellowGreen",
+        "color3": "Black",
+        "color4": "Blue",
+        "set": "Civil War"
+    },
+    {
+        "ID": "17",
+        "name": "Cloak & Dagger",
+        "faction": "Avengers/Marvel Knights",
+        "color1": "RedBlue",
+        "color2": "RedBlue",
+        "color3": "RedBlue",
+        "color4": "Blue",
+        "set": "Civil War"
+    },
+    {
+        "ID": "16",
+        "name": "Daredevil - ft. IronFist",
+        "faction": "Avengers",
+        "color1": "Yellow",
+        "color2": "Red",
+        "color3": "YellowGreen",
+        "color4": "Red",
+        "set": "Civil War"
+    },
+    {
+        "ID": "17",
+        "name": "Falcon - ft. Redwing",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "Yellow/Blue",
+        "color3": "Blue",
+        "color4": "Yellow",
+        "set": "Civil War"
+    },
+    {
+        "ID": "18",
+        "name": "Goliath",
+        "faction": "Avengers",
+        "color1": "GreenBlack",
+        "color2": "Black",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Civil War"
+    },
+    {
+        "ID": "19",
+        "name": "Hercules - ft. Amadeus Cho",
+        "faction": "Avengers",
+        "color1": "GreenBlack",
+        "color2": "Yellow",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Civil War"
+    },
+    {
+        "ID": "20",
+        "name": "Hulkling",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "RedGreen",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Civil War"
+    },
+    {
+        "ID": "21",
+        "name": "Luke Cage - ft. Jessica Jones",
+        "faction": "Avengers",
+        "color1": "YellowGreen",
+        "color2": "Green",
+        "color3": "Yellow",
+        "color4": "Green",
+        "set": "Civil War"
+    },
+    {
+        "ID": "22",
+        "name": "Patriot - ft. Hawkeye",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "RedBlack",
+        "color4": "Black",
+        "set": "Civil War"
+    },
+    {
+        "ID": "23",
+        "name": "Peter Parker - ft. Aunt May",
+        "faction": "Avengers",
+        "color1": "Yellow",
+        "color2": "Black",
+        "color3": "YellowBlack",
+        "color4": "Yellow",
+        "set": "Civil War"
+    },
+    {
+        "ID": "24",
+        "name": "Speedball - ft. Namorita",
+        "faction": "New Warriors",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "RedBlue",
+        "color4": "Blue",
+        "set": "Civil War"
+    },
+    {
+        "ID": "25",
+        "name": "Stature - ft. Iron Lad",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "GreenBlack",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Civil War"
+    },
+    {
+        "ID": "26",
+        "name": "Storm & Black Panther",
+        "faction": "Avengers/X-Men",
+        "color1": "YellowBlue",
+        "color2": "YellowBlue",
+        "color3": "RedBlue",
+        "color4": "Black",
+        "set": "Civil War"
+    },
+    {
+        "ID": "27",
+        "name": "Tigra",
+        "faction": "Avengers",
+        "color1": "RedYellow",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Civil War"
+    },
+    {
+        "ID": "28",
+        "name": "Vision",
+        "faction": "Avengers",
+        "color1": "Blue",
+        "color2": "Black",
+        "color3": "BlackBlue",
+        "color4": "Black",
+        "set": "Civil War"
+    },
+    {
+        "ID": "29",
+        "name": "Wiccan - ft. Speed",
+        "faction": "Avengers",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "RedBlue",
+        "color4": "Blue",
         "set": "Civil War"
     }
 ]

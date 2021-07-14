@@ -39,9 +39,41 @@
         "name": "Spider-Foes",
         "set": "Base Set"
     },
+
+
     {
-        "ID": "8",
-        "name": "Test",
+        "ID": "9",
+        "name": "CSA Special Marshals",
+        "set": "Civil War"
+    },
+    {
+        "ID": "10",
+        "name": "Great Lake Avengers",
+        "set": "Civil War"
+    },
+    {
+        "ID": "11",
+        "name": "Heroes for Hire",
+        "set": "Civil War"
+    },
+    {
+        "ID": "12",
+        "name": "Registration Enforcers",
+        "set": "Civil War"
+    },
+    {
+        "ID": "13",
+        "name": "SHIELD Elite",
+        "set": "Civil War"
+    },
+    {
+        "ID": "14",
+        "name": "Superhuman Registration Act",
+        "set": "Civil War"
+    },
+    {
+        "ID": "15",
+        "name": "Thunderbolts",
         "set": "Civil War"
     }
 ]

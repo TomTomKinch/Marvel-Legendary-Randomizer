@@ -26,7 +26,12 @@
     },
     {
         "ID": "5",
-        "name": "Test",
+        "name": "Cape-Killers",
+        "set": "Civil War"
+    },
+    {
+        "ID": "6",
+        "name": "Mandroid",
         "set": "Civil War"
     }
 ]
