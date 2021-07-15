@@ -72,8 +72,8 @@
     {
         "ID": "7",
         "name": "Hawkeye",
-        "faction": "Yellow",
-        "color1": "Black",
+        "faction": "Avengers",
+        "color1": "Yellow",
         "color2": "Black",
         "color3": "Black",
         "color4": "Black",
@@ -172,7 +172,7 @@
     {
         "ID": "17",
         "name": "Cloak & Dagger",
-        "faction": "Avengers/Marvel Knights",
+        "faction": "AvengersMarvel Knights",
         "color1": "RedBlue",
         "color2": "RedBlue",
         "color3": "RedBlue",
@@ -194,7 +194,7 @@
         "name": "Falcon - ft. Redwing",
         "faction": "Avengers",
         "color1": "Black",
-        "color2": "Yellow/Blue",
+        "color2": "YellowBlue",
         "color3": "Blue",
         "color4": "Yellow",
         "set": "Civil War"
@@ -282,7 +282,7 @@
     {
         "ID": "26",
         "name": "Storm & Black Panther",
-        "faction": "Avengers/X-Men",
+        "faction": "AvengersX-Men",
         "color1": "YellowBlue",
         "color2": "YellowBlue",
         "color3": "RedBlue",

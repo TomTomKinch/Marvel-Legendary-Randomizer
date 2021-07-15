@@ -1,5 +1,7 @@
 .Home-Page {
   text-align: center;
+  font-family: Arial;
+  font-size: 70%;
 }
 
 .Home-Page-Header {
@@ -13,4 +15,115 @@
   margin-right: auto;
   width: 700px;
   height: 100px;
+}
+
+.Title {
+  font-family: Arial;
+  font-size: 200%;
+  color:#f8a11d;
+  text-shadow: 2px 2px #000000;
+  text-align: center;
+  background-color: #4c5566;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 20px;
+}
+
+.MasterMindCard{
+  font-family: Arial;
+  font-size: 170%;
+  color:#ffffff;
+  text-shadow: 2px 1px #000000;
+  background-color: #4c5566;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 50px;
+  margin: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  overflow-wrap: normal;
+}
+
+.SchemeCard{
+  font-family: Arial;
+  font-size: 170%;
+  color:#ffffff;
+  text-shadow: 2px 1px #000000;
+  background-color: #4c5566;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 50px;
+  margin: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow-wrap: normal;
+}
+
+.VillainCard{
+  font-family: Arial;
+  font-size: 170%;
+  color:#ffffff;
+  text-shadow: 2px 1px #000000;
+  background-color: #4c5566;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 50px;
+  margin: 10px;
+  margin-left: 220px;
+  margin-right: 220px;
+  overflow-wrap: normal;
+}
+
+.HeroCard {
+  font-family: Arial;
+  color:#ffffff;
+  text-shadow: 2px 1px #000000;
+  background-color: #4c5566;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 50px;
+  margin: 10px;
+  overflow-wrap: normal;
+}
+
+.HeroName{
+  font-size: 170%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.SetName{
+  font-size: 150%;
+  text-align: center;
+}
+
+.Faction{
+  padding: 5px;
+  width: 50px;
+  vertical-align: middle;
+}
+
+.Logos {
+  padding: 5px;
+  width: 50px;
+  vertical-align: middle;
+}
+
+/* Small Window Styling  */
+@media (max-width: 800px) {
+  .Logos {
+    padding: 5px;
+    width: 40px;
+    vertical-align: middle;
+  }
 }

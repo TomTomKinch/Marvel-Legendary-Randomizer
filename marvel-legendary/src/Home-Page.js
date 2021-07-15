@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { Checkbox, FormControlLabel} from '@material-ui/core/';
 import './Home-Page.css';
 import legendary from './Images/LegendaryLogo.png';
+import attack from './Images/attack.png'
 
 function App() {
   let bufferNum = 100;
@@ -563,18 +564,28 @@ const handleCheck = (event) => {
 
       <p>-----------------------------------------------------</p>
       {/* MasterMind Info */}
-      <h2>MasterMind Data: </h2>
-      <p>MasterMind: {masterMind[randMasterMind].name} </p>
-      <p>HP: {masterMind[randMasterMind].hp} </p>
-      <p>MasterStrike: {masterMind[randMasterMind].masterStrike} </p>
-      <p>Set: {masterMind[randMasterMind].set} </p>
-      <p>Leads: {masterMind[randMasterMind].leads} </p>
+      <h2 className="Title">Master Mind: </h2>
+      <div className="MasterMindCard">
+        <text>{masterMind[randMasterMind].name} </text>
+        <br></br>
+        <img src={attack} alt="HP: " className="Logos" />
+        <text>: {masterMind[randMasterMind].hp}</text>
+        <br></br>
+        <text>MasterStrike: {masterMind[randMasterMind].masterStrike} </text>
+        <br></br>
+        <br></br>
+        <text>Set: {masterMind[randMasterMind].set} </text>
+        <br></br>
+        <text>Always Leads: {masterMind[randMasterMind].leads} </text>
+      </div>
       {/* <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button> */}
 
       {/* Scheme Info */}
-      <h2>Scheme Data: </h2>
-      <p>Scheme: {scheme[randScheme].name} </p>
-      <p>Set: {scheme[randScheme].set}</p>
+      <h2 className="Title">Scheme: </h2>
+      <div className="SchemeCard">
+        <p>Scheme: {scheme[randScheme].name} </p>
+        <p>Set: {scheme[randScheme].set}</p>
+      </div>
       {/* <button onClick={() => {generateRandScheme();}}>RandomScheme</button> */}
 
       {/* Always Leads */}
@@ -585,47 +596,49 @@ const handleCheck = (event) => {
       {/* <div> {displaySchemeLeads()} </div> */}
 
       {/* Villain Info */}
-      <h2>Villain Data: </h2>
+      <h2 className="Title">Villain Groups: </h2>
       <div>
         {villainsArrayFinal.map((num) => {
           return(
-            <div>
-              <p>{villains[num].name}</p> 
-              <p>Set: {villains[num].set}</p>
-              <p>-------------------------------</p>
+            <div className="VillainCard">
+              <text>{villains[num].name}</text>
+              <br></br> 
+              <text>Set: {villains[num].set}</text>
             </div>
           )
         })}
       </div>
 
       {/* Henchmen Info */}
-      <h2>Henchemn Data: </h2>
+      <h2 className="Title">Henchmen: </h2>
       <div>
         {henchmenArrayFinal.map((num) => {
           return(
-            <div>
-              <p>{henchmen[num].name}</p> 
-              <p>Set: {henchmen[num].set}</p>
-              <p>-------------------------------</p>
+            <div className="VillainCard">
+              <text>{henchmen[num].name}</text> 
+              <br></br> 
+              <text>Set: {henchmen[num].set}</text>
             </div>
           )
         })}
       </div>
 
       {/* Heroes Info */}
-      <h2>Hero Data: </h2>
+      <h2 className="Title"> Heroes: </h2>
       <div>
         {heroArrayFinal.map((num) => {
           return(
-            <div>
-              <p>Hero Name: {heroes[num].name}</p>
-              <p>Faction: {heroes[num].faction}</p>
-              <p>Color1: {heroes[num].color1}</p>
-              <p>Color2: {heroes[num].color2}</p>
-              <p>Color3: {heroes[num].color3}</p>
-              <p>Color4: {heroes[num].color4}</p>
-              <p>Set: {heroes[num].set}</p>
-              <p>-------------------------------</p>
+            <div className="HeroCard">
+              <img src={require("./Images/"+heroes[num].faction+".png").default} alt={heroes[num].faction} className="Faction" />
+              <text className="HeroName">{heroes[num].name}</text>
+              {/* <br></br> */}
+              <img src={require("./Images/"+heroes[num].color1+".png").default} alt={heroes[num].color1} className="Logos" />
+              <img src={require("./Images/"+heroes[num].color2+".png").default} alt={heroes[num].color2} className="Logos" />
+              <img src={require("./Images/"+heroes[num].color3+".png").default} alt={heroes[num].color3} className="Logos" />
+              <img src={require("./Images/"+heroes[num].color4+".png").default} alt={heroes[num].color4} className="Logos" />
+              <br></br>
+              <text className="SetName">Set: {heroes[num].set}</text>
+              <br></br>
             </div>
           )
         })}
