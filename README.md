@@ -41,7 +41,7 @@ Future TODO:
 -(Civil War) Avengers vs. X-Men scheme -> need to adjust heroes
 -(Civil War) Predict Future Crime -> Add an extra Villain Group
 -(Dark City) Steal the Weaponized Plutonium -> Add an extra Villain Group.
-
+-(SW VOl. 2) Deadlands Hordes Charge the Wall -> Add an extra Villain Group.
 
 Key: 
 - X -> done

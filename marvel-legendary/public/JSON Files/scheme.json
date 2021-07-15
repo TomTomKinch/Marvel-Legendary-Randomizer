@@ -176,5 +176,124 @@
         "leads": "None",
         "leadsType": "None",
         "set": "Dark City"
+    },
+    {
+        "ID": "25",
+        "name": "Build an Army of Annihilation",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "26",
+        "name": "Corrupt the Next Generation of Heroes",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "27",
+        "name": "Crush Them With My Bare Hands",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "28",
+        "name": "Dark Alliance",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "29",
+        "name": "Fragmented Realities",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "30",
+        "name": "",
+        "leads": "",
+        "leadsType": "",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "31",
+        "name": "Master of Tyrants",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "32",
+        "name": "Pan-Dimensional Plague",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "33",
+        "name": "Smash Two Dimensions Together",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "34",
+        "name": "Deadlands Hordes Charge the Wall",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "35",
+        "name": "Enthrone the Barons of Battleworld",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "36",
+        "name": "The Fountain of Eternal Life",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "37",
+        "name": "The God-Emperor of Battleworld",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "38",
+        "name": "The Mark of Khonshu",
+        "leads": "Khonshu Guardians",
+        "leadsType": "henchmen",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "39",
+        "name": "Master the Mysteries of Kung-Fu",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "40",
+        "name": "Secret Wars",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "41",
+        "name": "Sinister Ambitions",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
     }
 ]

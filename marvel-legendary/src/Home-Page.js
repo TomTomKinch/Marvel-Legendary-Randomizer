@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useForm } from "react-hook-form";
 import { Checkbox, FormControlLabel} from '@material-ui/core/';
 import './Home-Page.css';
+import './Grid.css';
 import legendary from './Images/LegendaryLogo.png';
 import attack from './Images/attack.png'
 
@@ -537,8 +538,8 @@ const handleCheck = (event) => {
           <FormControlLabel control={ <Checkbox checked={checked.Base_Set} onChange={handleCheck} name="Base_Set" value="Base Set"/> } label="Base Set"/>
           <FormControlLabel control={ <Checkbox checked={checked.Civil_War} onChange={handleCheck} name="Civil_War" value="Civil War"/> } label="Civil War" />
           <FormControlLabel control={ <Checkbox checked={checked.Dark_City} onChange={handleCheck} name="Dark_City" value="Dark City"/> } label="Dark City"/>
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Secret_Wars_Vol1} onChange={handleCheck} name="Secret_Wars_Vol1" value="Secret Wars Vol. 1"/> } label="Secret Wars Vol. 1" /> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Secret_Wars_Vol2} onChange={handleCheck} name="Secret_Wars_Vol2" value="Secret Wars Vol. 2"/> } label="Secret Wars Vol. 2"/> */}
+          <FormControlLabel control={ <Checkbox checked={checked.Secret_Wars_Vol1} onChange={handleCheck} name="Secret_Wars_Vol1" value="Secret Wars Vol. 1"/> } label="Secret Wars Vol. 1" />
+          <FormControlLabel control={ <Checkbox checked={checked.Secret_Wars_Vol2} onChange={handleCheck} name="Secret_Wars_Vol2" value="Secret Wars Vol. 2"/> } label="Secret Wars Vol. 2"/>
           {/* <FormControlLabel control={ <Checkbox checked={checked.Villains} onChange={handleCheck} name="Villains" value="Villains" />  } label="Villains" /> */}
           {/* <FormControlLabel control={ <Checkbox checked={checked.World_War_Hulk} onChange={handleCheck} name="World_War_Hulk" value="World War Hulk" /> } label="World War Hulk"/> */}
           {/* <FormControlLabel control={ <Checkbox checked={checked.X_Men} onChange={handleCheck} name="X_Men"/> } label="X-Men" value="X-Men" /> */}
@@ -563,84 +564,96 @@ const handleCheck = (event) => {
       <br></br><button onClick={createGame}> Create Game </button>
 
       <p>-----------------------------------------------------</p>
-      {/* MasterMind Info */}
-      <h2 className="Title">Master Mind: </h2>
-      <div className="MasterMindCard">
-        <span>{masterMind[randMasterMind].name} </span>
-        <br></br>
-        <img src={attack} alt="HP: " className="Logos" />
-        <span>: {masterMind[randMasterMind].hp}</span>
-        <br></br>
-        <p>MasterStrike: {masterMind[randMasterMind].masterStrike} </p>
-        <br></br>
-        <span>Set: {masterMind[randMasterMind].set} </span>
-        <br></br>
-        <span>Always Leads: {masterMind[randMasterMind].leads} </span>
-      </div>
-      {/* <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button> */}
+      <div className="grid-container">
+        {/* MasterMind Info */}
+        <div className="grid-mastermind">
+          <h2 className="Title">Master Mind: </h2>
+          <div className="MasterMindCard">
+            <span>{masterMind[randMasterMind].name} </span>
+            <br></br>
+            <img src={attack} alt="HP: " className="Logos" />
+            <span>: {masterMind[randMasterMind].hp}</span>
+            <br></br>
+            <p>MasterStrike: {masterMind[randMasterMind].masterStrike} </p>
+            <br></br>
+            <span>Set: {masterMind[randMasterMind].set} </span>
+            <br></br>
+            <span>Always Leads: {masterMind[randMasterMind].leads} </span>
+          </div>
+        {/* <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button> */}
+        </div>
 
-      {/* Scheme Info */}
-      <h2 className="Title">Scheme: </h2>
-      <div className="SchemeCard">
-        <span>Scheme: {scheme[randScheme].name} </span>
-        <span>Set: {scheme[randScheme].set}</span>
-      </div>
-      {/* <button onClick={() => {generateRandScheme();}}>RandomScheme</button> */}
+        {/* Scheme Info */}
+        <div className="grid-scheme">
+          <h2 className="Title">Scheme: </h2>
+          <div className="SchemeCard">
+            <span>Scheme: {scheme[randScheme].name} </span>
+            <br></br>
+            <span>Set: {scheme[randScheme].set}</span>
+          </div>
+          {/* <button onClick={() => {generateRandScheme();}}>RandomScheme</button> */}
+          </div>
+        {/* Always Leads */}
+        {/* <h2>Always Leads Villain Data: </h2>
+        <div> {displayAlwaysLeads()} </div> */}
 
-      {/* Always Leads */}
-      {/* <h2>Always Leads Villain Data: </h2>
-      <div> {displayAlwaysLeads()} </div> */}
+        {/* Scheme Leads */}
+        {/* <div> {displaySchemeLeads()} </div> */}
 
-      {/* Scheme Leads */}
-      {/* <div> {displaySchemeLeads()} </div> */}
+        {/* Villain Info */}
+        <div className="grid-villain">
+          <h2 className="Title">Villain Groups: </h2>
+          <div>
+            {villainsArrayFinal.map((num) => {
+              return(
+                <div className="VillainCard">
+                  <span>{villains[num].name}</span>
+                  <br></br> 
+                  <span>Set: {villains[num].set}</span>
+                </div>
+              )
+            })}
+          </div>
+        </div>
 
-      {/* Villain Info */}
-      <h2 className="Title">Villain Groups: </h2>
-      <div>
-        {villainsArrayFinal.map((num) => {
-          return(
-            <div className="VillainCard">
-              <span>{villains[num].name}</span>
-              <br></br> 
-              <span>Set: {villains[num].set}</span>
-            </div>
-          )
-        })}
-      </div>
+        {/* Henchmen Info */}
+        <div className="grid-henchmen">
+          <h2 className="Title">Henchmen: </h2>
+          <div>
+            {henchmenArrayFinal.map((num) => {
+              return(
+                <div className="VillainCard">
+                  <span>{henchmen[num].name}</span> 
+                  <br></br> 
+                  <span>Set: {henchmen[num].set}</span>
+                </div>
+              )
+            })}
+          </div>
+        </div>
 
-      {/* Henchmen Info */}
-      <h2 className="Title">Henchmen: </h2>
-      <div>
-        {henchmenArrayFinal.map((num) => {
-          return(
-            <div className="VillainCard">
-              <span>{henchmen[num].name}</span> 
-              <br></br> 
-              <span>Set: {henchmen[num].set}</span>
-            </div>
-          )
-        })}
-      </div>
-
-      {/* Heroes Info */}
-      <h2 className="Title"> Heroes: </h2>
-      <div>
-        {heroArrayFinal.map((num) => {
-          return(
-            <div className="HeroCard">
-              <img src={require("./Images/"+heroes[num].faction+".png").default} alt={heroes[num].faction} className="Faction" />
-              <span className="HeroName">{heroes[num].name}</span>
-              {/* <br></br> */}
-              <img src={require("./Images/"+heroes[num].color1+".png").default} alt={heroes[num].color1} className="Logos" />
-              <img src={require("./Images/"+heroes[num].color2+".png").default} alt={heroes[num].color2} className="Logos" />
-              <img src={require("./Images/"+heroes[num].color3+".png").default} alt={heroes[num].color3} className="Logos" />
-              <img src={require("./Images/"+heroes[num].color4+".png").default} alt={heroes[num].color4} className="Logos" />
-              <br></br>
-              <span className="SetName">Set: {heroes[num].set}</span>
-              <br></br>
-            </div>
-          )
-        })}
+        {/* Heroes Info */}
+        <div className="grid-heroes">
+          <h2 className="Title"> Heroes: </h2>
+          <div>
+            {heroArrayFinal.map((num) => {
+              return(
+                <div className="HeroCard">
+                  <img src={require("./Images/"+heroes[num].faction+".png").default} alt={heroes[num].faction} className="Faction" />
+                  <span className="HeroName">{heroes[num].name}</span>
+                  {/* <br></br> */}
+                  <img src={require("./Images/"+heroes[num].color1+".png").default} alt={heroes[num].color1} className="Logos" />
+                  <img src={require("./Images/"+heroes[num].color2+".png").default} alt={heroes[num].color2} className="Logos" />
+                  <img src={require("./Images/"+heroes[num].color3+".png").default} alt={heroes[num].color3} className="Logos" />
+                  <img src={require("./Images/"+heroes[num].color4+".png").default} alt={heroes[num].color4} className="Logos" />
+                  <br></br>
+                  <span className="SetName">Set: {heroes[num].set}</span>
+                  <br></br>
+                </div>
+              )
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );

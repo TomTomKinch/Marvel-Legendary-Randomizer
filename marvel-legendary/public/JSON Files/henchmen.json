@@ -43,5 +43,35 @@
         "ID": "8",
         "name": "Phalanx",
         "set": "Dark City"
+    },
+    {
+        "ID": "9",
+        "name": "Ghost Racers",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "10",
+        "name": "M.O.D.O.K.s",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "11",
+        "name": "Thor Corps",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "12",
+        "name": "Khonshu Guardians",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "13",
+        "name": "Magma Men",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "14",
+        "name": "Spider-Infected",
+        "set": "Secret Wars Vol. 2"
     }
 ]

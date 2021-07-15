@@ -1,0 +1,56 @@
+.grid-container {
+    display: grid;
+}
+
+.grid-mastermind {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.grid-scheme {
+    grid-column: 3 / span 2;
+    grid-row: 1;
+}
+
+.grid-villain {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.grid-henchmen {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+}
+
+.grid-heroes {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+}
+
+
+@media (max-width: 1000px) {
+    .grid-mastermind {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .grid-scheme {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .grid-villain {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .grid-henchmen {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .grid-heroes {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+  }

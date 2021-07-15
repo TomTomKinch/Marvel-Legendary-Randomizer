@@ -105,5 +105,65 @@
         "ID": "21",
         "name": "Underworld",
         "set": "Dark City"
+    },
+    {
+        "ID": "22",
+        "name": "Domain of Apocalypse",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "23",
+        "name": "Limbo",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "24",
+        "name": "Manhattan (Earth-1610)",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "25",
+        "name": "The Deadlands",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "26",
+        "name": "Sentinel Territories",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "27",
+        "name": "Wasteland",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "28",
+        "name": "Deadpool's Secret Secret Wars",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "28",
+        "name": "Guardians of Knowhere",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "29",
+        "name": "K'un-Lun",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "30",
+        "name": "Monster Metropolis",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "31",
+        "name": "Utopolis",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "32",
+        "name": "X-Men '92",
+        "set": "Secret Wars Vol. 2"
     }
 ]

@@ -133,5 +133,77 @@
         "leads": "MLF",
         "leadsType": "villains",
         "set": "Dark City"
+    },
+    {
+        "ID": "15",
+        "name": "Madelyne Pryor, Goblin Queen",
+        "hp": "10",
+        "masterStrike": "Madelyne captures 4 Bystanders. If she already had any Bystanders before that, then each player gains a Wound.",
+        "leads": "Limbo",
+        "leadsType": "villains",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "16",
+        "name": "Nimrod, Super Sentinel",
+        "hp": "6",
+        "masterStrike": "Each player who does not reveal a Tech Hero must choose Recruit or Attack, then discard all their cards with that icon.",
+        "leads": "Sentinel Territories",
+        "leadsType": "villains",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "17",
+        "name": "Wasteland Hulk",
+        "hp": "7",
+        "masterStrike": "Cross-Dimensional Hulk Rampage",
+        "leads": "Wasteland",
+        "leadsType": "villains",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "18",
+        "name": "Zombie Green Goblin",
+        "hp": "11",
+        "masterStrike": "Rise of the Living Dead. KO each Hero in the HQ that costs 7 or more. Then, each player discards a card for each Hero in the KO pile that costs 7 or more.",
+        "leads": "The Deadlands",
+        "leadsType": "villains",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "19",
+        "name": "Immortal Emperor Zheng-Zhu",
+        "hp": "7",
+        "masterStrike": "Each player reveals a Hero that costs 7 or more, or they discard down to 3 cards.",
+        "leads": "K'un-Lun",
+        "leadsType": "villains",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "20",
+        "name": "King Hyperion",
+        "hp": "12",
+        "masterStrike": "King Hyperion enters the city if he was not already there. Then, he charges three spaces. Escape: Each player gains a wound. Put King Hyperion on the Mastermind space.",
+        "leads": "Utopolis",
+        "leadsType": "villains",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "21",
+        "name": "Shiklah, the Demon Bride",
+        "hp": "9",
+        "masterStrike": "Reveal the top three cards of the Villain Deck. Put all the Scheme Twists you revealed on top of the Villain Deck. Put the rest on the bottom of that deck in random order.",
+        "leads": "Monster Metropolis",
+        "leadsType": "villains",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "22",
+        "name": "Spider-Queen",
+        "hp": "8",
+        "masterStrike": "Each player puts a Spider-Infected from their Victory Pile into an empty city space. Any player who cannot do so gains a Wound.",
+        "leads": "Spider-Infected",
+        "leadsType": "henchmen",
+        "set": "Secret Wars Vol. 2"
     }
 ]

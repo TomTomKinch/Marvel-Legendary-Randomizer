@@ -488,5 +488,305 @@
         "color3": "Green",
         "color4": "Red",
         "set": "Dark City"
+    },
+    {
+        "ID": "47",
+        "name": "Apocalyptic Kitty Pryde",
+        "faction": "X-Men",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "RedBlack",
+        "color4": "Red",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "48",
+        "name": "Black Bolt",
+        "faction": "Illuminati",
+        "color1": "Blue",
+        "color2": "RedBlue",
+        "color3": "Green",
+        "color4": "Blue",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "49",
+        "name": "Black Panther",
+        "faction": "Illuminati",
+        "color1": "RedYellow",
+        "color2": "GreenBlack",
+        "color3": "RedGreen",
+        "color4": "YellowBlack",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "50",
+        "name": "Captain Marvel",
+        "faction": "Avengers",
+        "color1": "BlueGreen",
+        "color2": "Blue",
+        "color3": "Green",
+        "color4": "Blue",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "51",
+        "name": "Dr. Strange",
+        "faction": "Illuminati",
+        "color1": "YellowBlue",
+        "color2": "Blue",
+        "color3": "Yellow",
+        "color4": "Red",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "52",
+        "name": "Lady Thor",
+        "faction": "Avengers",
+        "color1": "Blue",
+        "color2": "Green",
+        "color3": "BlueGreen",
+        "color4": "Blue",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "53",
+        "name": "Magik",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "RedBlue",
+        "color4": "Red",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "54",
+        "name": "Maximus",
+        "faction": "Cabal",
+        "color1": "Red",
+        "color2": "Black",
+        "color3": "RedBlack",
+        "color4": "Black",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "55",
+        "name": "Namor, the Sub-Mariner",
+        "faction": "Cabal",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "YellowGreen",
+        "color4": "Green",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "56",
+        "name": "Old Man Logan",
+        "faction": "X-Men",
+        "color1": "RedYellow",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "57",
+        "name": "Proxima Midnight",
+        "faction": "Cabal",
+        "color1": "RedYellow",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "58",
+        "name": "Superior Iron Man",
+        "faction": "Illuminati",
+        "color1": "Black",
+        "color2": "BlackBlue",
+        "color3": "Blue",
+        "color4": "Black",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "59",
+        "name": "Thanos",
+        "faction": "Cabal",
+        "color1": "BlueGreen",
+        "color2": "Green",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "60",
+        "name": "Ultimate Spider-Man",
+        "faction": "Spiderverse",
+        "color1": "YellowGreen",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Red",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "61",
+        "name": "Agent Venom",
+        "faction": "Spiderverse",
+        "color1": "Black",
+        "color2": "YellowGreen",
+        "color3": "Yellow",
+        "color4": "Green",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "62",
+        "name": "Arkon the Magnificent",
+        "faction": "None",
+        "color1": "Blue",
+        "color2": "RedGreen",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "63",
+        "name": "Beast",
+        "faction": "Illuminati",
+        "color1": "GreenBlack",
+        "color2": "GreenBlack",
+        "color3": "GreenBlack",
+        "color4": "GreenBlack",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "64",
+        "name": "Black Swan",
+        "faction": "Cabal",
+        "color1": "Blue",
+        "color2": "Yellow",
+        "color3": "YellowBlue",
+        "color4": "Red",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "65",
+        "name": "The Captain and the Devil",
+        "faction": "Avengers",
+        "color1": "GreenBlack",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "66",
+        "name": "Captain Britain",
+        "faction": "Illuminati",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "RedGreen",
+        "color4": "Green",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "67",
+        "name": "Corvus Glaive",
+        "faction": "Cabal",
+        "color1": "YellowGreen",
+        "color2": "Yellow",
+        "color3": "Green",
+        "color4": "Black",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "68",
+        "name": "Dr. Punisher, Soldier Supreme",
+        "faction": "Marvel Knights",
+        "color1": "BlackBlue",
+        "color2": "Black",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "69",
+        "name": "Elsa Bloodstone",
+        "faction": "SHIELD",
+        "color1": "RedBlack",
+        "color2": "Yellow",
+        "color3": "Blue",
+        "color4": "Green",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "70",
+        "name": "Phoenix Force Cyclops",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "YellowBlue",
+        "color4": "Blue",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "71",
+        "name": "Ruby Summers",
+        "faction": "X-Men",
+        "color1": "Blue",
+        "color2": "BlueGreen",
+        "color3": "Green",
+        "color4": "Blue",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "72",
+        "name": "Shang-Chi",
+        "faction": "Marvel Knights",
+        "color1": "Yellow",
+        "color2": "RedYellow",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "73",
+        "name": "Silk",
+        "faction": "Spiderverse",
+        "color1": "YellowGreen",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "74",
+        "name": "Soulsword Colossus",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "RedGreen",
+        "color3": "Green",
+        "color4": "Yellow",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "75",
+        "name": "Spider-Gwen",
+        "faction": "Spiderverse",
+        "color1": "YellowBlack",
+        "color2": "Black",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "76",
+        "name": "Time-Traveling Jean Grey",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Yellow",
+        "color3": "RedBlue",
+        "color4": "Red",
+        "set": "Secret Wars Vol. 2"
     }
 ]
