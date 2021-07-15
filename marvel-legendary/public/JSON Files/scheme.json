@@ -295,5 +295,117 @@
         "leads": "None",
         "leadsType": "None",
         "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "42",
+        "name": "Build an Underground MegaVault Prison",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "43",
+        "name": "Cage Villains in Power-Suppressing Cells",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "44",
+        "name": "Crown Thor King of Asgard",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "45",
+        "name": "Crush HYDRA",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "46",
+        "name": "Graduation at Xavier's X-Academy",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "47",
+        "name": "Infiltrate the Lair with Spies",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "48",
+        "name": "Mass Produce War Machine Armor",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "49",
+        "name": "Resurrect Heroes with Norn Stones",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "50",
+        "name": "Break the Planet Asunder",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "51",
+        "name": "Cytoplasm Spike Invasion",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "52",
+        "name": "Fall of the Hulks",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "53",
+        "name": "Gladiator Pits of Sakaar",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "54",
+        "name": "Mutating Gamma Rays",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "55",
+        "name": "Shoot Hulk into Space",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "56",
+        "name": "Subjugate with Obedience Disks",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "57",
+        "name": "World War Hulk",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
     }
 ]

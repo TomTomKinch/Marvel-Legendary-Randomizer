@@ -73,5 +73,40 @@
         "ID": "14",
         "name": "Spider-Infected",
         "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "15",
+        "name": "Asgardian Warriors",
+        "set": "Villains"
+    },
+    {
+        "ID": "16",
+        "name": "Cops",
+        "set": "Villains"
+    },
+    {
+        "ID": "17",
+        "name": "Multiple Man",
+        "set": "Villains"
+    },
+    {
+        "ID": "18",
+        "name": "S.H.I.E.L.D. Assault Squad",
+        "set": "Villains"
+    },
+    {
+        "ID": "19",
+        "name": "Cytoplasm Spikes",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "20",
+        "name": "Death's Heads",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "21",
+        "name": "Sakaaran Hivelings",
+        "set": "World War Hulk"
     }
 ]

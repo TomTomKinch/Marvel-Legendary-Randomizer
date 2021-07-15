@@ -788,5 +788,305 @@
         "color3": "RedBlue",
         "color4": "Red",
         "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "77",
+        "name": "Bullseye",
+        "faction": "Crime Syndicate",
+        "color1": "Blue",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Villains"
+    },
+    {
+        "ID": "78",
+        "name": "Dr. Octopus",
+        "faction": "Sinister Six",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Green",
+        "color4": "Black",
+        "set": "Villains"
+    },
+    {
+        "ID": "79",
+        "name": "Electro",
+        "faction": "Sinister Six",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Yellow",
+        "color4": "Blue",
+        "set": "Villains"
+    },
+    {
+        "ID": "80",
+        "name": "Enchantress",
+        "faction": "Foes of Asgard",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Villains"
+    },
+    {
+        "ID": "81",
+        "name": "Green Goblin",
+        "faction": "Sinister Six",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Yellow",
+        "color4": "Black",
+        "set": "Villains"
+    },
+    {
+        "ID": "82",
+        "name": "Juggernaut",
+        "faction": "Brotherhood",
+        "color1": "Green",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Villains"
+    },
+    {
+        "ID": "83",
+        "name": "Kingpin",
+        "faction": "Crime Syndicate",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Green",
+        "set": "Villains"
+    },
+    {
+        "ID": "84",
+        "name": "Kraven",
+        "faction": "Sinister Six",
+        "color1": "Yellow",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "Yellow",
+        "set": "Villains"
+    },
+    {
+        "ID": "86",
+        "name": "Loki",
+        "faction": "Foes of Asgard",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Villains"
+    },
+    {
+        "ID": "87",
+        "name": "Magneto",
+        "faction": "Brotherhood",
+        "color1": "Blue",
+        "color2": "Green",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Villains"
+    },
+    {
+        "ID": "88",
+        "name": "Mysterio",
+        "faction": "Sinister Six",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "Black",
+        "color4": "Yellow",
+        "set": "Villains"
+    },
+    {
+        "ID": "89",
+        "name": "Mystique",
+        "faction": "Brotherhood",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "Yellow",
+        "color4": "Red",
+        "set": "Villains"
+    },
+    {
+        "ID": "90",
+        "name": "Sabretooth",
+        "faction": "Brotherhood",
+        "color1": "Yellow",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "Villains"
+    },
+    {
+        "ID": "91",
+        "name": "Ultron",
+        "faction": "None",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "Villains"
+    },
+    {
+        "ID": "91",
+        "name": "Venom",
+        "faction": "Sinister Six",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Yellow",
+        "set": "Villains"
+    },
+    {
+        "ID": "93",
+        "name": "Amadeus Cho",
+        "faction": "Champions",
+        "color1": "Yellow",
+        "color2": "GreenBlack",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "94",
+        "name": "Bruce Banner",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "GreenBlack",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "95",
+        "name": "Caiera",
+        "faction": "Warbound",
+        "color1": "Red",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "YellowGreen",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "92",
+        "name": "Gladiator Hulk",
+        "faction": "Warbound",
+        "color1": "Green",
+        "color2": "YellowGreen",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "93",
+        "name": "Hiroim",
+        "faction": "Warbound",
+        "color1": "Red",
+        "color2": "RedGreen",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "94",
+        "name": "Hulkbuster Iron Man",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Black",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "95",
+        "name": "Joe Fixit, Grey Hulk",
+        "faction": "Crime Syndicate",
+        "color1": "Green",
+        "color2": "Red",
+        "color3": "YellowGreen",
+        "color4": "Red",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "96",
+        "name": "Korg",
+        "faction": "Warbound",
+        "color1": "Green",
+        "color2": "Green",
+        "color3": "RedGreen",
+        "color4": "Green",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "97",
+        "name": "Miek, The Unhived",
+        "faction": "Warbound",
+        "color1": "Yellow",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "RedGreen",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "98",
+        "name": "Namora",
+        "faction": "Champions",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "BlueGreen",
+        "color4": "Red",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "99",
+        "name": "No-Name, Brood Queen",
+        "faction": "Warbound",
+        "color1": "Red",
+        "color2": "Red",
+        "color3": "RedGreen",
+        "color4": "Yellow",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "100",
+        "name": "Rick Jones",
+        "faction": "SHIELDAvengers",
+        "color1": "Black",
+        "color2": "YellowBlue",
+        "color3": "GreenBlack",
+        "color4": "RedBlue",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "101",
+        "name": "Sentry",
+        "faction": "Avengers",
+        "color1": "RedGreen",
+        "color2": "Green",
+        "color3": "RedBlue",
+        "color4": "Yellow",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "102",
+        "name": "She-Hulk",
+        "faction": "Avengers",
+        "color1": "YellowGreen",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "103",
+        "name": "Skaar, Son Of Hulk",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "YellowGreen",
+        "color4": "Green",
+        "set": "World War Hulk"
     }
 ]

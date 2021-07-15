@@ -130,7 +130,7 @@
         "name": "Stryfe",
         "hp": "7",
         "masterStrike": "Stack this Master Strike next to Stryfe. Stryfe gets +1 Attack for each Master Strike stacked next to him. Each player reveals an X-Force Hero or discards a card at random.",
-        "leads": "MLF",
+        "leads": "Mutant Liberation Front",
         "leadsType": "villains",
         "set": "Dark City"
     },
@@ -205,5 +205,95 @@
         "leads": "Spider-Infected",
         "leadsType": "henchmen",
         "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "22",
+        "name": "Dr. Strange",
+        "hp": "8",
+        "masterStrike": "Reveal the top three cards of the Adversary Deck. Put the Adversary you revealed with the highest printed Attack on top of that deck. Then play a Plot Twist from among the cards you revealed. Then put the rest of those cards on the bottom of that deck in random order.",
+        "leads": "Defenders",
+        "leadsType": "villains",
+        "set": "Villains"
+    },
+    {
+        "ID": "23",
+        "name": "Nick Fury",
+        "hp": "9",
+        "masterStrike": "Stack this Strike next to Nick Fury. Then demolish each player once for each Strike stacked here.",
+        "leads": "Avengers",
+        "leadsType": "villains",
+        "set": "Villains"
+    },
+    {
+        "ID": "24",
+        "name": "Odin",
+        "hp": "10",
+        "masterStrike": "Each player puts an Asgardian Warrior from their Victory Pile into an empty city space. Any player who cannot do so gains a Bindings.",
+        "leads": "Asgardian Warriors",
+        "leadsType": "henchmen",
+        "set": "Villains"
+    },
+    {
+        "ID": "25",
+        "name": "Professor X",
+        "hp": "8",
+        "masterStrike": "Choose the two highest-cost Allies in the Lair. Stack them next to Professor X as 'Telepathic Pawns.' Professor X gets +1 Attack for each Ally stacked next to him. Players can recrut the top Ally in the stack next to Professor X.",
+        "leads": "X-Men First Class",
+        "leadsType": "villains",
+        "set": "Villains"
+    },
+    {
+        "ID": "26",
+        "name": "General Ross",
+        "hp": "6",
+        "masterStrike": "General Ross Transforms, then Cross-Dimensional Hulk Rampage.",
+        "leads": "Code Red",
+        "leadsType": "villains",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "27",
+        "name": "Illuminati, Secret Society",
+        "hp": "11",
+        "masterStrike": "Each player reveals their hand and discards two cards that each cost between 1 and 4. The Illuminati Transform.",
+        "leads": "Illuminati",
+        "leadsType": "villains",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "28",
+        "name": "King Hulk, Sakaarson",
+        "hp": "9",
+        "masterStrike": "Each player KO's a Warbound Villain from their Victory Pile or gains a Wound. King Hulk Transforms.",
+        "leads": "Warbound",
+        "leadsType": "villains",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "29",
+        "name": "M.O.D.O.K.",
+        "hp": "9",
+        "masterStrike": "Each player who can't Outwit M.O.D.O.K. gains a Wound, then M.O.D.O.K. Transforms.",
+        "leads": "Intelligencia",
+        "leadsType": "villains",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "30",
+        "name": "The Red King",
+        "hp": "7",
+        "masterStrike": "The Red King Transforms, then each player reveals a Tech card or gains a Wound.",
+        "leads": "Sakaar Imperial Guard",
+        "leadsType": "villains",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "31",
+        "name": "The Sentry",
+        "hp": "10",
+        "masterStrike": "The Sentry Transforms, then Cross-Dimensional Void Rampage.",
+        "leads": "Aspects of the Void",
+        "leadsType": "villains",
+        "set": "World War Hulk"
     }
 ]

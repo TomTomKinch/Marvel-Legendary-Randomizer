@@ -165,5 +165,75 @@
         "ID": "32",
         "name": "X-Men '92",
         "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "33",
+        "name": "Avengers",
+        "set": "Villains"
+    },
+    {
+        "ID": "34",
+        "name": "Defenders",
+        "set": "Villains"
+    },
+    {
+        "ID": "35",
+        "name": "Marvel Knights",
+        "set": "Villains"
+    },
+    {
+        "ID": "36",
+        "name": "Spider Friends",
+        "set": "Villains"
+    },
+    {
+        "ID": "37",
+        "name": "Uncanny Avengers",
+        "set": "Villains"
+    },
+    {
+        "ID": "38",
+        "name": "Uncanny X-Men",
+        "set": "Villains"
+    },
+    {
+        "ID": "39",
+        "name": "X-Men First Class",
+        "set": "Villains"
+    },
+    {
+        "ID": "40",
+        "name": "Aspects of the Void",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "41",
+        "name": "Code Red",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "42",
+        "name": "Illuminati",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "43",
+        "name": "Intelligencia",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "44",
+        "name": "Sakaar Imperial Guard",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "45",
+        "name": "U-Foes",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "46",
+        "name": "Warbound",
+        "set": "World War Hulk"
     }
 ]
