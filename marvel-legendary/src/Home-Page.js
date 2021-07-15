@@ -566,25 +566,24 @@ const handleCheck = (event) => {
       {/* MasterMind Info */}
       <h2 className="Title">Master Mind: </h2>
       <div className="MasterMindCard">
-        <text>{masterMind[randMasterMind].name} </text>
+        <span>{masterMind[randMasterMind].name} </span>
         <br></br>
         <img src={attack} alt="HP: " className="Logos" />
-        <text>: {masterMind[randMasterMind].hp}</text>
+        <span>: {masterMind[randMasterMind].hp}</span>
         <br></br>
-        <text>MasterStrike: {masterMind[randMasterMind].masterStrike} </text>
+        <p>MasterStrike: {masterMind[randMasterMind].masterStrike} </p>
         <br></br>
+        <span>Set: {masterMind[randMasterMind].set} </span>
         <br></br>
-        <text>Set: {masterMind[randMasterMind].set} </text>
-        <br></br>
-        <text>Always Leads: {masterMind[randMasterMind].leads} </text>
+        <span>Always Leads: {masterMind[randMasterMind].leads} </span>
       </div>
       {/* <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button> */}
 
       {/* Scheme Info */}
       <h2 className="Title">Scheme: </h2>
       <div className="SchemeCard">
-        <p>Scheme: {scheme[randScheme].name} </p>
-        <p>Set: {scheme[randScheme].set}</p>
+        <span>Scheme: {scheme[randScheme].name} </span>
+        <span>Set: {scheme[randScheme].set}</span>
       </div>
       {/* <button onClick={() => {generateRandScheme();}}>RandomScheme</button> */}
 
@@ -601,9 +600,9 @@ const handleCheck = (event) => {
         {villainsArrayFinal.map((num) => {
           return(
             <div className="VillainCard">
-              <text>{villains[num].name}</text>
+              <span>{villains[num].name}</span>
               <br></br> 
-              <text>Set: {villains[num].set}</text>
+              <span>Set: {villains[num].set}</span>
             </div>
           )
         })}
@@ -615,9 +614,9 @@ const handleCheck = (event) => {
         {henchmenArrayFinal.map((num) => {
           return(
             <div className="VillainCard">
-              <text>{henchmen[num].name}</text> 
+              <span>{henchmen[num].name}</span> 
               <br></br> 
-              <text>Set: {henchmen[num].set}</text>
+              <span>Set: {henchmen[num].set}</span>
             </div>
           )
         })}
@@ -630,14 +629,14 @@ const handleCheck = (event) => {
           return(
             <div className="HeroCard">
               <img src={require("./Images/"+heroes[num].faction+".png").default} alt={heroes[num].faction} className="Faction" />
-              <text className="HeroName">{heroes[num].name}</text>
+              <span className="HeroName">{heroes[num].name}</span>
               {/* <br></br> */}
               <img src={require("./Images/"+heroes[num].color1+".png").default} alt={heroes[num].color1} className="Logos" />
               <img src={require("./Images/"+heroes[num].color2+".png").default} alt={heroes[num].color2} className="Logos" />
               <img src={require("./Images/"+heroes[num].color3+".png").default} alt={heroes[num].color3} className="Logos" />
               <img src={require("./Images/"+heroes[num].color4+".png").default} alt={heroes[num].color4} className="Logos" />
               <br></br>
-              <text className="SetName">Set: {heroes[num].set}</text>
+              <span className="SetName">Set: {heroes[num].set}</span>
               <br></br>
             </div>
           )
