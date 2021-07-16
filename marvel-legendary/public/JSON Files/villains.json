@@ -235,5 +235,90 @@
         "ID": "46",
         "name": "Warbound",
         "set": "World War Hulk"
+    },
+    {
+        "ID": "47",
+        "name": "Dark Descendants",
+        "set": "X-Men"
+    },
+    {
+        "ID": "48",
+        "name": "Hellfire Club",
+        "set": "X-Men"
+    },
+    {
+        "ID": "49",
+        "name": "Mojoverse",
+        "set": "X-Men"
+    },
+    {
+        "ID": "50",
+        "name": "Murderworld",
+        "set": "X-Men"
+    },
+    {
+        "ID": "51",
+        "name": "Shadow-X",
+        "set": "X-Men"
+    },
+    {
+        "ID": "52",
+        "name": "Shi'ar Imperial Guard",
+        "set": "X-Men"
+    },
+    {
+        "ID": "53",
+        "name": "Sisterhood of Mutants",
+        "set": "X-Men"
+    },
+    {
+        "ID": "54",
+        "name": "Ultron's Legacy",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "55",
+        "name": "Queen's Vengeance",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "56",
+        "name": "Zola's Creations",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "57",
+        "name": "Masters of Evil (WWII)",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "58",
+        "name": "Monsters Unleashed",
+        "set": "Champions"
+    },
+    {
+        "ID": "59",
+        "name": "Wrecking Crew",
+        "set": "Champions"
+    },
+    {
+        "ID": "60",
+        "name": "Deadpool's 'Friends'",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "61",
+        "name": "Evil Deadpool Corpse",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "62",
+        "name": "Heralds of Galactus",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "63",
+        "name": "Subterranea",
+        "set": "Fantastic Four"
     }
 ]

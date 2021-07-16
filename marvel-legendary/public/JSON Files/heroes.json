@@ -1088,5 +1088,455 @@
         "color3": "YellowGreen",
         "color4": "Green",
         "set": "World War Hulk"
+    },
+    {
+        "ID": "104",
+        "name": "Aurora & Northstar",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "BlueGreen",
+        "color3": "Blue",
+        "color4": "Yellow",
+        "set": "X-Men"
+    },
+    {
+        "ID": "105",
+        "name": "Banshee",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "X-Men"
+    },
+    {
+        "ID": "106",
+        "name": "Beast",
+        "faction": "X-Men",
+        "color1": "Black",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "X-Men"
+    },
+    {
+        "ID": "107",
+        "name": "Cannonball",
+        "faction": "X-Men",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "X-Men"
+    },
+    {
+        "ID": "108",
+        "name": "Colossus & Wolverine",
+        "faction": "X-Men",
+        "color1": "YellowGreen",
+        "color2": "Green",
+        "color3": "Yellow",
+        "color4": "Green",
+        "set": "X-Men"
+    },
+    {
+        "ID": "109",
+        "name": "Dazzler",
+        "faction": "X-Men",
+        "color1": "Yellow",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Blue",
+        "set": "X-Men"
+    },
+    {
+        "ID": "110",
+        "name": "Havok",
+        "faction": "X-Men",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Black",
+        "set": "X-Men"
+    },
+    {
+        "ID": "111",
+        "name": "Jubilee",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Yellow",
+        "color4": "Red",
+        "set": "X-Men"
+    },
+    {
+        "ID": "112",
+        "name": "Kitty Pryde",
+        "faction": "X-Men",
+        "color1": "Yellow",
+        "color2": "Red",
+        "color3": "Black",
+        "color4": "Blue",
+        "set": "X-Men"
+    },
+    {
+        "ID": "113",
+        "name": "Legion",
+        "faction": "X-Men",
+        "color1": "RedGreen",
+        "color2": "BlackBlue",
+        "color3": "YellowBlack",
+        "color4": "Red",
+        "set": "X-Men"
+    },
+    {
+        "ID": "114",
+        "name": "Longshot",
+        "faction": "X-Men",
+        "color1": "Yellow",
+        "color2": "Black",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "X-Men"
+    },
+    {
+        "ID": "115",
+        "name": "Phoenix",
+        "faction": "X-Men",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "X-Men"
+    },
+    {
+        "ID": "116",
+        "name": "Polaris",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "X-Men"
+    },
+    {
+        "ID": "117",
+        "name": "Psylocke",
+        "faction": "X-Men",
+        "color1": "Yellow",
+        "color2": "Red",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "X-Men"
+    },
+    {
+        "ID": "118",
+        "name": "X-23",
+        "faction": "X-Men",
+        "color1": "Black",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "X-Men"
+    },
+    {
+        "ID": "119",
+        "name": "Ant-Man",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Green",
+        "color4": "Black",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "120",
+        "name": "Black Knight",
+        "faction": "Avengers",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "121",
+        "name": "Jocasta",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Blue",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "122",
+        "name": "Wasp",
+        "faction": "Avengers",
+        "color1": "Red",
+        "color2": "Red",
+        "color3": "Blue",
+        "color4": "Red",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "123",
+        "name": "Wonder Man",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Green",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "124",
+        "name": "Agent X-13",
+        "faction": "SHIELD",
+        "color1": "Blue",
+        "color2": "Black",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "125",
+        "name": "Captain America (Falcon)",
+        "faction": "Avengers",
+        "color1": "Yellow",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Red",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "126",
+        "name": "Captain America 1941",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Black",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "127",
+        "name": "Steve Rogers, Director of S.H.I.E.L.D.",
+        "faction": "SHIELD",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "128",
+        "name": "Winter Soldier",
+        "faction": "None",
+        "color1": "Green",
+        "color2": "Black",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "129",
+        "name": "Gwenpool",
+        "faction": "Champions",
+        "color1": "Red",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Champions"
+    },
+    {
+        "ID": "130",
+        "name": "Ms. Marvel",
+        "faction": "Champions",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "Champions"
+    },
+    {
+        "ID": "131",
+        "name": "Nova",
+        "faction": "Champions",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Champions"
+    },
+    {
+        "ID": "132",
+        "name": "Totally Awesome Hulk",
+        "faction": "Champions",
+        "color1": "Green",
+        "color2": "Black",
+        "color3": "Green",
+        "color4": "Black",
+        "set": "Champions"
+    },
+    {
+        "ID": "133",
+        "name": "Viv Vision",
+        "faction": "Champions",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Blue",
+        "color4": "Black",
+        "set": "Champions"
+    },
+    {
+        "ID": "134",
+        "name": "Bob, Agent of HYDRA",
+        "faction": "HYDRA",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "135",
+        "name": "Deadpool",
+        "faction": "Mercs for Money",
+        "color1": "Black",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "136",
+        "name": "Slapstick",
+        "faction": "Mercs for Money",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Green",
+        "color4": "Blue",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "137",
+        "name": "Solo",
+        "faction": "Mercs for Money",
+        "color1": "Black",
+        "color2": "Yellow",
+        "color3": "Black",
+        "color4": "Yellow",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "138",
+        "name": "Stingray",
+        "faction": "Mercs for Money",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Blue",
+        "color4": "Black",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "139",
+        "name": "Howard the Duck",
+        "faction": "None",
+        "color1": "Yellow",
+        "color2": "Red",
+        "color3": "Yellow",
+        "color4": "Black",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "140",
+        "name": "Jessica Jones",
+        "faction": "Marvel Knights",
+        "color1": "Green",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "141",
+        "name": "Man-Thing",
+        "faction": "None",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "142",
+        "name": "Ms. America",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "143",
+        "name": "Squirrel Girl",
+        "faction": "Avengers",
+        "color1": "Yellow",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "144",
+        "name": "Human Torch",
+        "faction": "Fantastic Four",
+        "color1": "Yellow",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "145",
+        "name": "Invisible Woman",
+        "faction": "Fantastic Four",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "146",
+        "name": "Mr. Fantastic",
+        "faction": "Fantastic Four",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Yellow",
+        "color4": "Black",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "147",
+        "name": "Silver Surfer",
+        "faction": "None",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "148",
+        "name": "Thing",
+        "faction": "Fantastic Four",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Fantastic Four"
     }
 ]

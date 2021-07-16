@@ -295,5 +295,158 @@
         "leads": "Aspects of the Void",
         "leadsType": "villains",
         "set": "World War Hulk"
+    },
+    {
+        "ID": "33",
+        "name": "Arcade",
+        "hp": "3",
+        "masterStrike": "Arcade captures a random Bystander from each player's Victory Pile as a Human Shield. Each player who didn't have a Bystander gains a Wound instead.",
+        "leads": "Murderworld",
+        "leadsType": "villains",
+        "set": "X-Men"
+    },
+    {
+        "ID": "34",
+        "name": "Dark Phoenix",
+        "hp": "13",
+        "masterStrike": "KO the top card of the Hero Deck and each card in the Hero Deck that shares a color with it. Shuffle the Hero Deck.",
+        "leads": "Hellfire Club",
+        "leadsType": "villains",
+        "set": "X-Men"
+    },
+    {
+        "ID": "35",
+        "name": "Deathbird",
+        "hp": "8",
+        "masterStrike": "If there are already any Shi'ar Villains in the city, each player gains a Wound. Then this strike enters the city as a Shi'ar Battle Cruiser Token Villain with 7 Attack worth 5 VP.",
+        "leads": "Shi'ar Imperial Guard",
+        "leadsType": "villains",
+        "set": "X-Men"
+    },
+    {
+        "ID": "36",
+        "name": "Mojo",
+        "hp": "6",
+        "masterStrike": "Mojo captures a Human Shield. Each player reveals a Tech Hero or discards a card at random.",
+        "leads": "Mojoverse",
+        "leadsType": "villains",
+        "set": "X-Men"
+    },
+    {
+        "ID": "37",
+        "name": "Onslaught",
+        "hp": "10",
+        "masterStrike": "KO all Heroes Dominated by Onslaught. Then each player reveals their hand and chooses one of their non-grey Heroes. Onslaught Dominates those Heroes.",
+        "leads": "Dark Descendants",
+        "leadsType": "villains",
+        "set": "X-Men"
+    },
+    {
+        "ID": "38",
+        "name": "Shadow King",
+        "hp": "7",
+        "masterStrike": "KO all Heroes Dominated by Shadow King. Then each player chooses a non-grey Hero from their discard pile. Shadow King Dominates those Heroes.",
+        "leads": "Shadow-X",
+        "leadsType": "villains",
+        "set": "X-Men"
+    },
+    {
+        "ID": "39",
+        "name": "Ultron",
+        "hp": "9",
+        "masterStrike": "Each player reveals a Tech Hero or puts a non-grey Hero from their discard pile into a 'Threat Analysis pile' next to Ultron. Ultron is Empowered by each color in his Threat Analysis pile.",
+        "leads": "Ultron's Legacy",
+        "leadsType": "villains",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "40",
+        "name": "Morgana Le Fay",
+        "hp": "7",
+        "masterStrike": "Each player in turn reveals a Covert Hero or gains a 0-cost Hero or Wound from the KO pile.",
+        "leads": "Queen's Vengeance",
+        "leadsType": "villains",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "41",
+        "name": "Arnim Zola",
+        "hp": "6",
+        "masterStrike": "For each Hero in the HQ that has less than 2 printed Attack, put that Hero on the bottom of the Hero Deck, and each player discards a card of that Hero's cost.",
+        "leads": "Zola's Creations",
+        "leadsType": "villains",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "42",
+        "name": "Baron Heinrich Zemo",
+        "hp": "9",
+        "masterStrike": "Each player KOs a Bystander from their Victory Pile. Any player who cannot do so gains a Wound.",
+        "leads": "Masters of Evil (WWII)",
+        "leadsType": "villains",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "43",
+        "name": "Fin Fang Foom",
+        "hp": "20",
+        "masterStrike": "Demolish each player, then do it again for each Monsters Unleashed Villain in the city and Escape Pile.",
+        "leads": "Monsters Unleashed",
+        "leadsType": "villains",
+        "set": "Champions"
+    },
+    {
+        "ID": "44",
+        "name": "Pagliacci",
+        "hp": "9",
+        "masterStrike": "1, 5: This card becomes a Scheme Twist that takes effect immediately. 2, 3, 4: Demolish each player.",
+        "leads": "Wrecking Crew",
+        "leadsType": "villains",
+        "set": "Champions"
+    },
+    {
+        "ID": "44",
+        "name": "Evil Deadpool",
+        "hp": "11",
+        "masterStrike": "Without talking, each player simultaneously discards a card. Whoever discards the lowest-costing card (or tied for lowest) gains a Wound.",
+        "leads": "Evil Deadpool Corpse",
+        "leadsType": "villains",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "44",
+        "name": "Macho Gomez",
+        "hp": "9",
+        "masterStrike": "Put this Strike in front of you as a 'Bounty on Your Head.' Then, each player gains a Wound for each Bounty on them. Any number of times during your turn, you may pay 1 Recruit to move a Bounty from you to the player on your left.",
+        "leads": "Deadpool's 'Friends'",
+        "leadsType": "villains",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "45",
+        "name": "J. Jonah Jameson",
+        "hp": "4",
+        "masterStrike": "Each player Investigates their deck for a card and puts it into the Angry Mobs stack.",
+        "leads": "Spider-Slayer",
+        "leadsType": "henchmen",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "46",
+        "name": "Galactus",
+        "hp": "20",
+        "masterStrike": "Destroy the city space closest to Galactus. Any Villain there escapes. Put this Master Strike there. Galactus Wins: When the city is destroyed.",
+        "leads": "Heralds of Galactus",
+        "leadsType": "villains",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "47",
+        "name": "Mole Man",
+        "hp": "7",
+        "masterStrike": "All Subterranea Villains in the city escape. If any Villains escaped this way, each player gains a Wound.",
+        "leads": "Subterranea",
+        "leadsType": "villains",
+        "set": "Fantastic Four"
     }
 ]

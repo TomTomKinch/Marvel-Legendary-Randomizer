@@ -108,5 +108,40 @@
         "ID": "21",
         "name": "Sakaaran Hivelings",
         "set": "World War Hulk"
+    },
+    {
+        "ID": "22",
+        "name": "The Brood",
+        "set": "X-Men"
+    },
+    {
+        "ID": "23",
+        "name": "Hellfire Cult",
+        "set": "X-Men"
+    },
+    {
+        "ID": "24",
+        "name": "Sapien League",
+        "set": "X-Men"
+    },
+    {
+        "ID": "25",
+        "name": "Shi'ar Death Commandos",
+        "set": "X-Men"
+    },
+    {
+        "ID": "26",
+        "name": "Shi'ar Patrol Craft",
+        "set": "X-Men"
+    },
+    {
+        "ID": "27",
+        "name": "Circus of Crime",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "28",
+        "name": "Spider-Slayer",
+        "set": "Dimensions"
     }
 ]

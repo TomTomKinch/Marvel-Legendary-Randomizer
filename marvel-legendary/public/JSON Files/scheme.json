@@ -407,5 +407,201 @@
         "leads": "None",
         "leadsType": "None",
         "set": "World War Hulk"
+    },
+    {
+        "ID": "58",
+        "name": "Alien Brood Encounters",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "59",
+        "name": "Anti-Mutant Hatred",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "60",
+        "name": "The Dark Phoenix Saga",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "61",
+        "name": "Horror of Horrors",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "62",
+        "name": "Mutant-Hunting Super Sentinels",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "63",
+        "name": "Nuclear Armageddon",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "64",
+        "name": "Televised Deathtraps of Mojoworld",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "65",
+        "name": "X-Men Danger Room Goes Berserk",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "66",
+        "name": "Age of Ultron",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "67",
+        "name": "Pull Earth into Medieval Times",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "68",
+        "name": "Transform Commuters into Giant Ants",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "69",
+        "name": "Trap Heroes in the Microverse",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "70",
+        "name": "Brainwash the Military",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "71",
+        "name": "Change the Outcome of WWII",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "72",
+        "name": "Go Back in Time to Slay Heroes' Ancestors",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "73",
+        "name": "The Unbreakable Enigma Code",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "74",
+        "name": "Clash of the Monsters Unleashed",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Champions"
+    },
+    {
+        "ID": "75",
+        "name": "Divide and Conquer",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Champions"
+    },
+    {
+        "ID": "76",
+        "name": "Hypnotize Every Human",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Champions"
+    },
+    {
+        "ID": "77",
+        "name": "Steal All Oxygen on Earth",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Champions"
+    },
+    {
+        "ID": "78",
+        "name": "Deadpool Kills the Marvel Universe",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "79",
+        "name": "Deadpool Wants a Chimichanga",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "80",
+        "name": "Deadpool Writes a Scheme",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "81",
+        "name": "Everybody Hates Deadpool",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "82",
+        "name": "Bathe the Earth in Cosmic Rays",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "83",
+        "name": "Flood the Planet with Melted Glaciers",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "84",
+        "name": "Invincible Force Field",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "85",
+        "name": "Pull Reality Into the Negative Zone",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Fantastic Four"
     }
 ]

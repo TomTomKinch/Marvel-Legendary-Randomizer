@@ -7,7 +7,7 @@ import legendary from './Images/LegendaryLogo.png';
 import attack from './Images/attack.png'
 
 function App() {
-  let bufferNum = 100;
+  let bufferNum = 200;
   const villainSettings = [1, 2, 3, 3, 4];
   const henchmenSettings = [1, 1, 1, 2, 2];
   let villainsCount;
@@ -542,13 +542,13 @@ const handleCheck = (event) => {
           <FormControlLabel control={ <Checkbox checked={checked.Secret_Wars_Vol2} onChange={handleCheck} name="Secret_Wars_Vol2" value="Secret Wars Vol. 2"/> } label="Secret Wars Vol. 2"/>
           <FormControlLabel control={ <Checkbox checked={checked.Villains} onChange={handleCheck} name="Villains" value="Villains" />  } label="Villains" />
           <FormControlLabel control={ <Checkbox checked={checked.World_War_Hulk} onChange={handleCheck} name="World_War_Hulk" value="World War Hulk" /> } label="World War Hulk"/>
-          {/* <FormControlLabel control={ <Checkbox checked={checked.X_Men} onChange={handleCheck} name="X_Men"/> } label="X-Men" value="X-Men" /> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.AntMan} onChange={handleCheck} name="AntMan"/> } label="AntMan" value="AntMan" /> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Capt_America_75th} onChange={handleCheck} name="Capt_America_75th" value="Captain America 75th Anniversary" /> } label="Captain America 75th Anniversary"/> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Champions} onChange={handleCheck} name="Champions" value="Champions" /> }label="Champions" /> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Deadpool} onChange={handleCheck} name="Deadpool" value="Deadpool" /> } label="Deadpool" /> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Dimensions} onChange={handleCheck} name="Dimensions" value="Dimensions" /> } label="Dimensions" /> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Fantastic_Four} onChange={handleCheck} name="Fantastic_Four" value="Fantastic Four" /> } label="Fantastic Four" /> */}
+          <FormControlLabel control={ <Checkbox checked={checked.X_Men} onChange={handleCheck} name="X_Men"/> } label="X-Men" value="X-Men" />
+          <FormControlLabel control={ <Checkbox checked={checked.AntMan} onChange={handleCheck} name="AntMan"/> } label="Ant-Man" value="Ant-Man" />
+          <FormControlLabel control={ <Checkbox checked={checked.Capt_America_75th} onChange={handleCheck} name="Capt_America_75th" value="Captain America 75th Anniversary" /> } label="Captain America 75th Anniversary"/>
+          <FormControlLabel control={ <Checkbox checked={checked.Champions} onChange={handleCheck} name="Champions" value="Champions" /> }label="Champions" />
+          <FormControlLabel control={ <Checkbox checked={checked.Deadpool} onChange={handleCheck} name="Deadpool" value="Deadpool" /> } label="Deadpool" />
+          <FormControlLabel control={ <Checkbox checked={checked.Dimensions} onChange={handleCheck} name="Dimensions" value="Dimensions" /> } label="Dimensions" />
+          <FormControlLabel control={ <Checkbox checked={checked.Fantastic_Four} onChange={handleCheck} name="Fantastic_Four" value="Fantastic Four" /> } label="Fantastic Four" />
           {/* <FormControlLabel control={ <Checkbox checked={checked.Guardians_Of_The_Galaxy} onChange={handleCheck} name="Guardians_Of_The_Galaxy" value="Guardians of the_Galaxy" /> } label="Guardians of the Galaxy" /> */}
           {/* <FormControlLabel control={ <Checkbox checked={checked.Heroes_Of_Asgard} onChange={handleCheck} name="Heroes_Of_Asgard" value="Heroes of Asgard" /> } label="Heroes of Asgard"/> */}
           {/* <FormControlLabel control={ <Checkbox checked={checked.Into_The_Cosmos} onChange={handleCheck} name="Into_The_Cosmos" value="Into the Cosmos" /> } label="Into the Cosmos" /> */}
