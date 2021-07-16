@@ -448,5 +448,23 @@
         "leads": "Subterranea",
         "leadsType": "villains",
         "set": "Fantastic Four"
+    },
+    {
+        "ID": "48",
+        "name": "Supreme Intelligence of the Kree",
+        "hp": "9",
+        "masterStrike": "The Supreme Intelligence gains a Shard. Then each player reveals their hand and discards each with cost equal to, and cost one higher than, the number of Shards on the Supreme Intelligence.",
+        "leads": "Kree Starforce",
+        "leadsType": "villains",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "49",
+        "name": "Thanos",
+        "hp": "24",
+        "masterStrike": "Each player reveals their hand and puts one of their non-grey Heroes next to Thanos in a 'Bound Souls' pile.",
+        "leads": "Infinity Gems",
+        "leadsType": "villains",
+        "set": "Guardians of the Galaxy"
     }
 ]

@@ -320,5 +320,15 @@
         "ID": "63",
         "name": "Subterranea",
         "set": "Fantastic Four"
+    },
+    {
+        "ID": "64",
+        "name": "Kree Starforce",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "65",
+        "name": "Infinity Gems",
+        "set": "Guardians of the Galaxy"
     }
 ]

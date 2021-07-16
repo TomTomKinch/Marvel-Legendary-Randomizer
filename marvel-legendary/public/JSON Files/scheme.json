@@ -603,5 +603,33 @@
         "leads": "None",
         "leadsType": "None",
         "set": "Fantastic Four"
+    },
+    {
+        "ID": "86",
+        "name": "Forge the Infinity Gauntlet",
+        "leads": "Infinity Gems",
+        "leadsType": "villains",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "87",
+        "name": "Intergalactic Kree Nega-Bomb",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "88",
+        "name": "The Kree-Skrull War",
+        "leads": "Kree Starforce",
+        "leadsType": "villains",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "89",
+        "name": "Unite the Shards",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Guardians of the Galaxy"
     }
 ]

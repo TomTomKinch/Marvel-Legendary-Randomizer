@@ -1538,5 +1538,55 @@
         "color3": "Green",
         "color4": "Green",
         "set": "Fantastic Four"
+    },
+    {
+        "ID": "149",
+        "name": "Drax the Destroyer",
+        "faction": "Guardians of the Galaxy",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "150",
+        "name": "Gamora",
+        "faction": "Guardians of the Galaxy",
+        "color1": "Red",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "151",
+        "name": "Groot",
+        "faction": "Guardians of the Galaxy",
+        "color1": "Green",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "152",
+        "name": "Rocket Raccoon",
+        "faction": "Guardians of the Galaxy",
+        "color1": "Black",
+        "color2": "Blue",
+        "color3": "Yellow",
+        "color4": "Black",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "153",
+        "name": "Star-Lord",
+        "faction": "Guardians of the Galaxy",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Blue",
+        "set": "Guardians of the Galaxy"
     }
 ]

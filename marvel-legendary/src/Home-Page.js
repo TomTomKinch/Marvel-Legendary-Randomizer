@@ -549,7 +549,7 @@ const handleCheck = (event) => {
           <FormControlLabel control={ <Checkbox checked={checked.Deadpool} onChange={handleCheck} name="Deadpool" value="Deadpool" /> } label="Deadpool" />
           <FormControlLabel control={ <Checkbox checked={checked.Dimensions} onChange={handleCheck} name="Dimensions" value="Dimensions" /> } label="Dimensions" />
           <FormControlLabel control={ <Checkbox checked={checked.Fantastic_Four} onChange={handleCheck} name="Fantastic_Four" value="Fantastic Four" /> } label="Fantastic Four" />
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Guardians_Of_The_Galaxy} onChange={handleCheck} name="Guardians_Of_The_Galaxy" value="Guardians of the_Galaxy" /> } label="Guardians of the Galaxy" /> */}
+          <FormControlLabel control={ <Checkbox checked={checked.Guardians_Of_The_Galaxy} onChange={handleCheck} name="Guardians_Of_The_Galaxy" value="Guardians of the Galaxy" /> } label="Guardians of the Galaxy" />
           {/* <FormControlLabel control={ <Checkbox checked={checked.Heroes_Of_Asgard} onChange={handleCheck} name="Heroes_Of_Asgard" value="Heroes of Asgard" /> } label="Heroes of Asgard"/> */}
           {/* <FormControlLabel control={ <Checkbox checked={checked.Into_The_Cosmos} onChange={handleCheck} name="Into_The_Cosmos" value="Into the Cosmos" /> } label="Into the Cosmos" /> */}
           {/* <FormControlLabel control={ <Checkbox checked={checked.Noir} onChange={handleCheck} name="Noir"/> } label="Noir" value="Noir" /> */}
