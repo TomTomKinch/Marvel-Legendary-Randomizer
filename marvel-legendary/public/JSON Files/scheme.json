@@ -631,5 +631,250 @@
         "leads": "None",
         "leadsType": "None",
         "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "90",
+        "name": "Asgardian Test of Worth",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "91",
+        "name": "The Dark World of Svartalfheim",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "92",
+        "name": "Ragnarok, Twilight of the Gods",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "93",
+        "name": "War of the Frost Giants",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "94",
+        "name": "The Contest of Champions",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "95",
+        "name": "Turn the Soul of Adam Warlock",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "96",
+        "name": "Destroy the Nova Corps",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "97",
+        "name": "Annihilation: Conquest",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "98",
+        "name": "Find the Split Personality Killer",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Noir"
+    },
+    {
+        "ID": "99",
+        "name": "Silence the Witnesses",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Noir"
+    },
+    {
+        "ID": "100",
+        "name": "Five Families of Crime",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Noir"
+    },
+    {
+        "ID": "101",
+        "name": "Hidden Heart of Darkness",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Noir"
+    },
+    {
+        "ID": "102",
+        "name": "The Clone Saga",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "103",
+        "name": "Invade the Daily Bugle News HQ",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "104",
+        "name": "Splice Humans with Spider DNA",
+        "leads": "Sinister Six",
+        "leadsType": "villains",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "105",
+        "name": "Weave a Web of Lies",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "106",
+        "name": "Earthquake Drains the Ocean",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Revelations"
+    },
+    {
+        "ID": "107",
+        "name": "House of M",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Revelations"
+    },
+    {
+        "ID": "108",
+        "name": "Secret HYDRA Corruption",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Revelations"
+    },
+    {
+        "ID": "109",
+        "name": "The Korvac Saga",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Revelations"
+    },
+    {
+        "ID": "110",
+        "name": "S.H.I.E.L.D. vs. HYDRA War",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "111",
+        "name": "Hail Hydra",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "112",
+        "name": "Hydra Helicarriers Hunt Heroes",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "113",
+        "name": "Secret Empire of Betrayal",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "114",
+        "name": "The Demon Bear Saga",
+        "leads": "Demons of Limbo",
+        "leadsType": "villains",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "115",
+        "name": "Trapped in the Insane Asylum",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "116",
+        "name": "Crash the Moon into the Sun",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "117",
+        "name": "Superhuman Baseball Game",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "118",
+        "name": "Fear Itself",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains Fear Itself"
+    },
+    {
+        "ID": "119",
+        "name": "Last Stand at Avengers Tower",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains Fear Itself"
+    },
+    {
+        "ID": "120",
+        "name": "The Traitor",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains Fear Itself"
+    },
+    {
+        "ID": "121",
+        "name": "Invasion of the Venom Symbiotes",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Venom"
+    },
+    {
+        "ID": "122",
+        "name": "Maximum Carnage",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Venom"
+    },
+    {
+        "ID": "123",
+        "name": "Paralyzing Venom",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Venom"
+    },
+    {
+        "ID": "124",
+        "name": "Symbiotic Absorption",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Venom"
     }
 ]

@@ -550,15 +550,15 @@ const handleCheck = (event) => {
           <FormControlLabel control={ <Checkbox checked={checked.Dimensions} onChange={handleCheck} name="Dimensions" value="Dimensions" /> } label="Dimensions" />
           <FormControlLabel control={ <Checkbox checked={checked.Fantastic_Four} onChange={handleCheck} name="Fantastic_Four" value="Fantastic Four" /> } label="Fantastic Four" />
           <FormControlLabel control={ <Checkbox checked={checked.Guardians_Of_The_Galaxy} onChange={handleCheck} name="Guardians_Of_The_Galaxy" value="Guardians of the Galaxy" /> } label="Guardians of the Galaxy" />
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Heroes_Of_Asgard} onChange={handleCheck} name="Heroes_Of_Asgard" value="Heroes of Asgard" /> } label="Heroes of Asgard"/> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Into_The_Cosmos} onChange={handleCheck} name="Into_The_Cosmos" value="Into the Cosmos" /> } label="Into the Cosmos" /> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Noir} onChange={handleCheck} name="Noir"/> } label="Noir" value="Noir" /> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Paint_The_Town_Red} onChange={handleCheck} name="Paint_The_Town_Red" value="Paint the Town Red" /> } label="Paint the Town Red"/> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Revelations} onChange={handleCheck} name="Revelations" value="Revelations" /> } label="Revelations"/> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.SHIELD} onChange={handleCheck} name="SHIELD" value="SHIELD" /> } label="SHIELD"/> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.The_New_Mutants} onChange={handleCheck} name="The_New_Mutants" value="The New Mutants" /> } label="The New Mutants"/> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Villains_Fear_Itself} onChange={handleCheck} name="Villains_Fear_Itself" value="Villains Fear Itself" />}label="Villains Fear Itself"/> */}
-          {/* <FormControlLabel control={ <Checkbox checked={checked.Venom} onChange={handleCheck} name="Venom" value="Venom" />}label="Venom"/> */}
+          <FormControlLabel control={ <Checkbox checked={checked.Heroes_Of_Asgard} onChange={handleCheck} name="Heroes_Of_Asgard" value="Heroes of Asgard" /> } label="Heroes of Asgard"/>
+          <FormControlLabel control={ <Checkbox checked={checked.Into_The_Cosmos} onChange={handleCheck} name="Into_The_Cosmos" value="Into the Cosmos" /> } label="Into the Cosmos" />
+          <FormControlLabel control={ <Checkbox checked={checked.Noir} onChange={handleCheck} name="Noir"/> } label="Noir" value="Noir" />
+          <FormControlLabel control={ <Checkbox checked={checked.Paint_The_Town_Red} onChange={handleCheck} name="Paint_The_Town_Red" value="Paint the Town Red" /> } label="Paint the Town Red"/>
+          <FormControlLabel control={ <Checkbox checked={checked.Revelations} onChange={handleCheck} name="Revelations" value="Revelations" /> } label="Revelations"/>
+          <FormControlLabel control={ <Checkbox checked={checked.SHIELD} onChange={handleCheck} name="SHIELD" value="SHIELD" /> } label="SHIELD"/>
+          <FormControlLabel control={ <Checkbox checked={checked.The_New_Mutants} onChange={handleCheck} name="The_New_Mutants" value="The New Mutants" /> } label="The New Mutants"/>
+          <FormControlLabel control={ <Checkbox checked={checked.Villains_Fear_Itself} onChange={handleCheck} name="Villains_Fear_Itself" value="Villains Fear Itself" />}label="Villains Fear Itself"/>
+          <FormControlLabel control={ <Checkbox checked={checked.Venom} onChange={handleCheck} name="Venom" value="Venom" />}label="Venom"/>
       </div>
 
       <br></br><button onClick={createGame}> Create Game </button>

@@ -466,5 +466,176 @@
         "leads": "Infinity Gems",
         "leadsType": "villains",
         "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "50",
+        "name": "Malekith the Accursed",
+        "hp": "8",
+        "masterStrike": "Malekith captures a Villainous Weapon from the city or from any player's control or discard pile. Then this Master Strike enters the city as a Villainous Weapon called 'Darkspear' that gives +2 Attack. When you gain a Darkspear, it becomes a Thrown Artifact that gives +2 Attack when thrown.",
+        "leads": "Dark Council",
+        "leadsType": "villains",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "51",
+        "name": "Hela, Goddess of Death",
+        "hp": "10",
+        "masterStrike": "This Strike enters the city as a 5 Attack 'Army of the Dead' Villain worth 3VP. Then choose a Villain worth 3VP or more from your Victory Pile (including an Army of the Dead) to enter the city. If you didn't have any, each player gains a Wound.",
+        "leads": "Omens of Ragnarok",
+        "leadsType": "villains",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "52",
+        "name": "Magus",
+        "hp": "9",
+        "masterStrike": "If there are already any Villains with Shards in the city, each player gains a Wound. Then this Strike enters the city as a 'Cosmic Wraith' Villain with 4 Attack worth 4 VP. Then put a Shard on each Villain in the city.",
+        "leads": "Universal Church of Truth",
+        "leadsType": "henchmen",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "53",
+        "name": "The Grandmaster",
+        "hp": "10",
+        "masterStrike": "Reveal the top card of the Hero Deck then put it back. Contest of Champions for that card's color(s). Each player that loses gains a Wound. If the Grandmaster wins, he gains a Shard.",
+        "leads": "Elders of the Universe",
+        "leadsType": "villains",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "54",
+        "name": "The Beyonder",
+        "hp": "21",
+        "masterStrike": "Each player reveals a card that costs 5 or more or gains a Wound. Then put this Strike under an HQ space (that doesn't already have a Strike) pulling that space into a Pocket Dimension. To recruit a card from a Pocket Dimension, you must pay 1 Attack for each Pocket Dimension in play.",
+        "leads": "From Beyond",
+        "leadsType": "villains",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "55",
+        "name": "Charles Xavier, Professor of Crime",
+        "hp": "8",
+        "masterStrike": "Four Heroes in the HQ capture Hidden Witnesses.",
+        "leads": "X-Men Noir",
+        "leadsType": "villains",
+        "set": "Noir"
+    },
+    {
+        "ID": "56",
+        "name": "The Goblin, Underworld Boss",
+        "hp": "10",
+        "masterStrike": "Two random Bystanders from each player's Victory Pile become Hidden Witnesses held by The Goblin. Any player who didn't have two Bystanders gains a Wound instead.",
+        "leads": "Goblin's Freak Show",
+        "leadsType": "villains",
+        "set": "Noir"
+    },
+    {
+        "ID": "57",
+        "name": "Carnage",
+        "hp": "9",
+        "masterStrike": "Feast on each player. Whenever this Master Strike feasts on a player's 0-cost Hero, that player gains a Wound.",
+        "leads": "Maximum Carnage",
+        "leadsType": "villains",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "58",
+        "name": "Mysterio",
+        "hp": "8",
+        "masterStrike": "Shuffle this Master Strike into Mysterio's face down Mastermind Tactics. That card becomes a Mastermind Tactic worth 6 VP.",
+        "leads": "Sinister Six",
+        "leadsType": "villains",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "59",
+        "name": "Grim Reaper",
+        "hp": "8",
+        "masterStrike": "This Strike enters the city as a 7 Attack 'Graveyard' Location that says 'This gets +2 Attack while there's a Villain here.' It's Worth 5VP.",
+        "leads": "Lethal Legion",
+        "leadsType": "villains",
+        "set": "Revelations"
+    },
+    {
+        "ID": "60",
+        "name": "Mandarin",
+        "hp": "16",
+        "masterStrike": "Each player chooses a Mandarin's Ring from their Victory Pile to enter the city. Any player who didn't have a Ring gains a Wound instead.",
+        "leads": "Mandarin's Rings",
+        "leadsType": "henchmen",
+        "set": "Revelations"
+    },
+    {
+        "ID": "61",
+        "name": "The Hood",
+        "hp": "9",
+        "masterStrike": "Each player reveals the top 6 cards of their deck, discards all the non-grey Heroes revealed, and puts the rest back in any order.",
+        "leads": "Hood's Gang",
+        "leadsType": "villains",
+        "set": "Revelations"
+    },
+    {
+        "ID": "62",
+        "name": "Hydra High Council",
+        "hp": "16",
+        "masterStrike": "Adapt",
+        "leads": "Hydra Elite",
+        "leadsType": "villains",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "63",
+        "name": "Hydra Super-Adaptoid",
+        "hp": "14",
+        "masterStrike": "Adapt",
+        "leads": "A.I.M. Hydra Offshoot",
+        "leadsType": "villains",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "64",
+        "name": "Belasco, Demon Lord of Limbo",
+        "hp": "9",
+        "masterStrike": "Sunlight: Each player KOs a non-grey Hero from their discard pile. Moonlight: Each player has a Waking Nightmare. KO Heroes discarded this way.",
+        "leads": "Demons of Limbo",
+        "leadsType": "villains",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "65",
+        "name": "Emma Frost, The White Queen",
+        "hp": "8",
+        "masterStrike": "Stack this Strike next to Emma Frost. Then each player has a Waking Nightmare for each Strike stacked here.",
+        "leads": "Hellions",
+        "leadsType": "villains",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "66",
+        "name": "Uru-Enchanted Iron Man",
+        "hp": "7",
+        "masterStrike": "Demolish each player. Then stack this Strike next to Iron Man. Uru-Enchanted Iron Man has an Uru-Enchanted Weapon for each Strike stacked here.",
+        "leads": "The Mighty",
+        "leadsType": "villains",
+        "set": "Villains Fear Itself"
+    },
+    {
+        "ID": "67",
+        "name": "Hybrid",
+        "hp": "6",
+        "masterStrike": "A Villain from the city Symbiote Bonds with Hybrid, If Hybrid was already bonded, then each player gains a Wound instead.",
+        "leads": "Life Foundation",
+        "leadsType": "villains",
+        "set": "Venom"
+    },
+    {
+        "ID": "68",
+        "name": "Poison Thanos",
+        "hp": "12",
+        "masterStrike": "Each player reveals their hand and puts one of their non-grey Heroes next to Thanos in a Poisoned Souls: pile.",
+        "leads": "Poisons",
+        "leadsType": "villains",
+        "set": "Venom"
     }
 ]

@@ -143,5 +143,25 @@
         "ID": "28",
         "name": "Spider-Slayer",
         "set": "Dimensions"
+    },
+    {
+        "ID": "29",
+        "name": "Sidera Maris, Bridge Builders",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "30",
+        "name": "Universal Church of Truth",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "31",
+        "name": "Hydra Base",
+        "set": "Revelations"
+    },
+    {
+        "ID": "32",
+        "name": "Mandarin's Rings",
+        "set": "Revelations"
     }
 ]

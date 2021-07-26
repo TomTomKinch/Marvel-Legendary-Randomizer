@@ -33,12 +33,12 @@
 
 .MasterMindCard{
   font-family: Arial;
-  font-size: 170%;
+  font-size: 180%;
   color:#ffffff;
   text-shadow: 2px 1px #000000;
   background-color: #4c5566;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 50px;
@@ -97,7 +97,9 @@
 }
 
 .HeroName{
-  font-size: 170%;
+  font-size: 180%;
+  padding-left: 5px;
+  padding-right: 20px;
   text-align: left;
   vertical-align: middle;
 }
@@ -109,21 +111,26 @@
 
 .Faction{
   padding: 5px;
-  width: 50px;
+  width: 40px;
   vertical-align: middle;
 }
 
 .Logos {
   padding: 5px;
-  width: 50px;
+  width: 40px;
   vertical-align: middle;
 }
 
 /* Small Window Styling  */
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .Logos {
     padding: 5px;
-    width: 40px;
+    width: 30px;
+    vertical-align: middle;
+  }
+  .Faction{
+    padding: 5px;
+    width: 30px;
     vertical-align: middle;
   }
 }
