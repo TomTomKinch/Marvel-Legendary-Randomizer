@@ -234,12 +234,12 @@ const handleCheck = (event) => {
   const [ alwaysLeads, setAlwaysLeads ] = useState(0);
   useEffect(() => {
     if(masterMind[randMasterMind].leadsType === "villains"){
-      console.log("setAlwaysLeads: " + villains[alwaysLeads].name);
+      //console.log("setAlwaysLeads: " + villains[alwaysLeads].name);
     }
-    else{
-      console.log("setAlwaysLeads: " + henchmen[alwaysLeads].name);
+    else if(masterMind[randMasterMind].leadsType === "henchmen"){
+      //console.log("setAlwaysLeads: " + henchmen[alwaysLeads].name);
     }
-  }, [alwaysLeads]);
+  },);
 
   const generateAlwaysLeads = () => {
     console.log("generateAlwaysLeads");
@@ -266,25 +266,6 @@ const handleCheck = (event) => {
     }
   }
 
-  const displayAlwaysLeads = () => {
-    if(masterMind[randMasterMind].leadsType === "villains"){
-      return(
-        <div>
-          <p>Villain: {villains[alwaysLeads].name}</p> 
-          <p>Set: {villains[alwaysLeads].set}</p>
-        </div>
-      );
-    }
-    else{
-      return(
-        <div>
-          <p>Henchmen: {henchmen[alwaysLeads].name}</p>  
-          <p>Set: {henchmen[alwaysLeads].set}</p>
-        </div>
-      );
-    }
-  }
-
   //---Random Scheme---
   const [ randScheme, setRandScheme ] = useState(0);
   useEffect(() => {
@@ -301,8 +282,6 @@ const handleCheck = (event) => {
         break;
       };
     };
-
-    //setRandScheme(Math.floor(Math.random() * scheme.length));
   };
 
   //---Adjusts Scheme Villain Group based off Random Scheme---
@@ -348,29 +327,6 @@ const handleCheck = (event) => {
     }
   }
 
-  const displaySchemeLeads = () => {
-    if(scheme[randScheme].leadsType !== "None"){
-      if(scheme[randScheme].leadsType === "villains"){
-        return(
-          <div>
-            <h2>Scheme Villain Data: </h2>
-            <p>Villain: {villains[schemeLeads].name}</p> 
-            <p>Set: {villains[schemeLeads].set}</p>
-          </div>
-        );
-      }
-      else{
-        return(
-          <div>
-            <h2>Scheme Villain Data: </h2>
-            <p>Henchmen: {henchmen[schemeLeads].name}</p>  
-            <p>Set: {henchmen[schemeLeads].set}</p>
-          </div>
-        );
-      }
-    }
-  }
-
   //---Creates Villain/Henchmen Counts
   const generateVillainsCount = () => {
     console.log("generateVillainsCount");
@@ -399,7 +355,6 @@ const handleCheck = (event) => {
 
   const randomVillainsFunction = () => {
     for(villainsCount; villainsCount > 0; villainsCount--){
-      //var vil = (Math.floor(Math.random() * (villains.length - 1)) + 1);
       let vil = 0;
       for(let count = 0; count <= bufferNum; count++){
         vil = Math.floor(Math.random() * (villains.length - 1)) + 1;
@@ -423,7 +378,6 @@ const handleCheck = (event) => {
 
   const randomHenchmenFunction = () => {
     for(henchmenCount; henchmenCount > 0; henchmenCount--){
-      //var hen = (Math.floor(Math.random() * (henchmen.length - 1)) + 1);\
       let hen = 0;
       for(let count = 0; count <= bufferNum; count++){
         hen = Math.floor(Math.random() * (henchmen.length - 1)) + 1;
@@ -458,7 +412,6 @@ const handleCheck = (event) => {
 
   const randomHeroFunction = () => {
     for(heroCount; heroCount > 0; heroCount--){
-      //var h = (Math.floor(Math.random() * (heroes.length - 1)) + 1);
       let h = 0;
       for(let count = 0; count <= bufferNum; count++){
         h = Math.floor(Math.random() * (heroes.length - 1)) + 1;
@@ -483,7 +436,6 @@ const handleCheck = (event) => {
   useEffect(() => {
     if(gameGenerated === true){
       console.log("------Dependent Data--------");
-      //Clear Villains Array
       generateAlwaysLeads();
       generateSchemeLeads();
       generateVillainsCount();
@@ -509,14 +461,6 @@ const handleCheck = (event) => {
     }
   };
 
-  //---Refresh MasterMind Button---
-  function refreshMasterMind(){
-    // setVillainsArray([]);
-    // generateRandMasterMind();
-    // generateVillainsCount();
-    // generateHenchmenCount();
-    // randomVillainsFunction();
-  }
 
  // ------------------- Render -------------------------------------------
   return (
@@ -593,12 +537,10 @@ const handleCheck = (event) => {
             <br></br>
             <span className="CardDetails">Always Leads: {masterMind[randMasterMind].leads} </span>
           </div>
-        {/* <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button> */}
         </div>
 
         {/* Scheme Info */}
         <div className="grid-scheme">
-          {/* <h2 className="Title">Scheme: </h2> */}
           <img src={SchemeTitle} alt="Scheme" className="Title"/>
           <div className="SchemeCard">
             <span className="CardName"> {scheme[randScheme].name} </span>
@@ -606,18 +548,10 @@ const handleCheck = (event) => {
             <br></br>
             <span className="CardDetails">Set: {scheme[randScheme].set}</span>
           </div>
-          {/* <button onClick={() => {generateRandScheme();}}>RandomScheme</button> */}
-          </div>
-        {/* Always Leads */}
-        {/* <h2>Always Leads Villain Data: </h2>
-        <div> {displayAlwaysLeads()} </div> */}
-
-        {/* Scheme Leads */}
-        {/* <div> {displaySchemeLeads()} </div> */}
+        </div>
 
         {/* Villain Info */}
         <div className="grid-villain">
-          {/* <h2 className="Title">Villain Groups: </h2> */}
           <img src={VillainsTitle} alt="Villains" className="Title"/>
           <div>
             {villainsArrayFinal.map((num) => {
@@ -635,7 +569,6 @@ const handleCheck = (event) => {
 
         {/* Henchmen Info */}
         <div className="grid-henchmen">
-          {/* <h2 className="Title">Henchmen: </h2> */}
           <img src={HenchmenTitle} alt="Henchmen" className="Title"/>
           <div>
             {henchmenArrayFinal.map((num) => {
@@ -653,7 +586,6 @@ const handleCheck = (event) => {
 
         {/* Heroes Info */}
         <div className="grid-heroes">
-          {/* <h2 className="Title"> Heroes: </h2> */}
           <img src={HeroesTitle} alt="Heroes" className="Title"/>
           <div>
             {heroArrayFinal.map((num) => {
@@ -661,7 +593,6 @@ const handleCheck = (event) => {
                 <div className="HeroCard">
                   <img src={require("./Images/"+heroes[num].faction+".png").default} alt={heroes[num].faction} className="Faction" />
                   <span className="HeroName">{heroes[num].name}</span>
-                  {/* <br></br> */}
                   <img src={require("./Images/"+heroes[num].color1+".png").default} alt={heroes[num].color1} className="Logos" />
                   <img src={require("./Images/"+heroes[num].color2+".png").default} alt={heroes[num].color2} className="Logos" />
                   <img src={require("./Images/"+heroes[num].color3+".png").default} alt={heroes[num].color3} className="Logos" />
