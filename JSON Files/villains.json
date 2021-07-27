@@ -1,0 +1,439 @@
+[
+    {
+        "ID": "0",
+        "name": "",
+        "set": "None"
+    },
+    {
+        "ID": "1",
+        "name": "Brotherhood",
+        "set": "Base Set"
+    },
+    {
+        "ID": "2",
+        "name": "Enemies of Asgard",
+        "set": "Base Set"
+    },
+    {
+        "ID": "3",
+        "name": "HYDRA",
+        "set": "Base Set"
+    },
+    {
+        "ID": "4",
+        "name": "Masters of Evil",
+        "set": "Base Set"
+    },
+    {
+        "ID": "5",
+        "name": "Radiation",
+        "set": "Base Set"
+    },
+    {
+        "ID": "6",
+        "name": "Skrulls",
+        "set": "Base Set"
+    },
+    {
+        "ID": "7",
+        "name": "Spider-Foes",
+        "set": "Base Set"
+    },
+
+
+    {
+        "ID": "9",
+        "name": "CSA Special Marshals",
+        "set": "Civil War"
+    },
+    {
+        "ID": "10",
+        "name": "Great Lake Avengers",
+        "set": "Civil War"
+    },
+    {
+        "ID": "11",
+        "name": "Heroes for Hire",
+        "set": "Civil War"
+    },
+    {
+        "ID": "12",
+        "name": "Registration Enforcers",
+        "set": "Civil War"
+    },
+    {
+        "ID": "13",
+        "name": "SHIELD Elite",
+        "set": "Civil War"
+    },
+    {
+        "ID": "14",
+        "name": "Superhuman Registration Act",
+        "set": "Civil War"
+    },
+    {
+        "ID": "15",
+        "name": "Thunderbolts",
+        "set": "Civil War"
+    },
+    {
+        "ID": "16",
+        "name": "Emissaries of Evil",
+        "set": "Dark City"
+    },
+    {
+        "ID": "17",
+        "name": "Four Horsemen",
+        "set": "Dark City"
+    },
+    {
+        "ID": "18",
+        "name": "Marauders",
+        "set": "Dark City"
+    },
+    {
+        "ID": "19",
+        "name": "Mutant Liberation Front",
+        "set": "Dark City"
+    },
+    {
+        "ID": "20",
+        "name": "Streets of New York",
+        "set": "Dark City"
+    },
+    {
+        "ID": "21",
+        "name": "Underworld",
+        "set": "Dark City"
+    },
+    {
+        "ID": "22",
+        "name": "Domain of Apocalypse",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "23",
+        "name": "Limbo",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "24",
+        "name": "Manhattan (Earth-1610)",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "25",
+        "name": "The Deadlands",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "26",
+        "name": "Sentinel Territories",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "27",
+        "name": "Wasteland",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "28",
+        "name": "Deadpool's Secret Secret Wars",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "28",
+        "name": "Guardians of Knowhere",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "29",
+        "name": "K'un-Lun",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "30",
+        "name": "Monster Metropolis",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "31",
+        "name": "Utopolis",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "32",
+        "name": "X-Men '92",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "33",
+        "name": "Avengers",
+        "set": "Villains"
+    },
+    {
+        "ID": "34",
+        "name": "Defenders",
+        "set": "Villains"
+    },
+    {
+        "ID": "35",
+        "name": "Marvel Knights",
+        "set": "Villains"
+    },
+    {
+        "ID": "36",
+        "name": "Spider Friends",
+        "set": "Villains"
+    },
+    {
+        "ID": "37",
+        "name": "Uncanny Avengers",
+        "set": "Villains"
+    },
+    {
+        "ID": "38",
+        "name": "Uncanny X-Men",
+        "set": "Villains"
+    },
+    {
+        "ID": "39",
+        "name": "X-Men First Class",
+        "set": "Villains"
+    },
+    {
+        "ID": "40",
+        "name": "Aspects of the Void",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "41",
+        "name": "Code Red",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "42",
+        "name": "Illuminati",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "43",
+        "name": "Intelligencia",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "44",
+        "name": "Sakaar Imperial Guard",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "45",
+        "name": "U-Foes",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "46",
+        "name": "Warbound",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "47",
+        "name": "Dark Descendants",
+        "set": "X-Men"
+    },
+    {
+        "ID": "48",
+        "name": "Hellfire Club",
+        "set": "X-Men"
+    },
+    {
+        "ID": "49",
+        "name": "Mojoverse",
+        "set": "X-Men"
+    },
+    {
+        "ID": "50",
+        "name": "Murderworld",
+        "set": "X-Men"
+    },
+    {
+        "ID": "51",
+        "name": "Shadow-X",
+        "set": "X-Men"
+    },
+    {
+        "ID": "52",
+        "name": "Shi'ar Imperial Guard",
+        "set": "X-Men"
+    },
+    {
+        "ID": "53",
+        "name": "Sisterhood of Mutants",
+        "set": "X-Men"
+    },
+    {
+        "ID": "54",
+        "name": "Ultron's Legacy",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "55",
+        "name": "Queen's Vengeance",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "56",
+        "name": "Zola's Creations",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "57",
+        "name": "Masters of Evil (WWII)",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "58",
+        "name": "Monsters Unleashed",
+        "set": "Champions"
+    },
+    {
+        "ID": "59",
+        "name": "Wrecking Crew",
+        "set": "Champions"
+    },
+    {
+        "ID": "60",
+        "name": "Deadpool's 'Friends'",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "61",
+        "name": "Evil Deadpool Corpse",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "62",
+        "name": "Heralds of Galactus",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "63",
+        "name": "Subterranea",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "64",
+        "name": "Kree Starforce",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "65",
+        "name": "Infinity Gems",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "66",
+        "name": "Dark Council",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "67",
+        "name": "Omens of Ragnarok",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "68",
+        "name": "Elders of the Universe",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "69",
+        "name": "Celestials",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "70",
+        "name": "From Beyond",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "71",
+        "name": "Black Order of Thanos",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "72",
+        "name": "Goblin's Freak Show",
+        "set": "Noir"
+    },
+    {
+        "ID": "73",
+        "name": "X-Men Noir",
+        "set": "Noir"
+    },
+    {
+        "ID": "74",
+        "name": "Maximum Carnage",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "75",
+        "name": "Sinister Six",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "76",
+        "name": "Army of Evil",
+        "set": "Revelations"
+    },
+    {
+        "ID": "77",
+        "name": "Dark Avengers",
+        "set": "Revelations"
+    },
+    {
+        "ID": "78",
+        "name": "Hood's Gang",
+        "set": "Revelations"
+    },
+    {
+        "ID": "79",
+        "name": "Lethal Legion",
+        "set": "Revelations"
+    },
+    {
+        "ID": "80",
+        "name": "Hydra Elite",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "81",
+        "name": "A.I.M. Hydra Offshoot",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "82",
+        "name": "Hellions",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "83",
+        "name": "Demons of Limbo",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "84",
+        "name": "The Mighty",
+        "set": "Villains Fear Itself"
+    },
+    {
+        "ID": "85",
+        "name": "Life Foundation",
+        "set": "Venom"
+    },
+    {
+        "ID": "86",
+        "name": "Poisons",
+        "set": "Venom"
+    }
+]

@@ -1,0 +1,880 @@
+[
+    {
+        "ID": "0",
+        "name": "",
+        "leads": "",
+        "leadsType": "",
+        "set": ""
+    },
+    {
+        "ID": "1",
+        "name": "Midtown Bank Robbery",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "2",
+        "name": "Negative Zone Prison Breakout",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "3",
+        "name": "Portals to the Dark Dimension",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "4",
+        "name": "Replace Earths Leaders with Killbots",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "5",
+        "name": "Secret Invastion of the Skrull Shapeshifters",
+        "leads": "Skrulls",
+        "leadsType": "villains",
+        "set": "Base Set"
+    },
+    {
+        "ID": "6",
+        "name": "Super Hero Civil War",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "7",
+        "name": "The Legacy Virus",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+    {
+        "ID": "8",
+        "name": "Unleash the Power of the Cosmic Cube",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Base Set"
+    },
+
+    {
+        "ID": "9",
+        "name": "Avengers vs. X-Men",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },    
+    {
+        "ID": "10",
+        "name": "Dark Reign of H.A.M.M.E.R. Officers",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+
+
+    {
+        "ID": "11",
+        "name": "Epic Super Hero Civil War",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "12",
+        "name": "Imprison Unregistered SuperHumans",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "13",
+        "name": "Nitro the Supervillain Threatens Crowds",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "14",
+        "name": "Predict Future Crime",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "15",
+        "name": "Reveal Heroes Secret Identities",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "16",
+        "name": "United States Split by Civil War",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Civil War"
+    },
+    {
+        "ID": "17",
+        "name": "Capture Baby Hope",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "18",
+        "name": "Detonate the Helicarrier",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "19",
+        "name": "Massive Earthquake Generator",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "20",
+        "name": "Organized Crime Wave",
+        "leads": "Maggia Goons",
+        "leadsType": "henchmen",
+        "set": "Dark City"
+    },
+    {
+        "ID": "21",
+        "name": "Save Humanity",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "22",
+        "name": "Transform Citizens Into Demons",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "23",
+        "name": "Steal the Weaponized Plutonium",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "24",
+        "name": "X-Cutioner's Song",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Dark City"
+    },
+    {
+        "ID": "25",
+        "name": "Build an Army of Annihilation",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "26",
+        "name": "Corrupt the Next Generation of Heroes",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "27",
+        "name": "Crush Them With My Bare Hands",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "28",
+        "name": "Dark Alliance",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "29",
+        "name": "Fragmented Realities",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "30",
+        "name": "",
+        "leads": "",
+        "leadsType": "",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "31",
+        "name": "Master of Tyrants",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "32",
+        "name": "Pan-Dimensional Plague",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "33",
+        "name": "Smash Two Dimensions Together",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "34",
+        "name": "Deadlands Hordes Charge the Wall",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "35",
+        "name": "Enthrone the Barons of Battleworld",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "36",
+        "name": "The Fountain of Eternal Life",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "37",
+        "name": "The God-Emperor of Battleworld",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "38",
+        "name": "The Mark of Khonshu",
+        "leads": "Khonshu Guardians",
+        "leadsType": "henchmen",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "39",
+        "name": "Master the Mysteries of Kung-Fu",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "40",
+        "name": "Secret Wars",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "41",
+        "name": "Sinister Ambitions",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "42",
+        "name": "Build an Underground MegaVault Prison",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "43",
+        "name": "Cage Villains in Power-Suppressing Cells",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "44",
+        "name": "Crown Thor King of Asgard",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "45",
+        "name": "Crush HYDRA",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "46",
+        "name": "Graduation at Xavier's X-Academy",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "47",
+        "name": "Infiltrate the Lair with Spies",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "48",
+        "name": "Mass Produce War Machine Armor",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "49",
+        "name": "Resurrect Heroes with Norn Stones",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains"
+    },
+    {
+        "ID": "50",
+        "name": "Break the Planet Asunder",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "51",
+        "name": "Cytoplasm Spike Invasion",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "52",
+        "name": "Fall of the Hulks",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "53",
+        "name": "Gladiator Pits of Sakaar",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "54",
+        "name": "Mutating Gamma Rays",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "55",
+        "name": "Shoot Hulk into Space",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "56",
+        "name": "Subjugate with Obedience Disks",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "57",
+        "name": "World War Hulk",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "58",
+        "name": "Alien Brood Encounters",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "59",
+        "name": "Anti-Mutant Hatred",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "60",
+        "name": "The Dark Phoenix Saga",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "61",
+        "name": "Horror of Horrors",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "62",
+        "name": "Mutant-Hunting Super Sentinels",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "63",
+        "name": "Nuclear Armageddon",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "64",
+        "name": "Televised Deathtraps of Mojoworld",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "65",
+        "name": "X-Men Danger Room Goes Berserk",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "X-Men"
+    },
+    {
+        "ID": "66",
+        "name": "Age of Ultron",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "67",
+        "name": "Pull Earth into Medieval Times",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "68",
+        "name": "Transform Commuters into Giant Ants",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "69",
+        "name": "Trap Heroes in the Microverse",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Ant-Man"
+    },
+    {
+        "ID": "70",
+        "name": "Brainwash the Military",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "71",
+        "name": "Change the Outcome of WWII",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "72",
+        "name": "Go Back in Time to Slay Heroes' Ancestors",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "73",
+        "name": "The Unbreakable Enigma Code",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Captain America 75th Anniversary"
+    },
+    {
+        "ID": "74",
+        "name": "Clash of the Monsters Unleashed",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Champions"
+    },
+    {
+        "ID": "75",
+        "name": "Divide and Conquer",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Champions"
+    },
+    {
+        "ID": "76",
+        "name": "Hypnotize Every Human",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Champions"
+    },
+    {
+        "ID": "77",
+        "name": "Steal All Oxygen on Earth",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Champions"
+    },
+    {
+        "ID": "78",
+        "name": "Deadpool Kills the Marvel Universe",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "79",
+        "name": "Deadpool Wants a Chimichanga",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "80",
+        "name": "Deadpool Writes a Scheme",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "81",
+        "name": "Everybody Hates Deadpool",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Deadpool"
+    },
+    {
+        "ID": "82",
+        "name": "Bathe the Earth in Cosmic Rays",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "83",
+        "name": "Flood the Planet with Melted Glaciers",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "84",
+        "name": "Invincible Force Field",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "85",
+        "name": "Pull Reality Into the Negative Zone",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Fantastic Four"
+    },
+    {
+        "ID": "86",
+        "name": "Forge the Infinity Gauntlet",
+        "leads": "Infinity Gems",
+        "leadsType": "villains",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "87",
+        "name": "Intergalactic Kree Nega-Bomb",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "88",
+        "name": "The Kree-Skrull War",
+        "leads": "Kree Starforce",
+        "leadsType": "villains",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "89",
+        "name": "Unite the Shards",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Guardians of the Galaxy"
+    },
+    {
+        "ID": "90",
+        "name": "Asgardian Test of Worth",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "91",
+        "name": "The Dark World of Svartalfheim",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "92",
+        "name": "Ragnarok, Twilight of the Gods",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "93",
+        "name": "War of the Frost Giants",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Heroes of Asgard"
+    },
+    {
+        "ID": "94",
+        "name": "The Contest of Champions",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "95",
+        "name": "Turn the Soul of Adam Warlock",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "96",
+        "name": "Destroy the Nova Corps",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "97",
+        "name": "Annihilation: Conquest",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "98",
+        "name": "Find the Split Personality Killer",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Noir"
+    },
+    {
+        "ID": "99",
+        "name": "Silence the Witnesses",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Noir"
+    },
+    {
+        "ID": "100",
+        "name": "Five Families of Crime",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Noir"
+    },
+    {
+        "ID": "101",
+        "name": "Hidden Heart of Darkness",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Noir"
+    },
+    {
+        "ID": "102",
+        "name": "The Clone Saga",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "103",
+        "name": "Invade the Daily Bugle News HQ",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "104",
+        "name": "Splice Humans with Spider DNA",
+        "leads": "Sinister Six",
+        "leadsType": "villains",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "105",
+        "name": "Weave a Web of Lies",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Paint the Town Red"
+    },
+    {
+        "ID": "106",
+        "name": "Earthquake Drains the Ocean",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Revelations"
+    },
+    {
+        "ID": "107",
+        "name": "House of M",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Revelations"
+    },
+    {
+        "ID": "108",
+        "name": "Secret HYDRA Corruption",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Revelations"
+    },
+    {
+        "ID": "109",
+        "name": "The Korvac Saga",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Revelations"
+    },
+    {
+        "ID": "110",
+        "name": "S.H.I.E.L.D. vs. HYDRA War",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "111",
+        "name": "Hail Hydra",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "112",
+        "name": "Hydra Helicarriers Hunt Heroes",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "113",
+        "name": "Secret Empire of Betrayal",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "SHIELD"
+    },
+    {
+        "ID": "114",
+        "name": "The Demon Bear Saga",
+        "leads": "Demons of Limbo",
+        "leadsType": "villains",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "115",
+        "name": "Trapped in the Insane Asylum",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "116",
+        "name": "Crash the Moon into the Sun",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "117",
+        "name": "Superhuman Baseball Game",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "The New Mutants"
+    },
+    {
+        "ID": "118",
+        "name": "Fear Itself",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains Fear Itself"
+    },
+    {
+        "ID": "119",
+        "name": "Last Stand at Avengers Tower",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains Fear Itself"
+    },
+    {
+        "ID": "120",
+        "name": "The Traitor",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Villains Fear Itself"
+    },
+    {
+        "ID": "121",
+        "name": "Invasion of the Venom Symbiotes",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Venom"
+    },
+    {
+        "ID": "122",
+        "name": "Maximum Carnage",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Venom"
+    },
+    {
+        "ID": "123",
+        "name": "Paralyzing Venom",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Venom"
+    },
+    {
+        "ID": "124",
+        "name": "Symbiotic Absorption",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Venom"
+    }
+]

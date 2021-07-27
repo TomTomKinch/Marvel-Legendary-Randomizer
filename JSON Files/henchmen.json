@@ -1,0 +1,167 @@
+[
+    {
+        "ID": "0",
+        "name": "",
+        "set": "None"
+    },
+    {
+        "ID": "1",
+        "name": "Doombot Legion",
+        "set": "Base Set"
+    },
+    {
+        "ID": "2",
+        "name": "Hand Ninjas",
+        "set": "Base Set"
+    },
+    {
+        "ID": "3",
+        "name": "Savage Land Mutates",
+        "set": "Base Set"
+    },
+    {
+        "ID": "4",
+        "name": "Sentinel",
+        "set": "Base Set"
+    },
+    {
+        "ID": "5",
+        "name": "Cape-Killers",
+        "set": "Civil War"
+    },
+    {
+        "ID": "6",
+        "name": "Mandroid",
+        "set": "Civil War"
+    },
+    {
+        "ID": "7",
+        "name": "Maggia Goons",
+        "set": "Dark City"
+    },
+    {
+        "ID": "8",
+        "name": "Phalanx",
+        "set": "Dark City"
+    },
+    {
+        "ID": "9",
+        "name": "Ghost Racers",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "10",
+        "name": "M.O.D.O.K.s",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "11",
+        "name": "Thor Corps",
+        "set": "Secret Wars Vol. 1"
+    },
+    {
+        "ID": "12",
+        "name": "Khonshu Guardians",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "13",
+        "name": "Magma Men",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "14",
+        "name": "Spider-Infected",
+        "set": "Secret Wars Vol. 2"
+    },
+    {
+        "ID": "15",
+        "name": "Asgardian Warriors",
+        "set": "Villains"
+    },
+    {
+        "ID": "16",
+        "name": "Cops",
+        "set": "Villains"
+    },
+    {
+        "ID": "17",
+        "name": "Multiple Man",
+        "set": "Villains"
+    },
+    {
+        "ID": "18",
+        "name": "S.H.I.E.L.D. Assault Squad",
+        "set": "Villains"
+    },
+    {
+        "ID": "19",
+        "name": "Cytoplasm Spikes",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "20",
+        "name": "Death's Heads",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "21",
+        "name": "Sakaaran Hivelings",
+        "set": "World War Hulk"
+    },
+    {
+        "ID": "22",
+        "name": "The Brood",
+        "set": "X-Men"
+    },
+    {
+        "ID": "23",
+        "name": "Hellfire Cult",
+        "set": "X-Men"
+    },
+    {
+        "ID": "24",
+        "name": "Sapien League",
+        "set": "X-Men"
+    },
+    {
+        "ID": "25",
+        "name": "Shi'ar Death Commandos",
+        "set": "X-Men"
+    },
+    {
+        "ID": "26",
+        "name": "Shi'ar Patrol Craft",
+        "set": "X-Men"
+    },
+    {
+        "ID": "27",
+        "name": "Circus of Crime",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "28",
+        "name": "Spider-Slayer",
+        "set": "Dimensions"
+    },
+    {
+        "ID": "29",
+        "name": "Sidera Maris, Bridge Builders",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "30",
+        "name": "Universal Church of Truth",
+        "set": "Into the Cosmos"
+    },
+    {
+        "ID": "31",
+        "name": "Hydra Base",
+        "set": "Revelations"
+    },
+    {
+        "ID": "32",
+        "name": "Mandarin's Rings",
+        "set": "Revelations"
+    }
+]
