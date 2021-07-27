@@ -24,7 +24,7 @@ Randomizer for Marvel Legendary Deck building Game
     - _ Villains
     - _ Henchmen
     - _ Heroes
-- _ Finish Styling
+- X Finish Styling (for now)
 - _ Transition from JSON to DB
 - X Add Expanison selection
     - X Randomize Values With Expansion Selection

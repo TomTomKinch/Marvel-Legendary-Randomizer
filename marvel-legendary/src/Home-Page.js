@@ -3,7 +3,15 @@ import { useForm } from "react-hook-form";
 import { Checkbox, FormControlLabel} from '@material-ui/core/';
 import './Home-Page.css';
 import './Grid.css';
-import legendary from './Images/LegendaryLogo.png';
+import Title from './Images/Title.PNG';
+import ExpansionsTitle from './Images/Expansions.PNG';
+import MastermindTitle from './Images/MastermindTitle.PNG';
+import SchemeTitle from './Images/SchemeTitle.PNG';
+import VillainsTitle from './Images/VillainsTitle.PNG';
+import HenchmenTitle from './Images/HenchmenTitle.PNG';
+import HeroesTitle from './Images/HeroesTitle.PNG';
+import PlayerSelect from './Images/PlayerSelect.PNG';
+import PlayerCount from './Images/PlayerCount.PNG';
 import attack from './Images/attack.png'
 
 function App() {
@@ -514,27 +522,33 @@ const handleCheck = (event) => {
   return (
     <div className="Home-Page">
       <header className="Home-Page-Header">
-        <img src={legendary} alt="Legendary" className="Legendary-Logo"/>
-        <p> Randomizer </p>
+        <img src={Title} alt="Legendary Randomizer" className="Legendary-Logo"/>
       </header>
 
       {/* Player Select Dropdown */}
-      <form onSubmit={handleSubmit(readPlayerCount)}> 
-        <label>Select Number of Players: 
-          <select {...register("0")}>
-            {/* <option value="1"> 1 </option> */}
-            <option value="2"> 2 </option>
-            <option value="3"> 3 </option>
-            <option value="4"> 4 </option>
-            <option value="5"> 5 </option>
-          </select>
-        </label>
-        <input type="submit"/>
-      </form>
-      <p>Number of Players: {playerCount}</p>
+      <div className="SelectPlayerCard">
+        <form onSubmit={handleSubmit(readPlayerCount)}>
+          <img src={PlayerSelect} alt="Select Number of Players" className="PlayerTitle"/>
+          <label>
+            <select {...register("0")} className="Selector">
+              {/* <option value="1"> 1 </option> */}
+              <option value="2"> 2 </option>
+              <option value="3"> 3 </option>
+              <option value="4"> 4 </option>
+              <option value="5"> 5 </option>
+            </select>
+          </label>
+          <input type="submit" className="SubmitButton"/>
+        </form>
+      </div>
+      <div className="PlayerCard">
+        <img src={PlayerCount} alt="Number of Players" className="PlayerTitle"/>
+        <p className="NumberOfPlayers">{playerCount}</p>
+      </div>
 
       <div>
-          <h2>Expansion Select</h2>
+          <img src={ExpansionsTitle} alt="Expansions:" className="ExpansionsTitle"/>
+          <br></br>
           <FormControlLabel control={ <Checkbox checked={checked.Base_Set} onChange={handleCheck} name="Base_Set" value="Base Set"/> } label="Base Set"/>
           <FormControlLabel control={ <Checkbox checked={checked.Civil_War} onChange={handleCheck} name="Civil_War" value="Civil War"/> } label="Civil War" />
           <FormControlLabel control={ <Checkbox checked={checked.Dark_City} onChange={handleCheck} name="Dark_City" value="Dark City"/> } label="Dark City"/>
@@ -560,36 +574,37 @@ const handleCheck = (event) => {
           <FormControlLabel control={ <Checkbox checked={checked.Villains_Fear_Itself} onChange={handleCheck} name="Villains_Fear_Itself" value="Villains Fear Itself" />}label="Villains Fear Itself"/>
           <FormControlLabel control={ <Checkbox checked={checked.Venom} onChange={handleCheck} name="Venom" value="Venom" />}label="Venom"/>
       </div>
+      <br></br>
+      <button onClick={createGame} className="CreateGameButton"> Create Game </button>
 
-      <br></br><button onClick={createGame}> Create Game </button>
-
-      <p>-----------------------------------------------------</p>
       <div className="grid-container">
         {/* MasterMind Info */}
         <div className="grid-mastermind">
-          <h2 className="Title">Master Mind: </h2>
+          <img src={MastermindTitle} alt="Mastermind" className="Title"/>
           <div className="MasterMindCard">
-            <span>{masterMind[randMasterMind].name} </span>
+            <span className="CardName">{masterMind[randMasterMind].name} </span>
             <br></br>
             <img src={attack} alt="HP: " className="Logos" />
-            <span>: {masterMind[randMasterMind].hp}</span>
+            <span className="CardName">: {masterMind[randMasterMind].hp}</span>
             <br></br>
-            <p>MasterStrike: {masterMind[randMasterMind].masterStrike} </p>
+            <p className="CardDetails">MasterStrike -- {masterMind[randMasterMind].masterStrike} </p>
             <br></br>
-            <span>Set: {masterMind[randMasterMind].set} </span>
+            <span className="CardDetails">Set: {masterMind[randMasterMind].set} </span>
             <br></br>
-            <span>Always Leads: {masterMind[randMasterMind].leads} </span>
+            <span className="CardDetails">Always Leads: {masterMind[randMasterMind].leads} </span>
           </div>
         {/* <button onClick={() => {refreshMasterMind();}}> RandomMasterMind</button> */}
         </div>
 
         {/* Scheme Info */}
         <div className="grid-scheme">
-          <h2 className="Title">Scheme: </h2>
+          {/* <h2 className="Title">Scheme: </h2> */}
+          <img src={SchemeTitle} alt="Scheme" className="Title"/>
           <div className="SchemeCard">
-            <span>Scheme: {scheme[randScheme].name} </span>
+            <span className="CardName"> {scheme[randScheme].name} </span>
             <br></br>
-            <span>Set: {scheme[randScheme].set}</span>
+            <br></br>
+            <span className="CardDetails">Set: {scheme[randScheme].set}</span>
           </div>
           {/* <button onClick={() => {generateRandScheme();}}>RandomScheme</button> */}
           </div>
@@ -602,14 +617,16 @@ const handleCheck = (event) => {
 
         {/* Villain Info */}
         <div className="grid-villain">
-          <h2 className="Title">Villain Groups: </h2>
+          {/* <h2 className="Title">Villain Groups: </h2> */}
+          <img src={VillainsTitle} alt="Villains" className="Title"/>
           <div>
             {villainsArrayFinal.map((num) => {
               return(
                 <div className="VillainCard">
-                  <span>{villains[num].name}</span>
+                  <span className="CardName">{villains[num].name}</span>
                   <br></br> 
-                  <span>Set: {villains[num].set}</span>
+                  <br></br>
+                  <span className="CardDetails">Set: {villains[num].set}</span>
                 </div>
               )
             })}
@@ -618,14 +635,16 @@ const handleCheck = (event) => {
 
         {/* Henchmen Info */}
         <div className="grid-henchmen">
-          <h2 className="Title">Henchmen: </h2>
+          {/* <h2 className="Title">Henchmen: </h2> */}
+          <img src={HenchmenTitle} alt="Henchmen" className="Title"/>
           <div>
             {henchmenArrayFinal.map((num) => {
               return(
                 <div className="VillainCard">
-                  <span>{henchmen[num].name}</span> 
+                  <span className="CardName">{henchmen[num].name}</span> 
                   <br></br> 
-                  <span>Set: {henchmen[num].set}</span>
+                  <br></br>
+                  <span className="CardDetails">Set: {henchmen[num].set}</span>
                 </div>
               )
             })}
@@ -634,7 +653,8 @@ const handleCheck = (event) => {
 
         {/* Heroes Info */}
         <div className="grid-heroes">
-          <h2 className="Title"> Heroes: </h2>
+          {/* <h2 className="Title"> Heroes: </h2> */}
+          <img src={HeroesTitle} alt="Heroes" className="Title"/>
           <div>
             {heroArrayFinal.map((num) => {
               return(
@@ -655,6 +675,8 @@ const handleCheck = (event) => {
           </div>
         </div>
       </div>
+      <p>Thank you to the lovely people at BoardGameGeek for having amazing images of the logos. Linking thread: https://boardgamegeek.com/thread/1442493/team-icon-image-sharing and Legedit</p>
+      <p>I did not create / own any of the rights to the images. </p>
     </div>
   );
 }
