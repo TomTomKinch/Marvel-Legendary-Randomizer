@@ -165,6 +165,7 @@ const [ checked, setChecked ] = useState({
   Into_The_Cosmos: false,
   Noir: false,
   Paint_The_Town_Red: false,
+  Realm_Of_Kings: false,
   Revelations: false,
   SHIELD: false,
   The_New_Mutants: false,
@@ -400,7 +401,10 @@ const handleCheck = (event) => {
   //---Creates Hero Count
   const generateHeroCount = () => {
     console.log("generateHeroCount");
-    if(playerCount === "5"){
+    if(playerCount === "1"){
+      heroCount = 3;
+    }
+    else if(playerCount === "5"){
       heroCount = 6;
     }
     else{
@@ -475,7 +479,7 @@ const handleCheck = (event) => {
           <img src={PlayerSelect} alt="Select Number of Players" className="PlayerTitle"/>
           <label>
             <select {...register("0")} className="Selector">
-              {/* <option value="1"> 1 </option> */}
+              <option value="1"> 1 </option>
               <option value="2"> 2 </option>
               <option value="3"> 3 </option>
               <option value="4"> 4 </option>
@@ -512,6 +516,7 @@ const handleCheck = (event) => {
           <FormControlLabel control={ <Checkbox checked={checked.Into_The_Cosmos} onChange={handleCheck} name="Into_The_Cosmos" value="Into the Cosmos" /> } label="Into the Cosmos" />
           <FormControlLabel control={ <Checkbox checked={checked.Noir} onChange={handleCheck} name="Noir"/> } label="Noir" value="Noir" />
           <FormControlLabel control={ <Checkbox checked={checked.Paint_The_Town_Red} onChange={handleCheck} name="Paint_The_Town_Red" value="Paint the Town Red" /> } label="Paint the Town Red"/>
+          <FormControlLabel control={ <Checkbox checked={checked.Realm_Of_Kings} onChange={handleCheck} name="Realm_Of_Kings" value="Realm of Kings" />}label="Realm of Kings"/>
           <FormControlLabel control={ <Checkbox checked={checked.Revelations} onChange={handleCheck} name="Revelations" value="Revelations" /> } label="Revelations"/>
           <FormControlLabel control={ <Checkbox checked={checked.SHIELD} onChange={handleCheck} name="SHIELD" value="SHIELD" /> } label="SHIELD"/>
           <FormControlLabel control={ <Checkbox checked={checked.The_New_Mutants} onChange={handleCheck} name="The_New_Mutants" value="The New Mutants" /> } label="The New Mutants"/>
@@ -531,7 +536,8 @@ const handleCheck = (event) => {
             <img src={attack} alt="HP: " className="Logos" />
             <span className="CardName">: {masterMind[randMasterMind].hp}</span>
             <br></br>
-            <p className="CardDetails">MasterStrike -- {masterMind[randMasterMind].masterStrike} </p>
+            <span className="CardDetails">MasterStrike -- {masterMind[randMasterMind].masterStrike} </span>
+            <br></br>
             <br></br>
             <span className="CardDetails">Set: {masterMind[randMasterMind].set} </span>
             <br></br>

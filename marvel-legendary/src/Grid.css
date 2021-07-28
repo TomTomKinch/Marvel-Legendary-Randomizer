@@ -29,6 +29,9 @@
 
 
 @media (max-width: 1000px) {
+    .grid-container {
+        display: inline;
+    }
     .grid-mastermind {
         grid-column: 1;
         grid-row: 2;

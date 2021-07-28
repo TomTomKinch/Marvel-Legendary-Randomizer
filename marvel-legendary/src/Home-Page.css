@@ -94,6 +94,7 @@
   border: 4px #d68102;
   color: #ffffff;
   padding: 10px 20px;
+  margin-bottom: 10px;
   text-align: center;
   font-size: 15px;
   font-family: Arial;
@@ -164,8 +165,10 @@
   padding-top: 10px;
   border-radius: 50px;
   margin: 10px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100px;
+  max-width: 400px;
   overflow-wrap: normal;
 }
 
@@ -180,8 +183,10 @@
   padding-top: 10px;
   border-radius: 50px;
   margin: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100px;
+  max-width: 400px;
   overflow-wrap: normal;
 }
 
@@ -190,15 +195,17 @@
   color:#ffffff;
   text-shadow: 2px 1px #000000;
   background-color: #5d606d;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 50px;
   margin: 10px;
-  margin-left: 220px;
-  margin-right: 220px;
+  margin-left: auto;
+  margin-right: auto;
   overflow-wrap: normal;
+  min-width: 100px;
+  max-width: 300px;
 }
 
 .HeroCard {
@@ -213,6 +220,9 @@
   border-radius: 50px;
   margin: 10px;
   overflow-wrap: normal;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
 }
 
 .HeroName{
@@ -251,5 +261,106 @@
     padding: 5px;
     width: 30px;
     vertical-align: middle;
+  }
+}
+
+@media (max-width: 700px) {
+  .Home-Page {
+    text-align: center;
+    font-family: Arial;
+    font-size: 60%;
+  }
+  .Legendary-Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 332px;
+    height: 119px;
+  }
+  .SelectPlayerCard {
+    background-color: #2d3a55;
+    border-radius: 50px;
+    margin: 10px;
+    display: flex;
+    width: 400px;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .ExpansionsTitle {
+    text-align: center;
+    background-color: #2d3a55;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 20px;
+    margin-top: 20px;
+  }
+
+  .Title {
+    text-align: center;
+    background-color: #2d3a55;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 20px;
+    margin-top: 20px;
+  }
+
+  .MasterMindCard{
+    font-family: Arial;
+    color:#ffffff;
+    text-shadow: 2px 1px #000000;
+    background-color: #5d606d;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: normal;
+    min-width: 200px;
+    max-width: 400px;
+  }
+
+  .VillainCard{
+    font-family: Arial;
+    color:#ffffff;
+    text-shadow: 2px 1px #000000;
+    background-color: #5d606d;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow-wrap: normal;
+    min-width: 100px;
+  }
+
+  .HeroCard {
+    font-family: Arial;
+    color:#ffffff;
+    text-shadow: 2px 1px #000000;
+    background-color: #5d606d;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    overflow-wrap: normal;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 450px;
+    max-width: 500px;
   }
 }

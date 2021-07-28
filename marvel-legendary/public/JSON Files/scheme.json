@@ -876,5 +876,33 @@
         "leads": "None",
         "leadsType": "None",
         "set": "Venom"
+    },
+    {
+        "ID": "125",
+        "name": "Ruin the Perfect Wedding",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Realm of Kings"
+    },
+    {
+        "ID": "126",
+        "name": "War of Kings",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Realm of Kings"
+    },
+    {
+        "ID": "127",
+        "name": "Tornado of Terrigen Mists",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Realm of Kings"
+    },
+    {
+        "ID": "128",
+        "name": "Devolve with Xerogen Crystals",
+        "leads": "None",
+        "leadsType": "None",
+        "set": "Realm of Kings"
     }
 ]
