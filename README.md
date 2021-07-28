@@ -2,7 +2,7 @@
 Randomizer for Marvel Legendary Deck building Game
 
 # Todo List
-- _ Basic Layout (CSS styling)
+- X Basic Layout (CSS styling)
 - X Card Values to JSON file
 - X Load Values from JSON (App functionality) 
     - X Scheme
@@ -10,7 +10,7 @@ Randomizer for Marvel Legendary Deck building Game
     - X Villain
     - X Henchmen
     - X Heroes
-- _ Randomize Values
+- X Randomize Values
     - X Villains
     - X Always Leads Villain Group
     - X Scheme
@@ -33,15 +33,19 @@ Randomizer for Marvel Legendary Deck building Game
         - X Villain
         - X Henchmen
         - X Heroes
-        - Note: Infinite Loop when not enough values
-            -ex. not enough villains to populate based off expansion -> loops forever looking for values
 
 ---------
 Future TODO:
--(Civil War) Avengers vs. X-Men scheme -> need to adjust heroes
--(Civil War) Predict Future Crime -> Add an extra Villain Group
--(Dark City) Steal the Weaponized Plutonium -> Add an extra Villain Group.
--(SW VOl. 2) Deadlands Hordes Charge the Wall -> Add an extra Villain Group.
+- expand to Fit general use cases:
+    - many more that add extra henchmen/ villain groups
+    - some add extra heroes
+
+----
+Some Examples:
+- (Civil War) Avengers vs. X-Men scheme -> need to adjust heroes
+- (Civil War) Predict Future Crime -> Add an extra Villain Group
+- (Dark City) Steal the Weaponized Plutonium -> Add an extra Villain Group.
+- (SW VOl. 2) Deadlands Hordes Charge the Wall -> Add an extra Villain Group.
 
 Key: 
 - X -> done
