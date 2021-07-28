@@ -2118,5 +2118,55 @@
         "color3": "Yellow",
         "color4": "Green",
         "set": "Venom"
+    },
+    {
+        "ID": "207",
+        "name": "Black Bolt",
+        "faction": "Inhumans",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Blue",
+        "set": "Realm of Kings"
+    },
+    {
+        "ID": "208",
+        "name": "Crystal",
+        "faction": "Inhumans",
+        "color1": "Blue",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "Realm of Kings"
+    },
+    {
+        "ID": "209",
+        "name": "Gorgon",
+        "faction": "Inhumans",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Realm of Kings"
+    },
+    {
+        "ID": "210",
+        "name": "Karnak",
+        "faction": "Inhumans",
+        "color1": "Red",
+        "color2": "Yellow",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Realm of Kings"
+    },
+    {
+        "ID": "211",
+        "name": "Medusa",
+        "faction": "Inhumans",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Realm of Kings"
     }
 ]

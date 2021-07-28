@@ -637,5 +637,23 @@
         "leads": "Poisons",
         "leadsType": "villains",
         "set": "Venom"
+    },
+    {
+        "ID": "69",
+        "name": "Maximus the Mad",
+        "hp": "8",
+        "masterStrike": "Reveal one of Maximus' remaining Mastermind Tactics at random. Use its Fight effect, then shuffle it back into those Tactics.",
+        "leads": "Inhuman Rebellion",
+        "leadsType": "villains",
+        "set": "Realm of Kings"
+    },
+    {
+        "ID": "70",
+        "name": "Emperor Vulcan of the Shi'ar",
+        "hp": "10",
+        "masterStrike": "Each player that doesn't have the Throne's Favor gains a Wound. Then Vulcan gains the Throne's",
+        "leads": "Shi'ar Imperial Elite",
+        "leadsType": "villains",
+        "set": "Realm of Kings"
     }
 ]

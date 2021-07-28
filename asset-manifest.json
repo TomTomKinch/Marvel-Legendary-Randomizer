@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Marvel-Legendary-Randomizer/static/css/main.c32afdb1.chunk.css",
-    "main.js": "/Marvel-Legendary-Randomizer/static/js/main.df00a69d.chunk.js",
-    "main.js.map": "/Marvel-Legendary-Randomizer/static/js/main.df00a69d.chunk.js.map",
+    "main.css": "/Marvel-Legendary-Randomizer/static/css/main.d915994f.chunk.css",
+    "main.js": "/Marvel-Legendary-Randomizer/static/js/main.6501a35d.chunk.js",
+    "main.js.map": "/Marvel-Legendary-Randomizer/static/js/main.6501a35d.chunk.js.map",
     "runtime-main.js": "/Marvel-Legendary-Randomizer/static/js/runtime-main.3f0d31b0.js",
     "runtime-main.js.map": "/Marvel-Legendary-Randomizer/static/js/runtime-main.3f0d31b0.js.map",
-    "static/js/2.1c02b18a.chunk.js": "/Marvel-Legendary-Randomizer/static/js/2.1c02b18a.chunk.js",
-    "static/js/2.1c02b18a.chunk.js.map": "/Marvel-Legendary-Randomizer/static/js/2.1c02b18a.chunk.js.map",
+    "static/js/2.60cd666c.chunk.js": "/Marvel-Legendary-Randomizer/static/js/2.60cd666c.chunk.js",
+    "static/js/2.60cd666c.chunk.js.map": "/Marvel-Legendary-Randomizer/static/js/2.60cd666c.chunk.js.map",
     "index.html": "/Marvel-Legendary-Randomizer/index.html",
-    "static/css/main.c32afdb1.chunk.css.map": "/Marvel-Legendary-Randomizer/static/css/main.c32afdb1.chunk.css.map",
-    "static/js/2.1c02b18a.chunk.js.LICENSE.txt": "/Marvel-Legendary-Randomizer/static/js/2.1c02b18a.chunk.js.LICENSE.txt",
+    "static/css/main.d915994f.chunk.css.map": "/Marvel-Legendary-Randomizer/static/css/main.d915994f.chunk.css.map",
+    "static/js/2.60cd666c.chunk.js.LICENSE.txt": "/Marvel-Legendary-Randomizer/static/js/2.60cd666c.chunk.js.LICENSE.txt",
     "static/media/Blue.png": "/Marvel-Legendary-Randomizer/static/media/Blue.c7b3c085.png",
     "static/media/Brotherhood.png": "/Marvel-Legendary-Randomizer/static/media/Brotherhood.2eaa7368.png",
     "static/media/Cabal.png": "/Marvel-Legendary-Randomizer/static/media/Cabal.e6895029.png",
@@ -18,9 +18,10 @@
     "static/media/GreenBlack.png": "/Marvel-Legendary-Randomizer/static/media/GreenBlack.449f2598.png",
     "static/media/HYDRA.png": "/Marvel-Legendary-Randomizer/static/media/HYDRA.8c7970a9.png",
     "static/media/HenchmenTitle.a7e69d8c.PNG": "/Marvel-Legendary-Randomizer/static/media/HenchmenTitle.a7e69d8c.PNG",
-    "static/media/Heroes of Asgard.png": "/Marvel-Legendary-Randomizer/static/media/Heroes of Asgard.2b7c675c.png",
+    "static/media/Heroes of Asgard.png": "/Marvel-Legendary-Randomizer/static/media/Heroes of Asgard.3ae56136.png",
     "static/media/HeroesTitle.fc5232f1.PNG": "/Marvel-Legendary-Randomizer/static/media/HeroesTitle.fc5232f1.PNG",
     "static/media/Illuminati.png": "/Marvel-Legendary-Randomizer/static/media/Illuminati.39edaf2d.png",
+    "static/media/Inhumans.png": "/Marvel-Legendary-Randomizer/static/media/Inhumans.3804cd61.png",
     "static/media/LegendaryLogo.png": "/Marvel-Legendary-Randomizer/static/media/LegendaryLogo.280f8ce0.png",
     "static/media/MastermindTitle.af073342.PNG": "/Marvel-Legendary-Randomizer/static/media/MastermindTitle.af073342.PNG",
     "static/media/Mercs for Money.png": "/Marvel-Legendary-Randomizer/static/media/Mercs for Money.fd807198.png",
@@ -31,16 +32,16 @@
     "static/media/Sinister Six.png": "/Marvel-Legendary-Randomizer/static/media/Sinister Six.3a746f77.png",
     "static/media/Spiderverse.png": "/Marvel-Legendary-Randomizer/static/media/Spiderverse.3bdec51d.png",
     "static/media/Title.6869ecef.PNG": "/Marvel-Legendary-Randomizer/static/media/Title.6869ecef.PNG",
-    "static/media/Venomverse.png": "/Marvel-Legendary-Randomizer/static/media/Venomverse.5cbbdf3d.png",
     "static/media/VillainsTitle.1c212f2a.PNG": "/Marvel-Legendary-Randomizer/static/media/VillainsTitle.1c212f2a.PNG",
+    "static/media/Warbound.png": "/Marvel-Legendary-Randomizer/static/media/Warbound.fe0ec8ca.png",
     "static/media/X-Force.png": "/Marvel-Legendary-Randomizer/static/media/X-Force.61ff0756.png",
     "static/media/YellowBlack.png": "/Marvel-Legendary-Randomizer/static/media/YellowBlack.075b7261.png",
     "static/media/thunderbolts.png": "/Marvel-Legendary-Randomizer/static/media/thunderbolts.17230a33.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3f0d31b0.js",
-    "static/js/2.1c02b18a.chunk.js",
-    "static/css/main.c32afdb1.chunk.css",
-    "static/js/main.df00a69d.chunk.js"
+    "static/js/2.60cd666c.chunk.js",
+    "static/css/main.d915994f.chunk.css",
+    "static/js/main.6501a35d.chunk.js"
   ]
 }
