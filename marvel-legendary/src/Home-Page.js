@@ -24,6 +24,8 @@ function App() {
   let villainsArray = [];
   let henchmenArray = [];
   let heroArray = [];
+  let extraMasterMindCount = 0;
+  let extraMasterMindArray = [];
 
   //______________________________________________________
   //
@@ -37,10 +39,10 @@ function App() {
     "set": ""
   }]);
   useEffect(() => {
-    fetch('./JSON Files/scheme.json')
+    fetch('./JSON Files/scheme_test.json')
     .then(response => response.json())
     .then(data => {
-      //console.log(data);
+      console.log(data);
       setScheme(data);
       //console.log(scheme[0].name);
     })
@@ -250,8 +252,10 @@ const handleCheck = (event) => {
         if(villains[i].name === masterMind[randMasterMind].leads){
           setAlwaysLeads(i);
           //Add index to Villains Array
-          villainsArray.push(i);
-          villainsCount--;
+          if(playerCount !== 1){ //Ignore Always Leads if 1 Player
+            villainsArray.push(i);
+            villainsCount--;
+          }
         }
       }
     }
@@ -260,8 +264,10 @@ const handleCheck = (event) => {
         if(henchmen[i].name === masterMind[randMasterMind].leads){
           setAlwaysLeads(i);
           //Add index to Henchmen Array
-          henchmenArray.push(i);
-          henchmenCount--;
+          if(playerCount !== 1){ //Ignore Always Leads if 1 Player
+            henchmenArray.push(i);
+            henchmenCount--;
+          }
         }
       }
     }
@@ -298,57 +304,103 @@ const handleCheck = (event) => {
     }
   }, [schemeLeads, scheme, villains, henchmen, randScheme]);
 
+
   const generateSchemeLeads = () => {
     console.log("generateSchemeLeads");
     //Pick Villain of Henchmen
-    if(scheme[randScheme].leadsType !== "None"){
-      if(scheme[randScheme].leadsType === "villains"){
-        for(let i = 0; i < villains.length; i++){
-          if(villains[i].name === scheme[randScheme].leads){
-            setSchemeLeads(i);
-            //Add index to Villain Arrray
-            villainsArray.push(i);
-            villainsCount--;
+    for(let x = 0; x < (scheme[randScheme].leads).length; x++){
+      if(scheme[randScheme].leadsType[x] !== "None"){
+        if(scheme[randScheme].leadsType[x] === "villains"){
+          for(let i = 0; i < villains.length; i++){
+            if(villains[i].name === scheme[randScheme].leads[x]){
+              setSchemeLeads(i);
+              //Add index to Villain Arrray
+              if(villainsArray.indexOf(x) === -1){
+                villainsArray.push(i);
+                villainsCount--;
+              }
+            }
+          }
+        }
+        else{
+          for(let i = 0; i < henchmen.length; i++){
+            if(henchmen[i].name === scheme[randScheme].leads[x]){
+              setSchemeLeads(i);
+              //Add indexto Henchmen Arrray
+              if(henchmenArray.indexOf(x) === -1){
+                henchmenArray.push(i);
+                henchmenCount--;
+              }
+            }
           }
         }
       }
       else{
-        for(let i = 0; i < henchmen.length; i++){
-          if(henchmen[i].name === scheme[randScheme].leads){
-            setSchemeLeads(i);
-            //Add indexto Henchmen Arrray
-            henchmenArray.push(i);
-            henchmenCount--;
-          }
-        }
+        setSchemeLeads(0);
       }
     }
-    else{
-      setSchemeLeads(0);
-    }
   }
+
+  //---Creates extra MasterMind Counts
+  const generateExtraMasterMindCount = () => {
+    console.log("generateExtraMasterMindCount");
+    if(scheme[randScheme].extraMasterMind[playerCount - 1] !== "0"){
+      extraMasterMindCount = +scheme[randScheme].extraMasterMind[playerCount - 1];
+    }
+    else{
+      extraMasterMindCount = 0;
+    }
+    console.log("ExtraMMCount --> " + extraMasterMindCount);
+  };
+
+    //Creates Extra MasterMinds
+    const [ masterMindArrayFinal, setMasterMindArrayFinal ] = useState([]);
+
+    const extraMasterMindFunction = () => {
+      //Add Current MasterMind to Array
+      extraMasterMindArray.push(randMasterMind);
+
+      for(extraMasterMindCount; extraMasterMindCount > 0; extraMasterMindCount--){
+        let mm = 0;
+        for(let count = 0; count <= bufferNum; count++){
+          mm = Math.floor(Math.random() * (masterMind.length - 1)) + 1;
+          if(extraMasterMindArray.indexOf(mm) === -1){
+            let expCheck = expansionCheck(masterMind, mm);
+            if(expCheck === true){
+              extraMasterMindArray.push(mm);
+            }
+            else{
+              extraMasterMindCount = extraMasterMindCount + 1;
+            };
+            break;
+          };
+        };
+      };
+
+      //Remove Current MasterMind (so array is only the extras)
+      extraMasterMindArray.shift();
+
+      console.log("extraMasterMindArray: [ " + extraMasterMindArray + " ]");
+      setMasterMindArrayFinal(extraMasterMindArray);
+    };
 
   //---Creates Villain/Henchmen Counts
   const generateVillainsCount = () => {
     console.log("generateVillainsCount");
     villainsCount = villainSettings[playerCount - 1];
-    if(masterMind[randMasterMind].leadsType === "villains"){
-      villainsCount--;
-    };
-    if(scheme[randScheme].leadsType === "villains"){
-      villainsCount--; 
-    };
+    if(scheme[randScheme].extraVillain[playerCount - 1] !== "0"){
+      villainsCount = +scheme[randScheme].extraVillain[playerCount - 1] + +villainSettings[playerCount - 1];
+    }
+    console.log("villainsCount --> " + villainsCount);
   };
 
   const generateHenchmenCount = () => {
     console.log("generateHenchmenCount");
     henchmenCount = henchmenSettings[playerCount - 1];
-    if(masterMind[randMasterMind].leadsType === "henchmen"){
-      henchmenCount--; 
-    };
-    if(scheme[randScheme].leadsType === "henchmen"){
-      henchmenCount--; 
-    };
+    if(scheme[randScheme].extraHenchmen[playerCount - 1] !== "0"){
+      henchmenCount = +scheme[randScheme].extraHenchmen[playerCount - 1] + +henchmenSettings[playerCount - 1];
+    }
+    console.log("henchmenCount --> " + henchmenCount);
   };
 
   //Creates Other Villains
@@ -402,13 +454,13 @@ const handleCheck = (event) => {
   const generateHeroCount = () => {
     console.log("generateHeroCount");
     if(playerCount === "1"){
-      heroCount = 3;
+      heroCount = 3 + +scheme[randScheme].extraHero[playerCount - 1];
     }
     else if(playerCount === "5"){
-      heroCount = 6;
+      heroCount = 6 + +scheme[randScheme].extraHero[playerCount - 1];
     }
     else{
-      heroCount = 5;
+      heroCount = 5 + +scheme[randScheme].extraHero[playerCount - 1];
     }
   };
 
@@ -440,14 +492,16 @@ const handleCheck = (event) => {
   useEffect(() => {
     if(gameGenerated === true){
       console.log("------Dependent Data--------");
-      generateAlwaysLeads();
-      generateSchemeLeads();
       generateVillainsCount();
       generateHenchmenCount();
+      generateExtraMasterMindCount();
+      generateAlwaysLeads();
+      generateSchemeLeads();
       generateHeroCount();
       randomVillainsFunction();
       randomHenchmenFunction();
       randomHeroFunction();
+      extraMasterMindFunction();
       setGameGenerated(false);
     }
   },[gameGenerated]);
@@ -458,8 +512,8 @@ const handleCheck = (event) => {
     console.log("Player Count: " + playerCount);
     generateRandMasterMind();
     generateRandScheme();
-    generateVillainsCount();
-    generateHenchmenCount();
+    // generateVillainsCount();
+    // generateHenchmenCount();
     if(gameGenerated === false){
       setGameGenerated(true);
     }
@@ -553,6 +607,23 @@ const handleCheck = (event) => {
             <br></br>
             <br></br>
             <span className="CardDetails">Set: {scheme[randScheme].set}</span>
+            <br></br>
+            <br></br>
+            <div>
+              {masterMindArrayFinal.map((num) => {
+                if(masterMindArrayFinal.length > 0){
+                  return(
+                      <div className="CardDetails">
+                        <span>Extra MasterMind: </span>
+                        <span>{masterMind[num].name}</span>
+                        <br></br>
+                        <span>Set: {masterMind[num].set}</span>
+                        <br></br>
+                      </div>
+                  )
+                }
+            })}
+            </div>
           </div>
         </div>
 

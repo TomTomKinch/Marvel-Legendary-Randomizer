@@ -33,19 +33,11 @@ Randomizer for Marvel Legendary Deck building Game
         - X Villain
         - X Henchmen
         - X Heroes
-
----------
-Future TODO:
-- expand to Fit general use cases:
-    - many more that add extra henchmen/ villain groups
-    - some add extra heroes
-
-----
-Some Examples:
-- (Civil War) Avengers vs. X-Men scheme -> need to adjust heroes
-- (Civil War) Predict Future Crime -> Add an extra Villain Group
-- (Dark City) Steal the Weaponized Plutonium -> Add an extra Villain Group.
-- (SW VOl. 2) Deadlands Hordes Charge the Wall -> Add an extra Villain Group.
+- _ expand to Fit general use cases for schemes:
+    - X add extra henchmen/ villain groups
+    - X add extra heroes
+    - X add extra masterminds
+    - _ Update JSON file for schemes
 
 Key: 
 - X -> done
