@@ -2,8 +2,9 @@
     {
         "ID": "0",
         "name": "",
-        "leads": [""],
-        "leadsType": [""],
+        "leads": ["None"],
+        "leadsType": ["None"],
+
         "extraMasterMind": ["0","0","0","0","0"],
         "extraVillain": ["0", "0", "0", "0", "0"],
         "extraHenchmen": ["0","0","0","0","0"],

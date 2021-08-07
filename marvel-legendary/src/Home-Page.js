@@ -34,15 +34,20 @@ function App() {
   const [ scheme, setScheme ] = useState([{
     "ID": "",
     "name": "",
-    "leads": "",
-    "leadsType": "",
+    "setup": "",
+    "leads": [""],
+    "leadsType": [""],
+    "extraMasterMind": ["0","0","0","0","0"],
+    "extraVillain": ["0", "0", "0", "0", "0"],
+    "extraHenchmen": ["0","0","0","0","0"],
+    "extraHero": ["0","0","0","0","0"],
     "set": ""
   }]);
   useEffect(() => {
-    fetch('./JSON Files/scheme_test.json')
+    fetch('./JSON Files/scheme.json')
     .then(response => response.json())
     .then(data => {
-      console.log(data);
+      //console.log(data);
       setScheme(data);
       //console.log(scheme[0].name);
     })
@@ -298,8 +303,11 @@ const handleCheck = (event) => {
       if(scheme[randScheme].leadsType === "villains"){
         console.log("setSchemeLeads: " + villains[schemeLeads].name);
       }
-      else{
+      else if(scheme[randScheme].leadsType === "henchmen"){
         console.log("setSchemeLeads: " + henchmen[schemeLeads].name);
+      }
+      else{
+        console.log("setSchemeLeads: none");
       }
     }
   }, [schemeLeads, scheme, villains, henchmen, randScheme]);
@@ -315,7 +323,7 @@ const handleCheck = (event) => {
             if(villains[i].name === scheme[randScheme].leads[x]){
               setSchemeLeads(i);
               //Add index to Villain Arrray
-              if(villainsArray.indexOf(x) === -1){
+              if(villainsArray.indexOf(i) === -1){
                 villainsArray.push(i);
                 villainsCount--;
               }
@@ -327,7 +335,7 @@ const handleCheck = (event) => {
             if(henchmen[i].name === scheme[randScheme].leads[x]){
               setSchemeLeads(i);
               //Add indexto Henchmen Arrray
-              if(henchmenArray.indexOf(x) === -1){
+              if(henchmenArray.indexOf(i) === -1){
                 henchmenArray.push(i);
                 henchmenCount--;
               }
@@ -606,6 +614,9 @@ const handleCheck = (event) => {
             <span className="CardName"> {scheme[randScheme].name} </span>
             <br></br>
             <br></br>
+            <span className="CardDetails">Setup -- {scheme[randScheme].setup}</span>
+            <br></br>
+            <br></br>
             <span className="CardDetails">Set: {scheme[randScheme].set}</span>
             <br></br>
             <br></br>
@@ -614,7 +625,7 @@ const handleCheck = (event) => {
                 if(masterMindArrayFinal.length > 0){
                   return(
                       <div className="CardDetails">
-                        <span>Extra MasterMind: </span>
+                        <span>Extra Mastermind: </span>
                         <span>{masterMind[num].name}</span>
                         <br></br>
                         <span>Set: {masterMind[num].set}</span>
@@ -683,6 +694,8 @@ const handleCheck = (event) => {
           </div>
         </div>
       </div>
+      <br></br>
+      <br></br>
       <p>Thank you to the lovely people at BoardGameGeek for having amazing images of the logos. Linking thread: https://boardgamegeek.com/thread/1442493/team-icon-image-sharing and Legedit</p>
       <p>I did not create / own any of the rights to the images. </p>
     </div>

@@ -37,7 +37,11 @@ Randomizer for Marvel Legendary Deck building Game
     - X add extra henchmen/ villain groups
     - X add extra heroes
     - X add extra masterminds
-    - _ Update JSON file for schemes
+    - X Update JSON file for schemes
+    - _ Does not select specific heroes
+
+- _ add a select all to expansion select sheet
+
 
 Key: 
 - X -> done
