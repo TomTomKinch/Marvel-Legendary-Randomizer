@@ -252,26 +252,28 @@ const handleCheck = (event) => {
   const generateAlwaysLeads = () => {
     console.log("generateAlwaysLeads");
     //Pick Villain of Henchmen
-    if(masterMind[randMasterMind].leadsType === "villains"){
-      for(let i = 0; i < villains.length; i++){
-        if(villains[i].name === masterMind[randMasterMind].leads){
-          setAlwaysLeads(i);
-          //Add index to Villains Array
-          if(playerCount !== 1){ //Ignore Always Leads if 1 Player
-            villainsArray.push(i);
-            villainsCount--;
+    if(playerCount !== "1"){
+      if(masterMind[randMasterMind].leadsType === "villains"){
+        for(let i = 0; i < villains.length; i++){
+          if(villains[i].name === masterMind[randMasterMind].leads){
+            setAlwaysLeads(i);
+            //Add index to Villains Array
+            if(playerCount !== 1){ //Ignore Always Leads if 1 Player
+              villainsArray.push(i);
+              villainsCount--;
+            }
           }
         }
       }
-    }
-    else{
-      for(let i = 0; i < henchmen.length; i++){
-        if(henchmen[i].name === masterMind[randMasterMind].leads){
-          setAlwaysLeads(i);
-          //Add index to Henchmen Array
-          if(playerCount !== 1){ //Ignore Always Leads if 1 Player
-            henchmenArray.push(i);
-            henchmenCount--;
+      else{
+        for(let i = 0; i < henchmen.length; i++){
+          if(henchmen[i].name === masterMind[randMasterMind].leads){
+            setAlwaysLeads(i);
+            //Add index to Henchmen Array
+            if(playerCount !== 1){ //Ignore Always Leads if 1 Player
+              henchmenArray.push(i);
+              henchmenCount--;
+            }
           }
         }
       }
