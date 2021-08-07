@@ -1,0 +1,25 @@
+[
+    {
+        "ID": "0",
+        "name": "",
+        "leads": ["None"],
+        "leadsType": ["None"],
+
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": ""
+    },
+    {
+        "ID": "1",
+        "name": "Test",
+        "leads": ["Skrulls", "Doombot Legion"],
+        "leadsType": ["villains", "henchmen"],
+        "extraMasterMind": ["1","1","1","1","1"],
+        "extraVillain": ["1", "1", "1", "1", "1"],
+        "extraHenchmen": ["1","1","1","1","1"],
+        "extraHero": ["1","1","1","1","1"],
+        "set": "Base Set"
+    }
+]
