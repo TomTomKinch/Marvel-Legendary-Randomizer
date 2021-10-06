@@ -445,5 +445,15 @@
         "ID": "88",
         "name": "Shi'ar Imperial Elite",
         "set": "Realm of Kings"
+    },
+    {
+        "ID": "89",
+        "name": "Annihilation Wave",
+        "set": "Annihilation"
+    },
+    {
+        "ID": "90",
+        "name": "Timelines of Kang",
+        "set": "Annihilation"
     }
 ]

@@ -161,6 +161,7 @@ const [ checked, setChecked ] = useState({
   World_War_Hulk: false,
   X_Men: false,
   //Small
+  Annihilation: false,
   AntMan: false,
   Capt_America_75th: false,
   Champions: false,
@@ -569,6 +570,7 @@ const handleCheck = (event) => {
           <FormControlLabel control={ <Checkbox checked={checked.Villains} onChange={handleCheck} name="Villains" value="Villains" />  } label="Villains" />
           <FormControlLabel control={ <Checkbox checked={checked.World_War_Hulk} onChange={handleCheck} name="World_War_Hulk" value="World War Hulk" /> } label="World War Hulk"/>
           <FormControlLabel control={ <Checkbox checked={checked.X_Men} onChange={handleCheck} name="X_Men"/> } label="X-Men" value="X-Men" />
+          <FormControlLabel control={ <Checkbox checked={checked.Annihilation} onChange={handleCheck} name ="Annihilation" /> } label="Annihilation" value="Annihilation"/> 
           <FormControlLabel control={ <Checkbox checked={checked.AntMan} onChange={handleCheck} name="AntMan"/> } label="Ant-Man" value="Ant-Man" />
           <FormControlLabel control={ <Checkbox checked={checked.Capt_America_75th} onChange={handleCheck} name="Capt_America_75th" value="Captain America 75th Anniversary" /> } label="Captain America 75th Anniversary"/>
           <FormControlLabel control={ <Checkbox checked={checked.Champions} onChange={handleCheck} name="Champions" value="Champions" /> }label="Champions" />
