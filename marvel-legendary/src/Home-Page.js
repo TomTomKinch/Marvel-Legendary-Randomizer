@@ -498,6 +498,15 @@ const handleCheck = (event) => {
     setHeroArrayFinal(heroArray);
   };
 
+  //---Reroll Heroes
+  const rerollHeroes = () => {
+    generateHeroCount();
+    for(let count = heroCount;  count > 0; count--){
+      heroArray.pop();
+    }
+    randomHeroFunction();
+  };
+
   //---Creates Game---
   const [ gameGenerated, setGameGenerated ] = useState(false);
   useEffect(() => {
@@ -680,6 +689,7 @@ const handleCheck = (event) => {
         <div className="grid-heroes">
           <img src={HeroesTitle} alt="Heroes" className="Title"/>
           <div>
+          <button onClick={rerollHeroes} className="CreateGameButton"> Reroll Heroes </button>
             {heroArrayFinal.map((num) => {
               return(
                 <div className="HeroCard">
