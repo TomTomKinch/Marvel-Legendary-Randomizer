@@ -655,5 +655,23 @@
         "leads": "Shi'ar Imperial Elite",
         "leadsType": "villains",
         "set": "Realm of Kings"
+    },
+    {
+        "ID": "71",
+        "name": "Annihilus",
+        "hp": "10",
+        "masterStrike": "Reveal the top card of the Villain Deck. If it's a Bystander, Annihilus captures it. If it's a Villain, it enters the city, captures a Bystander, and moves forward an extra space (before doing any Ambush ability).",
+        "leads": "Annihilation Wave",
+        "leadsType": "villains",
+        "set": "Annihilation"
+    },
+    {
+        "ID": "71",
+        "name": "Kang the Conqueror",
+        "hp": "8",
+        "masterStrike": "This Strike becomes a 'Time Incursion.' Put it above the rightmost city space that doesn't yet have a Time Incursion.",
+        "leads": "Timelines of Kang",
+        "leadsType": "villains",
+        "set": "Annihilation"
     }
 ]

@@ -2168,5 +2168,55 @@
         "color3": "Yellow",
         "color4": "Yellow",
         "set": "Realm of Kings"
+    },
+    {
+        "ID": "212",
+        "name": "Brainstorm",
+        "faction": "Fantastic Four",
+        "color1": "Black",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "Annihilation"
+    },
+    {
+        "ID": "213",
+        "name": "Fantastic Four United",
+        "faction": "Fantastic Four",
+        "color1": "Blue",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "Annihilation"
+    },
+    {
+        "ID": "214",
+        "name": "Heralds of Galactus",
+        "faction": "None",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Annihilation"
+    },
+    {
+        "ID": "215",
+        "name": "Psi-Lord",
+        "faction": "Fantastic Four",
+        "color1": "Red",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Annihilation"
+    },
+    {
+        "ID": "216",
+        "name": "Super-Skrull",
+        "faction": "None",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Annihilation"
     }
 ]

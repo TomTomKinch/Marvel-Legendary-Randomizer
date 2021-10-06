@@ -1547,5 +1547,53 @@
         "extraHenchmen": ["1","1","1","1","1"],
         "extraHero": ["0","0","0","0","0"],
         "set": "Realm of Kings"
+    },
+    {
+        "ID": "129",
+        "name": "Pulse Waves From the Negative Zone",        
+        "setup": "9 Twists.",
+        "leads": ["None"],
+        "leadsType": ["None"],       
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Annihilation"
+    },
+    {
+        "ID": "130",
+        "name": "Sneak Attack the Heroes' Homes",        
+        "setup": "6 Twists. Each player chooses a Hero to be part of the Hero Deck. Randomly select other Heroes up to the normal number of Heroes. Each player adds to their starting deck three non-rare cards with different names from the Hero they chose and three Wounds.",
+        "leads": ["None"],
+        "leadsType": ["None"],       
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Annihilation"
+    },
+    {
+        "ID": "131",
+        "name": "Put Humanity on Trial",        
+        "setup": "11 Twists. Stack 11 Bystanders next to the Scheme face down as 'Galactus Jurors.'",
+        "leads": ["None"],
+        "leadsType": ["None"],       
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Annihilation"
+    },
+    {
+        "ID": "132",
+        "name": "Breach Parallel Dimensions",        
+        "setup": "6 Twists. Add 4 extra Bystanders to the Villain Deck. Deal the shuffled Villain Deck into several 'Dimension' decks where the first Dimension has 1 card, the next has 2 cards, then 3, 4, etc. (The final Dimension might not have enough cards to reach its full number.)",
+        "leads": ["None"],
+        "leadsType": ["None"],       
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Annihilation"
     }
 ]
