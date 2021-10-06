@@ -18,6 +18,8 @@ function App() {
   let bufferNum = 200;
   const villainSettings = [1, 2, 3, 3, 4];
   const henchmenSettings = [1, 1, 1, 2, 2];
+  const masterStrikeSettings = [1, 5, 5, 5, 5];
+  const bystanderSettings = [1, 2, 8, 8, 12];
   let villainsCount;
   let henchmenCount;
   let heroCount;
@@ -648,6 +650,17 @@ const handleCheck = (event) => {
                 }
             })}
             </div>
+            <br></br>
+            <br></br>
+            <span className="CardName">Default Villain Deck Settings: </span>
+            <br></br>
+            <br></br>
+            <span className="CardDetails">Master Strike: {masterStrikeSettings[playerCount - 1]}</span>
+            <br></br>
+            <br></br>
+            <span className="CardDetails">Bystanders: {bystanderSettings[playerCount - 1]}</span>
+            <br></br>
+            <br></br>
           </div>
         </div>
 
