@@ -23,7 +23,7 @@ Randomizer for Marvel Legendary Deck building Game
     - _ Scheme
     - _ Villains
     - _ Henchmen
-    - _ Heroes
+    - X Heroes
 - X Finish Styling (for now)
 - _ Transition from JSON to DB
 - X Add Expanison selection
