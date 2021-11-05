@@ -25,6 +25,8 @@
 .grid-heroes {
     grid-column: 5 / span 2;
     grid-row: 2 / span 2;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 @media (max-width: 1700px) {
@@ -54,6 +56,8 @@
     .grid-heroes {
         grid-column: 1 / span 4;
         grid-row: 4;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     
   }
@@ -84,6 +88,8 @@
     .grid-heroes {
         grid-column: 1;
         grid-row: 6;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     
   }
