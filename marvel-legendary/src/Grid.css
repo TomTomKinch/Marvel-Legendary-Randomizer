@@ -29,7 +29,7 @@
     margin-left: 20px;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1820px) {
     .grid-container {
         display: grid;
     }
@@ -62,7 +62,7 @@
     
   }
 
-@media (max-width: 1000px) {
+@media (max-width: 1260px) {
     .grid-container {
         display: inline;
     }

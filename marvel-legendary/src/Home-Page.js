@@ -712,6 +712,7 @@ const handleCheck = (event) => {
                 <div className="HeroCard">
                   <img src={require("./Images/"+heroes[num].faction+".png").default} alt={heroes[num].faction} className="Faction" />
                   <span className="HeroName">{heroes[num].name}</span>
+                  <br></br>
                   <img src={require("./Images/"+heroes[num].color1+".png").default} alt={heroes[num].color1} className="Logos" />
                   <img src={require("./Images/"+heroes[num].color2+".png").default} alt={heroes[num].color2} className="Logos" />
                   <img src={require("./Images/"+heroes[num].color3+".png").default} alt={heroes[num].color3} className="Logos" />
