@@ -29,7 +29,7 @@
     margin-left: 20px;
 }
 
-@media (max-width: 1820px) {
+@media (max-width: 1840px) {
     .grid-container {
         display: grid;
     }
