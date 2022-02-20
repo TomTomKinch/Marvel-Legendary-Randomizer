@@ -1595,5 +1595,53 @@
         "extraHenchmen": ["0","0","0","0","0"],
         "extraHero": ["0","0","0","0","0"],
         "set": "Annihilation"
+    },
+    {
+        "ID": "133",
+        "name": "Hack Cerebro Servers to… …Control the Mutant Messiah",        
+        "setup": "10 Twists",
+        "leads": ["None"],
+        "leadsType": ["None"],       
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "134",
+        "name": "Drain Mutants' Powers to… …Open Rifts to Future Timelines",        
+        "setup": "11 Twists",
+        "leads": ["None"],
+        "leadsType": ["None"],       
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "135",
+        "name": "Hire Singularity Investigations to… …Reveal the Heroes' Evil Clones",        
+        "setup": "9 Twists",
+        "leads": ["None"],
+        "leadsType": ["None"],       
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "136",
+        "name": "Raid Gene Banks to… …Unleash an Anti-Mutant Bioweapon",        
+        "setup": "8 Twists",
+        "leads": ["None"],
+        "leadsType": ["None"],       
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Messiah Complex"
     }
 ]

@@ -163,5 +163,15 @@
         "ID": "32",
         "name": "Mandarin's Rings",
         "set": "Revelations"
+    },
+    {
+        "ID": "33",
+        "name": "Mr. Sinister Clones",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "34",
+        "name": "Sentinel Squad O*N*E*",
+        "set": "Messiah Complex"
     }
 ]

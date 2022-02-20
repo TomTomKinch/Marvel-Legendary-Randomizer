@@ -2218,5 +2218,85 @@
         "color3": "Red",
         "color4": "Blue",
         "set": "Annihilation"
+    },
+    {
+        "ID": "217",
+        "name": "M",
+        "faction": "X-Factor",
+        "color1": "Green",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "218",
+        "name": "Multiple Man",
+        "faction": "X-Factor",
+        "color1": "Yellow",
+        "color2": "Black",
+        "color3": "Black",
+        "color4": "Yellow",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "219",
+        "name": "Rictor",
+        "faction": "X-Factor",
+        "color1": "Blue",
+        "color2": "Yellow",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "220",
+        "name": "Siryn",
+        "faction": "X-Factor",
+        "color1": "Red",
+        "color2": "Red",
+        "color3": "Blue",
+        "color4": "Red",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "221",
+        "name": "Shatterstar",
+        "faction": "X-Force",
+        "color1": "Yellow",
+        "color2": "Yellow",
+        "color3": "Blue",
+        "color4": "Yellow",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "222",
+        "name": "Stepford Cuckoos",
+        "faction": "X-Men",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "223",
+        "name": "Strong Guy",
+        "faction": "X-Factor",
+        "color1": "Green",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "224",
+        "name": "Warpath",
+        "faction": "X-Force",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Messiah Complex"
     }
 ]
