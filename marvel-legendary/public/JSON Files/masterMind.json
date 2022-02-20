@@ -673,5 +673,32 @@
         "leads": "Timelines of Kang",
         "leadsType": "villains",
         "set": "Annihilation"
+    },
+    {
+        "ID": "72",
+        "name": "Bastion, Fused Sentinel",
+        "hp": "4",
+        "masterStrike": "*Note: For Always Leads Replace a henchmen/villains with a Sentinal Group A card from the Bystander Stack ascends to become a 4 Attack 'Prime Sentinel' Mastermind with 'Fight: Rescue this. Master Strike: Each player reveals the top card of their deck and KOs it if it costs 1 or more.'",
+        "leads": "Purifiers",
+        "leadsType": "villains",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "73",
+        "name": "Exodus",
+        "hp": "32",
+        "masterStrike": "Choose X-Men, X-Force, X-Factor, or Brotherhood. Each player discards one of those Heroes or gains a Wound.",
+        "leads": "Acolytes",
+        "leadsType": "villains",
+        "set": "Messiah Complex"
+    },
+    {
+        "ID": "74",
+        "name": "Lady Deathstrike",
+        "hp": "8",
+        "masterStrike": "If she is Preying on a player, Finish the Prey. Otherwise, Prey on the fewest 'Instinct'",
+        "leads": "Reavers",
+        "leadsType": "villains",
+        "set": "Messiah Complex"
     }
 ]

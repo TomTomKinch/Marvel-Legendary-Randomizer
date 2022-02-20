@@ -175,6 +175,7 @@ const [ checked, setChecked ] = useState({
   Guardians_Of_The_Galaxy: false,
   Heroes_Of_Asgard: false,
   Into_The_Cosmos: false,
+  Messiah_Complex: false,
   Noir: false,
   Paint_The_Town_Red: false,
   Realm_Of_Kings: false,
@@ -589,6 +590,7 @@ const handleCheck = (event) => {
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Guardians_Of_The_Galaxy} onChange={handleCheck} name="Guardians_Of_The_Galaxy" value="Guardians of the Galaxy" /> } label={<span className="ExpansionText">Guardians of the Galaxy</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Heroes_Of_Asgard} onChange={handleCheck} name="Heroes_Of_Asgard" value="Heroes of Asgard" /> } label={<span className="ExpansionText">Heroes of Asgard</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Into_The_Cosmos} onChange={handleCheck} name="Into_The_Cosmos" value="Into the Cosmos" /> } label={<span className="ExpansionText">Into the Cosmos</span>} />
+          <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Messiah_Complex} onChange={handleCheck} name="Messiah_Complex" value="Messiah Complex" /> } label={<span className="ExpansionText">Messiah Complex</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Noir} onChange={handleCheck} name="Noir" value="Noir" /> } label={<span className="ExpansionText">Noir</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Paint_The_Town_Red} onChange={handleCheck} name="Paint_The_Town_Red" value="Paint the Town Red" /> } label={<span className="ExpansionText">Paint the Town Red</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Realm_Of_Kings} onChange={handleCheck} name="Realm_Of_Kings" value="Realm of Kings" />}label={<span className="ExpansionText">Realm of Kings</span>}/>
