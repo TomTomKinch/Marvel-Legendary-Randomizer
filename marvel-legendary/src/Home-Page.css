@@ -49,7 +49,6 @@ body{
   background-color: #2d3a55;
   border-radius: 50px;
   margin: 10px;
-  display: flex;
   width: 550px;
   vertical-align: middle;
   margin: auto;
@@ -123,6 +122,29 @@ body{
   cursor: pointer;
 }
 
+.NumberUnclicked{
+  width: 40px;
+  height: 50px;
+  margin: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.NumberUnclicked:hover {
+  cursor: pointer;
+}
+
+.NumberClicked{
+  border: 3px solid #db9122;
+  border-radius: 10px;
+  width: 50px;
+  height: 60px;
+  margin: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.NumberClicked:hover {
+  cursor: pointer;
+}
 
 .CreateGameButton {
   background-color: #f8a11d;
@@ -326,7 +348,6 @@ body{
     background-color: #2d3a55;
     border-radius: 50px;
     padding-top: 5px;
-    display: flex;
     max-width: 400px;
     vertical-align: middle;
     margin-top: 20px;
@@ -334,6 +355,30 @@ body{
     margin-right: auto;
     max-width: 70%;
     height: auto;
+  }
+
+  .NumberUnclicked{
+    width: 25px;
+    height: 30px;
+    margin: 10px 15px;
+    margin-bottom: 30px;
+  }
+  
+  .NumberUnclicked:hover {
+    cursor: pointer;
+  }
+  
+  .NumberClicked{
+    border: 3px solid #db9122;
+    border-radius: 15px;
+    width: 30px;
+    height: 35px;
+    margin: 10px 15px;
+    margin-bottom: 30px;
+  }
+  
+  .NumberClicked:hover {
+    cursor: pointer;
   }
 
   .PlayerTitle {

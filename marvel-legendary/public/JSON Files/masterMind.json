@@ -678,7 +678,7 @@
         "ID": "72",
         "name": "Bastion, Fused Sentinel",
         "hp": "4",
-        "masterStrike": "*Note: For Always Leads Replace a henchmen/villains with a Sentinal Group A card from the Bystander Stack ascends to become a 4 Attack 'Prime Sentinel' Mastermind with 'Fight: Rescue this. Master Strike: Each player reveals the top card of their deck and KOs it if it costs 1 or more.'",
+        "masterStrike": "*Note: For Always Leads Replace a henchmen/villains with a Sentinal Group.* A card from the Bystander Stack ascends to become a 4 Attack 'Prime Sentinel' Mastermind with 'Fight: Rescue this. Master Strike: Each player reveals the top card of their deck and KOs it if it costs 1 or more.'",
         "leads": "Purifiers",
         "leadsType": "villains",
         "set": "Messiah Complex"
