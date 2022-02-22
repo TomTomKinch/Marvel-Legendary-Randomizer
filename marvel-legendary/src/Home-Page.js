@@ -11,7 +11,6 @@ import VillainsTitle from './Images/VillainsTitle.PNG';
 import HenchmenTitle from './Images/HenchmenTitle.PNG';
 import HeroesTitle from './Images/HeroesTitle.PNG';
 import PlayerSelect from './Images/PlayerSelect.PNG';
-import PlayerCount from './Images/PlayerCount.PNG';
 import attack from './Images/attack.png'
 import one from './Images/One.PNG'
 import two from './Images/Two.PNG'
@@ -146,15 +145,10 @@ function App() {
   //-------------------Player Count-----------------------
   //______________________________________________________
   
-  const [ playerCount, setPlayerCount ] = useState(2); //Player Count Data
-  // const { register, handleSubmit } = useForm(); 
-  // // Sets Player Count Based off Form Selection
-  // const readPlayerCount = (data) => {
-  //   setPlayerCount(data[0]);
-  // }
+  const [ playerCount, setPlayerCount ] = useState('2'); //Player Count Data
 
   const [ onePlayerStyle, setOnePlayerStyle ] = useState("NumberUnclicked");
-  const [ twoPlayerStyle, setTwoPlayerStyle ] = useState("NumberUnclicked");
+  const [ twoPlayerStyle, setTwoPlayerStyle ] = useState("NumberClicked");
   const [ threePlayerStyle, setThreePlayerStyle ] = useState("NumberUnclicked");
   const [ fourPlayerStyle, setFourPlayerStyle ] = useState("NumberUnclicked");
   const [ fivePlayerStyle, setFivePlayerStyle ] = useState("NumberUnclicked");
@@ -566,24 +560,10 @@ const handleCheck = (event) => {
 
       {/* Player Select Dropdown */}
       <div className="SelectPlayerCard">
-        {/* <form onSubmit={handleSubmit(readPlayerCount)}>
-          <img src={PlayerSelect} alt="Select Number of Players" className="PlayerTitle"/>
-          <label>
-            <select {...register("0")} className="Selector">
-              <option value="1"> 1 </option>
-              <option value="2"> 2 </option>
-              <option value="3"> 3 </option>
-              <option value="4"> 4 </option>
-              <option value="5"> 5 </option>
-            </select>
-          </label>
-          <input type="submit" className="SubmitButton"/>
-        </form> */}
         <img src={PlayerSelect} alt="Select Number of Players" className="PlayerTitle"/>
         <br></br>
         <img src={one} alt="1" className={onePlayerStyle} onClick={() => {
           setPlayerCount('1');
-          console.log(playerCount);
           setOnePlayerStyle("NumberClicked");
           setTwoPlayerStyle("NumberUnclicked");
           setThreePlayerStyle("NumberUnclicked");
@@ -592,7 +572,6 @@ const handleCheck = (event) => {
         }}/>
         <img src={two} alt="2" className={twoPlayerStyle} onClick={() => {
           setPlayerCount('2');
-          console.log(playerCount);
           setOnePlayerStyle("NumberUnclicked");
           setTwoPlayerStyle("NumberClicked");
           setThreePlayerStyle("NumberUnclicked");
@@ -601,7 +580,6 @@ const handleCheck = (event) => {
         }}/>
         <img src={three} alt="3" className={threePlayerStyle} onClick={() => {
           setPlayerCount('3');
-          console.log(playerCount);
           setOnePlayerStyle("NumberUnclicked");
           setTwoPlayerStyle("NumberUnclicked");
           setThreePlayerStyle("NumberClicked");
@@ -610,7 +588,6 @@ const handleCheck = (event) => {
         }}/>
         <img src={four} alt="4" className={fourPlayerStyle} onClick={() => {
           setPlayerCount('4');
-          console.log(playerCount);
           setOnePlayerStyle("NumberUnclicked");
           setTwoPlayerStyle("NumberUnclicked");
           setThreePlayerStyle("NumberUnclicked");
@@ -619,7 +596,6 @@ const handleCheck = (event) => {
         }}/>
         <img src={five} alt="5" className={fivePlayerStyle} onClick={() => {
           setPlayerCount('5');
-          console.log(playerCount);
           setOnePlayerStyle("NumberUnclicked");
           setTwoPlayerStyle("NumberUnclicked");
           setThreePlayerStyle("NumberUnclicked");
@@ -636,7 +612,7 @@ const handleCheck = (event) => {
       <div className="ExpansionSection">
           <img src={ExpansionsTitle} alt="Expansions:" className="ExpansionsTitle"/>
           <br></br>
-          <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Base_Set} onChange={handleCheck} name="Base_Set" value="Base Set"/> } label={<span className="ExpansionText">Base Set</span>}/>
+          <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Base_Set} onChange={handleCheck} name="Base_Set" value="Base Set"/> } label={<span className="ExpansionText">Base Set</span>}/> <br></br>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Annihilation} onChange={handleCheck} name="Annihilation" value="Annihilation" /> } label={<span className="ExpansionText">Annihilation</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.AntMan} onChange={handleCheck} name="AntMan" value="Ant-Man" /> } label={<span className="ExpansionText">Ant-Man</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Capt_America_75th} onChange={handleCheck} name="Capt_America_75th" value="Captain America 75th Anniversary" /> } label={<span className="ExpansionText">Captain America 75th Anniversary</span>}/>
