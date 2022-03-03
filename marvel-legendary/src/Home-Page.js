@@ -33,6 +33,35 @@ function App() {
   let heroArray = [];
   let extraMasterMindCount = 0;
   let extraMasterMindArray = [];
+  let expansionArr = [
+    'Base Set', 
+    'Annihilation', 
+    'Ant-Man', 
+    'Captain America 75th Anniversary', 
+    'Champions', 
+    'Civil War', 
+    'Dark City', 
+    'Deadpool', 
+    'Dimensions', 
+    'Fantastic Four', 
+    'Fear Itself', 
+    'Guardians of the Galaxy', 
+    'Heroes of Asgard', 
+    'Into the Cosmos', 
+    'Messiah Complex', 
+    'Noir', 
+    'Paint the Town Red', 
+    'Realm of Kings', 
+    'Revelations', 
+    'Secret Wars Vol. 1', 
+    'Secret Wars Vol. 2', 
+    'SHIELD', 
+    'The New Mutants', 
+    'Villains', 
+    'Venom', 
+    'World War Hulk', 
+    'X-Men'
+  ];
 
   //______________________________________________________
   //
@@ -160,41 +189,41 @@ function App() {
 //______________________________________________________
 
 const [ checked, setChecked ] = useState({
-  Base_Set: false,
+  Base_Set: true,
   //Big Expansions
-  Civil_War: false,
-  Dark_City: false,
-  Secret_Wars_Vol1: false,
-  Secret_Wars_Vol2: false,
-  Villains: false,
-  World_War_Hulk: false,
-  X_Men: false,
+  Civil_War: true,
+  Dark_City: true,
+  Secret_Wars_Vol1: true,
+  Secret_Wars_Vol2: true,
+  Villains: true,
+  World_War_Hulk: true,
+  X_Men: true,
   //Small
-  Annihilation: false,
-  AntMan: false,
-  Capt_America_75th: false,
-  Champions: false,
-  Deadpool: false,
-  Dimensions: false,
-  Fantastic_Four: false,
-  Fear_Itself: false,
-  Guardians_Of_The_Galaxy: false,
-  Heroes_Of_Asgard: false,
-  Into_The_Cosmos: false,
-  Messiah_Complex: false,
-  Noir: false,
-  Paint_The_Town_Red: false,
-  Realm_Of_Kings: false,
-  Revelations: false,
-  SHIELD: false,
-  The_New_Mutants: false,
-  Venom: false,
+  Annihilation: true,
+  AntMan: true,
+  Capt_America_75th: true,
+  Champions: true,
+  Deadpool: true,
+  Dimensions: true,
+  Fantastic_Four: true,
+  Fear_Itself: true,
+  Guardians_Of_The_Galaxy: true,
+  Heroes_Of_Asgard: true,
+  Into_The_Cosmos: true,
+  Messiah_Complex: true,
+  Noir: true,
+  Paint_The_Town_Red: true,
+  Realm_Of_Kings: true,
+  Revelations: true,
+  SHIELD: true,
+  The_New_Mutants: true,
+  Venom: true,
 });
 
-const [ checkedArr, setCheckedArr ] = useState([]);
+const [ checkedArr, setCheckedArr ] = useState(expansionArr);
 
 const handleCheck = (event) => {
-  console.log("event: " + event.target);
+  console.log("event: " + event);
   setChecked({ ...checked, [event.target.name]: event.target.checked });
 
   let checkedData = checkedArr;
@@ -212,6 +241,53 @@ const handleCheck = (event) => {
   setCheckedArr(checkedData);
   console.log(checkedArr);
 };
+
+const [ selectAll, setSelectAll ] = useState(false);
+
+const handleSelectAll = () => {
+  //Set Select All
+  setSelectAll(!selectAll);
+  console.log("Select All: " + selectAll);
+  //Set all to T or F
+  setChecked({
+    Base_Set: selectAll,
+    Civil_War: selectAll,
+    Dark_City: selectAll,
+    Secret_Wars_Vol1: selectAll,
+    Secret_Wars_Vol2: selectAll,
+    Villains: selectAll,
+    World_War_Hulk: selectAll,
+    X_Men: selectAll,
+    Annihilation: selectAll,
+    AntMan: selectAll,
+    Capt_America_75th: selectAll,
+    Champions: selectAll,
+    Deadpool: selectAll,
+    Dimensions: selectAll,
+    Fantastic_Four: selectAll,
+    Fear_Itself: selectAll,
+    Guardians_Of_The_Galaxy: selectAll,
+    Heroes_Of_Asgard: selectAll,
+    Into_The_Cosmos: selectAll,
+    Messiah_Complex: selectAll,
+    Noir: selectAll,
+    Paint_The_Town_Red: selectAll,
+    Realm_Of_Kings: selectAll,
+    Revelations: selectAll,
+    SHIELD: selectAll,
+    The_New_Mutants: selectAll,
+    Venom: selectAll,
+  });
+
+  //Set Checked Array
+  if(selectAll === true){
+    setCheckedArr(expansionArr);
+  }
+  else{
+    setCheckedArr([]);
+  }
+  console.log(checkedArr);
+}
 
   //______________________________________________________
   //
@@ -611,6 +687,8 @@ const handleCheck = (event) => {
 
       <div className="ExpansionSection">
           <img src={ExpansionsTitle} alt="Expansions:" className="ExpansionsTitle"/>
+          <br></br>
+          <button onClick={handleSelectAll} className="CreateGameButton"> Select All </button>
           <br></br>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Base_Set} onChange={handleCheck} name="Base_Set" value="Base Set"/> } label={<span className="ExpansionText">Base Set</span>}/> <br></br>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Annihilation} onChange={handleCheck} name="Annihilation" value="Annihilation" /> } label={<span className="ExpansionText">Annihilation</span>} />
