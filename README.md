@@ -19,10 +19,10 @@ Randomizer for Marvel Legendary Deck building Game
     - X Henchmen
     - X Heroes
 - _ Refresh Buttons for villains, scenario, heroes etc.
-    - _ Villains
-    - _ Scheme
-    - _ Villains
-    - _ Henchmen
+    - _ Villains (Potentially Unable to do, may be able to add lock button)
+    - _ Scheme (Potentially Unable to do, may be able to add lock button)
+    - _ Villains (Potentially Unable to do, may be able to add lock button)
+    - _ Henchmen (Potentially Unable to do, may be able to add lock button)
     - X Heroes
 - X Finish Styling (for now)
 - _ Transition from JSON to DB
@@ -40,7 +40,7 @@ Randomizer for Marvel Legendary Deck building Game
     - X Update JSON file for schemes
     - _ Does not select specific heroes
 
-- _ add a select all to expansion select sheet
+- X add a select all to expansion select sheet
 
 
 Key: 
