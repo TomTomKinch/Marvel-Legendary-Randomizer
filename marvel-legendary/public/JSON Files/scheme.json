@@ -1643,5 +1643,53 @@
         "extraHenchmen": ["0","0","0","0","0"],
         "extraHero": ["0","0","0","0","0"],
         "set": "Messiah Complex"
+    },
+    {
+        "ID": "137",
+        "name": "Claim Souls for Demons",
+        "setup": "8 Twists.",
+        "leads": ["None"],
+        "leadsType": ["None"],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "138",
+        "name": "War for the Dream Dimension",
+        "setup": "7 Twists. Add an extra Villain Group.",
+        "leads": ["None"],
+        "leadsType": ["None"],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["1", "1", "1", "1", "1"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "139",
+        "name": "Cursed Pages of the Darkhold Tome",
+        "setup": "11 Twists, representing Cursed Pages of the Darkhold Tome. Add an extra Villain Group.",
+        "leads": ["None"],
+        "leadsType": ["None"],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["1", "1", "1", "1", "1"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "140",
+        "name": "Duels of Science and Magic",
+        "setup": "2 players: 9 Twists. 1 or 4 players: 10 Twists. 3 or 5 players: 11 Twists.",
+        "leads": ["None"],
+        "leadsType": ["None"],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Doctor Strange and the Shadows of Nightmare"
     }
 ]

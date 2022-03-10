@@ -42,7 +42,8 @@ function App() {
     'Civil War', 
     'Dark City', 
     'Deadpool', 
-    'Dimensions', 
+    'Dimensions',
+    'Doctor Strange and the Shadows of Nightmare', 
     'Fantastic Four', 
     'Fear Itself', 
     'Guardians of the Galaxy', 
@@ -205,6 +206,7 @@ const [ checked, setChecked ] = useState({
   Champions: true,
   Deadpool: true,
   Dimensions: true,
+  Doctor_Strange_and_the_Shadows_of_Nightmare: true,
   Fantastic_Four: true,
   Fear_Itself: true,
   Guardians_Of_The_Galaxy: true,
@@ -264,6 +266,7 @@ const handleSelectAll = () => {
     Champions: selectAll,
     Deadpool: selectAll,
     Dimensions: selectAll,
+    Doctor_Strange_and_the_Shadows_of_Nightmare: selectAll,
     Fantastic_Four: selectAll,
     Fear_Itself: selectAll,
     Guardians_Of_The_Galaxy: selectAll,
@@ -699,6 +702,7 @@ const handleSelectAll = () => {
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Dark_City} onChange={handleCheck} name="Dark_City" value="Dark City"/> } label={<span className="ExpansionText">Dark City</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Deadpool} onChange={handleCheck} name="Deadpool" value="Deadpool" /> } label={<span className="ExpansionText">Deadpool</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Dimensions} onChange={handleCheck} name="Dimensions" value="Dimensions" /> } label={<span className="ExpansionText">Dimensions</span>} />
+          <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Doctor_Strange_and_the_Shadows_of_Nightmare} onChange={handleCheck} name="Doctor_Strange_and_the_Shadows_of_Nightmare" value="Doctor Strange and the Shadows of Nightmare"/> } label={<span className="ExpansionText">Doctor Strange and the Shadows of Nightmare</span>}/> <br></br>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Fantastic_Four} onChange={handleCheck} name="Fantastic_Four" value="Fantastic Four" /> } label={<span className="ExpansionText">Fantastic Four</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Fear_Itself} onChange={handleCheck} name="Fear_Itself" value="Fear Itself" />}label={<span className="ExpansionText">Fear Itself</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Guardians_Of_The_Galaxy} onChange={handleCheck} name="Guardians_Of_The_Galaxy" value="Guardians of the Galaxy" /> } label={<span className="ExpansionText">Guardians of the Galaxy</span>} />

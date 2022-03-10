@@ -475,5 +475,15 @@
         "ID": "94",
         "name": "Reavers",
         "set": "Messiah Complex"
+    },
+    {
+        "ID": "95",
+        "name": "Lords of the Netherworld",
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "96",
+        "name": "Fear Lords",
+        "set": "Doctor Strange and the Shadows of Nightmare"
     }
 ]

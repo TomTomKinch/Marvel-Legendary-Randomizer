@@ -700,5 +700,23 @@
         "leads": "Reavers",
         "leadsType": "villains",
         "set": "Messiah Complex"
+    },
+    {
+        "ID": "75",
+        "name": "Dormammu",
+        "hp": "11",
+        "masterStrike": "Each player makes a Demonic Bargain with Dormammu to discard down to four cards.",
+        "leads": "Lords of the Netherworld",
+        "leadsType": "villains",
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "76",
+        "name": "Nightmare",
+        "hp": "6",
+        "masterStrike": "Nightmare enters the Astral Plane. If he was already there, each player discards a random card.",
+        "leads": "Fear Lords",
+        "leadsType": "villains",
+        "set": "Doctor Strange and the Shadows of Nightmare"
     }
 ]

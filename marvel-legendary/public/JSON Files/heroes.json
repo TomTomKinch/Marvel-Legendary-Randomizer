@@ -2298,5 +2298,55 @@
         "color3": "Red",
         "color4": "Yellow",
         "set": "Messiah Complex"
+    },
+    {
+        "ID": "225",
+        "name": "Clea",
+        "faction": "Marvel Knights",
+        "color1": "Blue",
+        "color2": "Red",
+        "color3": "Blue",
+        "color4": "Red",
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "226",
+        "name": "Doctor Strange",
+        "faction": "Avengers",
+        "color1": "Blue",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Blue",
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "227",
+        "name": "Doctor Voodoo",
+        "faction": "Avengers",
+        "color1": "Red",
+        "color2": "Black",
+        "color3": "Green",
+        "color4": "Yellow",
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "228",
+        "name": "The Ancient One",
+        "faction": "None",
+        "color1": "Red",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "229",
+        "name": "The Vishanti",
+        "faction": "None",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Doctor Strange and the Shadows of Nightmare"
     }
 ]
