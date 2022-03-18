@@ -266,7 +266,7 @@
     },
     {
         "ID": "22",
-        "name": "Transform Citizens Into Demons",        
+        "name": "Steal the Weaponized Plutonium",        
         "setup": "8 Twists representing Plutonium. Add an extra Villain Group",
         "leads": ["None"],
         "leadsType": ["None"],       
@@ -278,7 +278,7 @@
     },
     {
         "ID": "23",
-        "name": "Steal the Weaponized Plutonium",        
+        "name": "Transform Citizens Into Demons",        
         "setup": "8 Twists. Villain Deck includes 14 extra Jean Grey cards and no Bystanders.",
         "leads": ["None"],
         "leadsType": ["None"],      
