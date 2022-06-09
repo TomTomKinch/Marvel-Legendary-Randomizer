@@ -739,6 +739,9 @@ const handleSelectAll = () => {
             <span className="CardDetails"> {masterMind[randMasterMind].masterStrike} </span>
             <br></br>
             <br></br>
+            <span className="CardDetails"> {masterMind[randMasterMind].notes} </span>
+            <br></br>
+            <br></br>
             <span className="CardDetails">Set: {masterMind[randMasterMind].set} </span>
             <br></br>
             <span className="CardDetails">Always Leads: {masterMind[randMasterMind].leads} </span>
@@ -754,6 +757,9 @@ const handleSelectAll = () => {
             <br></br>
             <span className="CardName">Setup: </span>
             <span className="CardDetails">{scheme[randScheme].setup}</span>
+            <br></br>
+            <br></br>
+            <span className="CardDetails">{scheme[randScheme].notes}</span>
             <br></br>
             <br></br>
             <span className="CardDetails">Set: {scheme[randScheme].set}</span>
