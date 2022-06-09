@@ -4,6 +4,7 @@
         "name": "",
         "hp": "",
         "masterStrike": "",
+        "notes": "",
         "leads": "None",
         "leadsType": "None",
         "set": "None"
@@ -13,6 +14,7 @@
         "name": "Dr. Doom",
         "hp": "9",
         "masterStrike": "Each Player with exactly 6 cards in hand reveals a Black Hero or puts 2 cards from their hand on top of their deck",
+        "notes": "",
         "leads": "Doombot Legion",
         "leadsType": "henchmen",
         "set": "Base Set"
@@ -22,6 +24,7 @@
         "name": "Loki",
         "hp": "10",
         "masterStrike": "Each Player Reveals Green Hero or gains a wound.",
+        "notes": "",
         "leads": "Enemies of Asgard",
         "leadsType": "villains",
         "set": "Base Set"
@@ -31,6 +34,7 @@
         "name": "Magneto",
         "hp": "8",
         "masterStrike": "Each Player Reveals an X-Men Hero or discards down to four cards.",
+        "notes": "",
         "leads": "Brotherhood",
         "leadsType": "villains",
         "set": "Base Set"
@@ -40,6 +44,7 @@
         "name": "Red Skull",
         "hp": "7",
         "masterStrike": "Each Player KOs a Hero from their hand.",
+        "notes": "",
         "leads": "HYDRA",
         "leadsType": "villains",
         "set": "Base Set"
@@ -49,6 +54,7 @@
         "name": "Authoritarian Iron Man",
         "hp": "12",
         "masterStrike": "Authoritarian Iron Man fortifies the next city space to his right, starting with the Bridge. You can't fight him while there's a Villain in that space.",
+        "notes": "",
         "leads": "Superhuman Registration Act",
         "leadsType": "villains",
         "set": "Civil War"
@@ -58,6 +64,7 @@
         "name": "Baron Helmut Zero",
         "hp": "16",
         "masterStrike": "Each player KOs a Villain from their Victory Pile. Any player who cannot do so gains a Wound.",
+        "notes": "",
         "leads": "Thunderbolts",
         "leadsType": "villains",
         "set": "Civil War"
@@ -67,6 +74,7 @@
         "name": "Maria Hill, Director of SHIELD",
         "hp": "7",
         "masterStrike": "Two S.H.I.E.L.D. Officers enter the city as 3 Attack Villains. When you fight them, gain them as Heroes.",
+        "notes": "",
         "leads": "SHIELD Elite",
         "leadsType": "villains",
         "set": "Civil War"
@@ -76,6 +84,7 @@
         "name": "Misty Knight",
         "hp": "14",
         "masterStrike": "Each player reveals 4 cards with Recruit icons or gains a Wound.",
+        "notes": "",
         "leads": "Heroes for Hire",
         "leadsType": "villains",
         "set": "Civil War"
@@ -85,6 +94,7 @@
         "name": "Ragnarok",
         "hp": "6",
         "masterStrike": "Each player says 'zero' or 'not zero.' Then, each player discards all their cards with that cost.",
+        "notes": "",
         "leads": "Registration Enforcers",
         "leadsType": "villains",
         "set": "Civil War"
@@ -94,6 +104,7 @@
         "name": "Apocalypse",
         "hp": "12",
         "masterStrike": "Each player reveals their hand and puts all their Heroes that cost 1 or more on top of their deck.",
+        "notes": "",
         "leads": "Four Horsemen",
         "leadsType": "villains",
         "set": "Dark City"
@@ -103,6 +114,7 @@
         "name": "Kingpin",
         "hp": "13",
         "masterStrike": "Each player reveals a Marvel Knights Hero or discards their hand and draws 5 cards.",
+        "notes": "",
         "leads": "Streets of New York",
         "leadsType": "villains",
         "set": "Dark City"
@@ -112,6 +124,7 @@
         "name": "Mephisto",
         "hp": "10",
         "masterStrike": "Each player reveals a Marvel Knights Hero or gains a Wound.",
+        "notes": "",
         "leads": "Underworld",
         "leadsType": "villains",
         "set": "Dark City"
@@ -121,6 +134,7 @@
         "name": "Mr. Sinister",
         "hp": "8",
         "masterStrike": "Mr. Sinister captures a Bystander. Then each player with exactly 6 cards reveals a RED Hero or discards cards equal to the number of Bystanders Mr. Sinister has.",
+        "notes": "",
         "leads": "Marauders",
         "leadsType": "villains",
         "set": "Dark City"
@@ -130,6 +144,7 @@
         "name": "Stryfe",
         "hp": "7",
         "masterStrike": "Stack this Master Strike next to Stryfe. Stryfe gets +1 Attack for each Master Strike stacked next to him. Each player reveals an X-Force Hero or discards a card at random.",
+        "notes": "",
         "leads": "Mutant Liberation Front",
         "leadsType": "villains",
         "set": "Dark City"
@@ -139,6 +154,7 @@
         "name": "Madelyne Pryor, Goblin Queen",
         "hp": "10",
         "masterStrike": "Madelyne captures 4 Bystanders. If she already had any Bystanders before that, then each player gains a Wound.",
+        "notes": "",
         "leads": "Limbo",
         "leadsType": "villains",
         "set": "Secret Wars Vol. 1"
@@ -148,6 +164,7 @@
         "name": "Nimrod, Super Sentinel",
         "hp": "6",
         "masterStrike": "Each player who does not reveal a Tech Hero must choose Recruit or Attack, then discard all their cards with that icon.",
+        "notes": "",
         "leads": "Sentinel Territories",
         "leadsType": "villains",
         "set": "Secret Wars Vol. 1"
@@ -157,6 +174,7 @@
         "name": "Wasteland Hulk",
         "hp": "7",
         "masterStrike": "Cross-Dimensional Hulk Rampage",
+        "notes": "",
         "leads": "Wasteland",
         "leadsType": "villains",
         "set": "Secret Wars Vol. 1"
@@ -166,6 +184,7 @@
         "name": "Zombie Green Goblin",
         "hp": "11",
         "masterStrike": "Rise of the Living Dead. KO each Hero in the HQ that costs 7 or more. Then, each player discards a card for each Hero in the KO pile that costs 7 or more.",
+        "notes": "",
         "leads": "The Deadlands",
         "leadsType": "villains",
         "set": "Secret Wars Vol. 1"
@@ -175,6 +194,7 @@
         "name": "Immortal Emperor Zheng-Zhu",
         "hp": "7",
         "masterStrike": "Each player reveals a Hero that costs 7 or more, or they discard down to 3 cards.",
+        "notes": "",
         "leads": "K'un-Lun",
         "leadsType": "villains",
         "set": "Secret Wars Vol. 2"
@@ -184,6 +204,7 @@
         "name": "King Hyperion",
         "hp": "12",
         "masterStrike": "King Hyperion enters the city if he was not already there. Then, he charges three spaces. Escape: Each player gains a wound. Put King Hyperion on the Mastermind space.",
+        "notes": "",
         "leads": "Utopolis",
         "leadsType": "villains",
         "set": "Secret Wars Vol. 2"
@@ -193,6 +214,7 @@
         "name": "Shiklah, the Demon Bride",
         "hp": "9",
         "masterStrike": "Reveal the top three cards of the Villain Deck. Put all the Scheme Twists you revealed on top of the Villain Deck. Put the rest on the bottom of that deck in random order.",
+        "notes": "",
         "leads": "Monster Metropolis",
         "leadsType": "villains",
         "set": "Secret Wars Vol. 2"
@@ -202,96 +224,107 @@
         "name": "Spider-Queen",
         "hp": "8",
         "masterStrike": "Each player puts a Spider-Infected from their Victory Pile into an empty city space. Any player who cannot do so gains a Wound.",
+        "notes": "",
         "leads": "Spider-Infected",
         "leadsType": "henchmen",
         "set": "Secret Wars Vol. 2"
     },
     {
-        "ID": "22",
+        "ID": "23",
         "name": "Dr. Strange",
         "hp": "8",
         "masterStrike": "Reveal the top three cards of the Adversary Deck. Put the Adversary you revealed with the highest printed Attack on top of that deck. Then play a Plot Twist from among the cards you revealed. Then put the rest of those cards on the bottom of that deck in random order.",
+        "notes": "",
         "leads": "Defenders",
         "leadsType": "villains",
         "set": "Villains"
     },
     {
-        "ID": "23",
+        "ID": "24",
         "name": "Nick Fury",
         "hp": "9",
         "masterStrike": "Stack this Strike next to Nick Fury. Then demolish each player once for each Strike stacked here.",
+        "notes": "",
         "leads": "Avengers",
         "leadsType": "villains",
         "set": "Villains"
     },
     {
-        "ID": "24",
+        "ID": "25",
         "name": "Odin",
         "hp": "10",
         "masterStrike": "Each player puts an Asgardian Warrior from their Victory Pile into an empty city space. Any player who cannot do so gains a Bindings.",
+        "notes": "",
         "leads": "Asgardian Warriors",
         "leadsType": "henchmen",
         "set": "Villains"
     },
     {
-        "ID": "25",
+        "ID": "26",
         "name": "Professor X",
         "hp": "8",
         "masterStrike": "Choose the two highest-cost Allies in the Lair. Stack them next to Professor X as 'Telepathic Pawns.' Professor X gets +1 Attack for each Ally stacked next to him. Players can recrut the top Ally in the stack next to Professor X.",
+        "notes": "",
         "leads": "X-Men First Class",
         "leadsType": "villains",
         "set": "Villains"
     },
     {
-        "ID": "26",
+        "ID": "27",
         "name": "General Ross",
         "hp": "6",
         "masterStrike": "General Ross Transforms, then Cross-Dimensional Hulk Rampage.",
+        "notes": "",
         "leads": "Code Red",
         "leadsType": "villains",
         "set": "World War Hulk"
     },
     {
-        "ID": "27",
+        "ID": "28",
         "name": "Illuminati, Secret Society",
         "hp": "11",
         "masterStrike": "Each player reveals their hand and discards two cards that each cost between 1 and 4. The Illuminati Transform.",
+        "notes": "",
         "leads": "Illuminati",
         "leadsType": "villains",
         "set": "World War Hulk"
     },
     {
-        "ID": "28",
+        "ID": "29",
         "name": "King Hulk, Sakaarson",
         "hp": "9",
         "masterStrike": "Each player KO's a Warbound Villain from their Victory Pile or gains a Wound. King Hulk Transforms.",
+        "notes": "",
         "leads": "Warbound",
         "leadsType": "villains",
         "set": "World War Hulk"
     },
     {
-        "ID": "29",
+        "ID": "30",
         "name": "M.O.D.O.K.",
         "hp": "9",
         "masterStrike": "Each player who can't Outwit M.O.D.O.K. gains a Wound, then M.O.D.O.K. Transforms.",
+        "notes": "",
         "leads": "Intelligencia",
         "leadsType": "villains",
         "set": "World War Hulk"
     },
     {
-        "ID": "30",
+        "ID": "31",
         "name": "The Red King",
         "hp": "7",
         "masterStrike": "The Red King Transforms, then each player reveals a Tech card or gains a Wound.",
+        "notes": "",
         "leads": "Sakaar Imperial Guard",
         "leadsType": "villains",
         "set": "World War Hulk"
     },
     {
-        "ID": "31",
+        "ID": "32",
         "name": "The Sentry",
         "hp": "10",
         "masterStrike": "The Sentry Transforms, then Cross-Dimensional Void Rampage.",
+        "notes": "",
         "leads": "Aspects of the Void",
         "leadsType": "villains",
         "set": "World War Hulk"
@@ -301,6 +334,7 @@
         "name": "Arcade",
         "hp": "3",
         "masterStrike": "Arcade captures a random Bystander from each player's Victory Pile as a Human Shield. Each player who didn't have a Bystander gains a Wound instead.",
+        "notes": "",
         "leads": "Murderworld",
         "leadsType": "villains",
         "set": "X-Men"
@@ -310,6 +344,7 @@
         "name": "Dark Phoenix",
         "hp": "13",
         "masterStrike": "KO the top card of the Hero Deck and each card in the Hero Deck that shares a color with it. Shuffle the Hero Deck.",
+        "notes": "",
         "leads": "Hellfire Club",
         "leadsType": "villains",
         "set": "X-Men"
@@ -319,6 +354,7 @@
         "name": "Deathbird",
         "hp": "8",
         "masterStrike": "If there are already any Shi'ar Villains in the city, each player gains a Wound. Then this strike enters the city as a Shi'ar Battle Cruiser Token Villain with 7 Attack worth 5 VP.",
+        "notes": "*Randomizer Note: Replace one henchmen group with a Shi'ar Henchmen Group",
         "leads": "Shi'ar Imperial Guard",
         "leadsType": "villains",
         "set": "X-Men"
@@ -328,6 +364,7 @@
         "name": "Mojo",
         "hp": "6",
         "masterStrike": "Mojo captures a Human Shield. Each player reveals a Tech Hero or discards a card at random.",
+        "notes": "",
         "leads": "Mojoverse",
         "leadsType": "villains",
         "set": "X-Men"
@@ -337,6 +374,7 @@
         "name": "Onslaught",
         "hp": "10",
         "masterStrike": "KO all Heroes Dominated by Onslaught. Then each player reveals their hand and chooses one of their non-grey Heroes. Onslaught Dominates those Heroes.",
+        "notes": "",
         "leads": "Dark Descendants",
         "leadsType": "villains",
         "set": "X-Men"
@@ -346,6 +384,7 @@
         "name": "Shadow King",
         "hp": "7",
         "masterStrike": "KO all Heroes Dominated by Shadow King. Then each player chooses a non-grey Hero from their discard pile. Shadow King Dominates those Heroes.",
+        "notes": "",
         "leads": "Shadow-X",
         "leadsType": "villains",
         "set": "X-Men"
@@ -355,6 +394,7 @@
         "name": "Ultron",
         "hp": "9",
         "masterStrike": "Each player reveals a Tech Hero or puts a non-grey Hero from their discard pile into a 'Threat Analysis pile' next to Ultron. Ultron is Empowered by each color in his Threat Analysis pile.",
+        "notes": "",
         "leads": "Ultron's Legacy",
         "leadsType": "villains",
         "set": "Ant-Man"
@@ -364,6 +404,7 @@
         "name": "Morgana Le Fay",
         "hp": "7",
         "masterStrike": "Each player in turn reveals a Covert Hero or gains a 0-cost Hero or Wound from the KO pile.",
+        "notes": "",
         "leads": "Queen's Vengeance",
         "leadsType": "villains",
         "set": "Ant-Man"
@@ -373,6 +414,7 @@
         "name": "Arnim Zola",
         "hp": "6",
         "masterStrike": "For each Hero in the HQ that has less than 2 printed Attack, put that Hero on the bottom of the Hero Deck, and each player discards a card of that Hero's cost.",
+        "notes": "",
         "leads": "Zola's Creations",
         "leadsType": "villains",
         "set": "Captain America 75th Anniversary"
@@ -382,6 +424,7 @@
         "name": "Baron Heinrich Zemo",
         "hp": "9",
         "masterStrike": "Each player KOs a Bystander from their Victory Pile. Any player who cannot do so gains a Wound.",
+        "notes": "",
         "leads": "Masters of Evil (WWII)",
         "leadsType": "villains",
         "set": "Captain America 75th Anniversary"
@@ -391,6 +434,7 @@
         "name": "Fin Fang Foom",
         "hp": "20",
         "masterStrike": "Demolish each player, then do it again for each Monsters Unleashed Villain in the city and Escape Pile.",
+        "notes": "",
         "leads": "Monsters Unleashed",
         "leadsType": "villains",
         "set": "Champions"
@@ -400,321 +444,357 @@
         "name": "Pagliacci",
         "hp": "9",
         "masterStrike": "1, 5: This card becomes a Scheme Twist that takes effect immediately. 2, 3, 4: Demolish each player.",
+        "notes": "",
         "leads": "Wrecking Crew",
         "leadsType": "villains",
         "set": "Champions"
     },
     {
-        "ID": "44",
+        "ID": "45",
         "name": "Evil Deadpool",
         "hp": "11",
         "masterStrike": "Without talking, each player simultaneously discards a card. Whoever discards the lowest-costing card (or tied for lowest) gains a Wound.",
+        "notes": "",
         "leads": "Evil Deadpool Corpse",
         "leadsType": "villains",
         "set": "Deadpool"
     },
     {
-        "ID": "44",
+        "ID": "46",
         "name": "Macho Gomez",
         "hp": "9",
         "masterStrike": "Put this Strike in front of you as a 'Bounty on Your Head.' Then, each player gains a Wound for each Bounty on them. Any number of times during your turn, you may pay 1 Recruit to move a Bounty from you to the player on your left.",
+        "notes": "",
         "leads": "Deadpool's 'Friends'",
         "leadsType": "villains",
         "set": "Deadpool"
     },
     {
-        "ID": "45",
+        "ID": "47",
         "name": "J. Jonah Jameson",
         "hp": "4",
         "masterStrike": "Each player Investigates their deck for a card and puts it into the Angry Mobs stack.",
+        "notes": "",
         "leads": "Spider-Slayer",
         "leadsType": "henchmen",
         "set": "Dimensions"
     },
     {
-        "ID": "46",
+        "ID": "48",
         "name": "Galactus",
         "hp": "20",
         "masterStrike": "Destroy the city space closest to Galactus. Any Villain there escapes. Put this Master Strike there. Galactus Wins: When the city is destroyed.",
+        "notes": "",
         "leads": "Heralds of Galactus",
         "leadsType": "villains",
         "set": "Fantastic Four"
     },
     {
-        "ID": "47",
+        "ID": "49",
         "name": "Mole Man",
         "hp": "7",
         "masterStrike": "All Subterranea Villains in the city escape. If any Villains escaped this way, each player gains a Wound.",
+        "notes": "",
         "leads": "Subterranea",
         "leadsType": "villains",
         "set": "Fantastic Four"
     },
     {
-        "ID": "48",
+        "ID": "50",
         "name": "Supreme Intelligence of the Kree",
         "hp": "9",
         "masterStrike": "The Supreme Intelligence gains a Shard. Then each player reveals their hand and discards each with cost equal to, and cost one higher than, the number of Shards on the Supreme Intelligence.",
+        "notes": "",
         "leads": "Kree Starforce",
         "leadsType": "villains",
         "set": "Guardians of the Galaxy"
     },
     {
-        "ID": "49",
+        "ID": "51",
         "name": "Thanos",
         "hp": "24",
         "masterStrike": "Each player reveals their hand and puts one of their non-grey Heroes next to Thanos in a 'Bound Souls' pile.",
+        "notes": "",
         "leads": "Infinity Gems",
         "leadsType": "villains",
         "set": "Guardians of the Galaxy"
     },
     {
-        "ID": "50",
+        "ID": "52",
         "name": "Malekith the Accursed",
         "hp": "8",
         "masterStrike": "Malekith captures a Villainous Weapon from the city or from any player's control or discard pile. Then this Master Strike enters the city as a Villainous Weapon called 'Darkspear' that gives +2 Attack. When you gain a Darkspear, it becomes a Thrown Artifact that gives +2 Attack when thrown.",
+        "notes": "",
         "leads": "Dark Council",
         "leadsType": "villains",
         "set": "Heroes of Asgard"
     },
     {
-        "ID": "51",
+        "ID": "53",
         "name": "Hela, Goddess of Death",
         "hp": "10",
         "masterStrike": "This Strike enters the city as a 5 Attack 'Army of the Dead' Villain worth 3VP. Then choose a Villain worth 3VP or more from your Victory Pile (including an Army of the Dead) to enter the city. If you didn't have any, each player gains a Wound.",
+        "notes": "",
         "leads": "Omens of Ragnarok",
         "leadsType": "villains",
         "set": "Heroes of Asgard"
     },
     {
-        "ID": "52",
+        "ID": "54",
         "name": "Magus",
         "hp": "9",
         "masterStrike": "If there are already any Villains with Shards in the city, each player gains a Wound. Then this Strike enters the city as a 'Cosmic Wraith' Villain with 4 Attack worth 4 VP. Then put a Shard on each Villain in the city.",
+        "notes": "",
         "leads": "Universal Church of Truth",
         "leadsType": "henchmen",
         "set": "Into the Cosmos"
     },
     {
-        "ID": "53",
+        "ID": "55",
         "name": "The Grandmaster",
         "hp": "10",
         "masterStrike": "Reveal the top card of the Hero Deck then put it back. Contest of Champions for that card's color(s). Each player that loses gains a Wound. If the Grandmaster wins, he gains a Shard.",
+        "notes": "",
         "leads": "Elders of the Universe",
         "leadsType": "villains",
         "set": "Into the Cosmos"
     },
     {
-        "ID": "54",
+        "ID": "56",
         "name": "The Beyonder",
         "hp": "21",
         "masterStrike": "Each player reveals a card that costs 5 or more or gains a Wound. Then put this Strike under an HQ space (that doesn't already have a Strike) pulling that space into a Pocket Dimension. To recruit a card from a Pocket Dimension, you must pay 1 Attack for each Pocket Dimension in play.",
+        "notes": "",
         "leads": "From Beyond",
         "leadsType": "villains",
         "set": "Into the Cosmos"
     },
     {
-        "ID": "55",
+        "ID": "57",
         "name": "Charles Xavier, Professor of Crime",
         "hp": "8",
         "masterStrike": "Four Heroes in the HQ capture Hidden Witnesses.",
+        "notes": "",
         "leads": "X-Men Noir",
         "leadsType": "villains",
         "set": "Noir"
     },
     {
-        "ID": "56",
+        "ID": "58",
         "name": "The Goblin, Underworld Boss",
         "hp": "10",
         "masterStrike": "Two random Bystanders from each player's Victory Pile become Hidden Witnesses held by The Goblin. Any player who didn't have two Bystanders gains a Wound instead.",
+        "notes": "",
         "leads": "Goblin's Freak Show",
         "leadsType": "villains",
         "set": "Noir"
     },
     {
-        "ID": "57",
+        "ID": "59",
         "name": "Carnage",
         "hp": "9",
         "masterStrike": "Feast on each player. Whenever this Master Strike feasts on a player's 0-cost Hero, that player gains a Wound.",
+        "notes": "",
         "leads": "Maximum Carnage",
         "leadsType": "villains",
         "set": "Paint the Town Red"
     },
     {
-        "ID": "58",
+        "ID": "60",
         "name": "Mysterio",
         "hp": "8",
         "masterStrike": "Shuffle this Master Strike into Mysterio's face down Mastermind Tactics. That card becomes a Mastermind Tactic worth 6 VP.",
+        "notes": "",
         "leads": "Sinister Six",
         "leadsType": "villains",
         "set": "Paint the Town Red"
     },
     {
-        "ID": "59",
+        "ID": "61",
         "name": "Grim Reaper",
         "hp": "8",
         "masterStrike": "This Strike enters the city as a 7 Attack 'Graveyard' Location that says 'This gets +2 Attack while there's a Villain here.' It's Worth 5VP.",
+        "notes": "",
         "leads": "Lethal Legion",
         "leadsType": "villains",
         "set": "Revelations"
     },
     {
-        "ID": "60",
+        "ID": "62",
         "name": "Mandarin",
         "hp": "16",
         "masterStrike": "Each player chooses a Mandarin's Ring from their Victory Pile to enter the city. Any player who didn't have a Ring gains a Wound instead.",
+        "notes": "",
         "leads": "Mandarin's Rings",
         "leadsType": "henchmen",
         "set": "Revelations"
     },
     {
-        "ID": "61",
+        "ID": "63",
         "name": "The Hood",
         "hp": "9",
         "masterStrike": "Each player reveals the top 6 cards of their deck, discards all the non-grey Heroes revealed, and puts the rest back in any order.",
+        "notes": "",
         "leads": "Hood's Gang",
         "leadsType": "villains",
         "set": "Revelations"
     },
     {
-        "ID": "62",
+        "ID": "64",
         "name": "Hydra High Council",
         "hp": "16",
         "masterStrike": "Adapt",
+        "notes": "",
         "leads": "Hydra Elite",
         "leadsType": "villains",
         "set": "SHIELD"
     },
     {
-        "ID": "63",
+        "ID": "65",
         "name": "Hydra Super-Adaptoid",
         "hp": "14",
         "masterStrike": "Adapt",
+        "notes": "",
         "leads": "A.I.M. Hydra Offshoot",
         "leadsType": "villains",
         "set": "SHIELD"
     },
     {
-        "ID": "64",
+        "ID": "66",
         "name": "Belasco, Demon Lord of Limbo",
         "hp": "9",
         "masterStrike": "Sunlight: Each player KOs a non-grey Hero from their discard pile. Moonlight: Each player has a Waking Nightmare. KO Heroes discarded this way.",
+        "notes": "",
         "leads": "Demons of Limbo",
         "leadsType": "villains",
         "set": "The New Mutants"
     },
     {
-        "ID": "65",
+        "ID": "67",
         "name": "Emma Frost, The White Queen",
         "hp": "8",
         "masterStrike": "Stack this Strike next to Emma Frost. Then each player has a Waking Nightmare for each Strike stacked here.",
+        "notes": "",
         "leads": "Hellions",
         "leadsType": "villains",
         "set": "The New Mutants"
     },
     {
-        "ID": "66",
+        "ID": "68",
         "name": "Uru-Enchanted Iron Man",
         "hp": "7",
         "masterStrike": "Demolish each player. Then stack this Strike next to Iron Man. Uru-Enchanted Iron Man has an Uru-Enchanted Weapon for each Strike stacked here.",
+        "notes": "",
         "leads": "The Mighty",
         "leadsType": "villains",
         "set": "Fear Itself"
     },
     {
-        "ID": "67",
+        "ID": "69",
         "name": "Hybrid",
         "hp": "6",
         "masterStrike": "A Villain from the city Symbiote Bonds with Hybrid, If Hybrid was already bonded, then each player gains a Wound instead.",
+        "notes": "",
         "leads": "Life Foundation",
         "leadsType": "villains",
         "set": "Venom"
     },
     {
-        "ID": "68",
+        "ID": "70",
         "name": "Poison Thanos",
         "hp": "12",
         "masterStrike": "Each player reveals their hand and puts one of their non-grey Heroes next to Thanos in a Poisoned Souls: pile.",
+        "notes": "",
         "leads": "Poisons",
         "leadsType": "villains",
         "set": "Venom"
     },
     {
-        "ID": "69",
+        "ID": "71",
         "name": "Maximus the Mad",
         "hp": "8",
         "masterStrike": "Reveal one of Maximus' remaining Mastermind Tactics at random. Use its Fight effect, then shuffle it back into those Tactics.",
+        "notes": "",
         "leads": "Inhuman Rebellion",
         "leadsType": "villains",
         "set": "Realm of Kings"
     },
     {
-        "ID": "70",
+        "ID": "72",
         "name": "Emperor Vulcan of the Shi'ar",
         "hp": "10",
         "masterStrike": "Each player that doesn't have the Throne's Favor gains a Wound. Then Vulcan gains the Throne's",
+        "notes": "",
         "leads": "Shi'ar Imperial Elite",
         "leadsType": "villains",
         "set": "Realm of Kings"
     },
     {
-        "ID": "71",
+        "ID": "73",
         "name": "Annihilus",
         "hp": "10",
         "masterStrike": "Reveal the top card of the Villain Deck. If it's a Bystander, Annihilus captures it. If it's a Villain, it enters the city, captures a Bystander, and moves forward an extra space (before doing any Ambush ability).",
+        "notes": "",
         "leads": "Annihilation Wave",
         "leadsType": "villains",
         "set": "Annihilation"
     },
     {
-        "ID": "71",
+        "ID": "74",
         "name": "Kang the Conqueror",
         "hp": "8",
         "masterStrike": "This Strike becomes a 'Time Incursion.' Put it above the rightmost city space that doesn't yet have a Time Incursion.",
+        "notes": "",
         "leads": "Timelines of Kang",
         "leadsType": "villains",
         "set": "Annihilation"
     },
     {
-        "ID": "72",
+        "ID": "75",
         "name": "Bastion, Fused Sentinel",
         "hp": "4",
-        "masterStrike": "*Note: For Always Leads Replace a henchmen/villains with a Sentinal Group.* A card from the Bystander Stack ascends to become a 4 Attack 'Prime Sentinel' Mastermind with 'Fight: Rescue this. Master Strike: Each player reveals the top card of their deck and KOs it if it costs 1 or more.'",
+        "masterStrike": "A card from the Bystander Stack ascends to become a 4 Attack 'Prime Sentinel' Mastermind with 'Fight: Rescue this. Master Strike: Each player reveals the top card of their deck and KOs it if it costs 1 or more.'",
+        "notes": "*Randomizer Note: For Always Leads Replace a henchmen/villains with a Sentinal Group.",
         "leads": "Purifiers",
         "leadsType": "villains",
         "set": "Messiah Complex"
     },
     {
-        "ID": "73",
+        "ID": "76",
         "name": "Exodus",
         "hp": "32",
         "masterStrike": "Choose X-Men, X-Force, X-Factor, or Brotherhood. Each player discards one of those Heroes or gains a Wound.",
+        "notes": "",
         "leads": "Acolytes",
         "leadsType": "villains",
         "set": "Messiah Complex"
     },
     {
-        "ID": "74",
+        "ID": "77",
         "name": "Lady Deathstrike",
         "hp": "8",
         "masterStrike": "If she is Preying on a player, Finish the Prey. Otherwise, Prey on the fewest 'Instinct'",
+        "notes": "",
         "leads": "Reavers",
         "leadsType": "villains",
         "set": "Messiah Complex"
     },
     {
-        "ID": "75",
+        "ID": "78",
         "name": "Dormammu",
         "hp": "11",
         "masterStrike": "Each player makes a Demonic Bargain with Dormammu to discard down to four cards.",
+        "notes": "",
         "leads": "Lords of the Netherworld",
         "leadsType": "villains",
         "set": "Doctor Strange and the Shadows of Nightmare"
     },
     {
-        "ID": "76",
+        "ID": "79",
         "name": "Nightmare",
         "hp": "6",
         "masterStrike": "Nightmare enters the Astral Plane. If he was already there, each player discards a random card.",
+        "notes": "",
         "leads": "Fear Lords",
         "leadsType": "villains",
         "set": "Doctor Strange and the Shadows of Nightmare"
