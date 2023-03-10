@@ -485,5 +485,25 @@
         "ID": "96",
         "name": "Fear Lords",
         "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "97",
+        "name": "Taskmaster's Thunderbolts",
+        "set": "Black Widow"
+    },
+    {
+        "ID": "98",
+        "name": "Elite Assassins",
+        "set": "Black Panther"
+    },
+    {
+        "ID": "99",
+        "name": "Killmonger's League",
+        "set": "Black Panther"
+    },
+    {
+        "ID": "100",
+        "name": "Enemies of Wakanda",
+        "set": "Black Panther"
     }
 ]
