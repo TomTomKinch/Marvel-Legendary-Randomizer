@@ -2348,5 +2348,105 @@
         "color3": "Red",
         "color4": "Blue",
         "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "230",
+        "name": "Black Widow",
+        "faction": "SHIELD",
+        "color1": "Yellow",
+        "color2": "Black",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Black Widow"
+    },
+    {
+        "ID": "231",
+        "name": "Yelena Belova",
+        "faction": "SHIELD",
+        "color1": "Red",
+        "color2": "Yellow",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "Black Widow"
+    },
+    {
+        "ID": "232",
+        "name": "Red Guardian",
+        "faction": "None",
+        "color1": "Red",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Black Widow"
+    },
+    {
+        "ID": "233",
+        "name": "White Tiger",
+        "faction": "Marvel Knights",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Black Widow"
+    },
+    {
+        "ID": "234",
+        "name": "Falcon & Winter Soldier",
+        "faction": "Avengers",
+        "color1": "BlueGreen",
+        "color2": "YellowBlack",
+        "color3": "RedBlack",
+        "color4": "Green",
+        "set": "Black Widow"
+    },
+    {
+        "ID": "235",
+        "name": "King Black Panther",
+        "faction": "Heroes of Wakanda",
+        "color1": "RedYellow",
+        "color2": "YellowBlack",
+        "color3": "RedGreen",
+        "color4": "BlueGreen",
+        "set": "Black Panther"
+    },
+    {
+        "ID": "236",
+        "name": "Queen Storm of Wakanda",
+        "faction": "Heroes of Wakanda",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "RedBlue",
+        "color4": "Blue",
+        "set": "Black Panther"
+    },
+    {
+        "ID": "237",
+        "name": "General Okoye",
+        "faction": "Heroes of Wakanda",
+        "color1": "Yellow",
+        "color2": "YellowGreen",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Black Panther"
+    },
+    {
+        "ID": "238",
+        "name": "Princess Shuri",
+        "faction": "Heroes of Wakanda",
+        "color1": "Black",
+        "color2": "BlackBlue",
+        "color3": "Blue",
+        "color4": "Yellow",
+        "set": "Black Panther"
+    },
+    {
+        "ID": "239",
+        "name": "White Wolf",
+        "faction": "Heroes of Wakanda",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "RedBlack",
+        "color4": "Black",
+        "set": "Black Panther"
     }
 ]

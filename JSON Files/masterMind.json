@@ -798,5 +798,45 @@
         "leads": "Fear Lords",
         "leadsType": "villains",
         "set": "Doctor Strange and the Shadows of Nightmare"
+    },
+    {
+        "ID": "80",
+        "name": "Taskmaster",
+        "hp": "5",
+        "masterStrike": "Stack this Strike next to Taskmaster as 'Henchman Training.' If there are any Henchmen in the city, each player gains a Wound.",
+        "notes": "",
+        "leads": "Taskmaster's Thunderbolts",
+        "leadsType": "villains",
+        "set": "Black Widow"
+    },
+    {
+        "ID": "81",
+        "name": "Indestructible Man",
+        "hp": "*",
+        "masterStrike": "Shuffle an Elite Assassin from your Victory Pile into the Villain Deck. If you can't, each player gains a Wound.",
+        "notes": "",
+        "leads": "Elite Assassins",
+        "leadsType": "villains",
+        "set": "Black Widow"
+    },
+    {
+        "ID": "83",
+        "name": "Killmonger",
+        "hp": "5",
+        "masterStrike": "Each player must reveal 4 different Hero Classes or gain one of the Wounds on Killmonger. Any playere who can't do wither must discard down to 4 cards.",
+        "notes": "",
+        "leads": "Killmonger's League",
+        "leadsType": "villains",
+        "set": "Black Panther"
+    },
+    {
+        "ID": "84",
+        "name": "Klaw",
+        "hp": "8",
+        "masterStrike": "Put the top card of the Hero Deck next to Klaw as a 'Sonic Frequency,' putting any previous Frequency on the bottom of the Hero Deck. Each player must reveal a card that shares a color with it or gain a Wound.",
+        "notes": "",
+        "leads": "Enemies of Wakanda",
+        "leadsType": "villains",
+        "set": "Black Panther"
     }
 ]
