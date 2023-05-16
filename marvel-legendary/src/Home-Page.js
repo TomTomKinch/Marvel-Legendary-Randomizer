@@ -51,7 +51,8 @@ function App() {
     'Guardians of the Galaxy', 
     'Heroes of Asgard', 
     'Into the Cosmos', 
-    'Messiah Complex', 
+    'Messiah Complex',
+    'Midnight Sons', 
     'Noir', 
     'Paint the Town Red', 
     'Realm of Kings', 
@@ -217,6 +218,7 @@ const [ checked, setChecked ] = useState({
   Heroes_Of_Asgard: true,
   Into_The_Cosmos: true,
   Messiah_Complex: true,
+  Midnight_Sons: true,
   Noir: true,
   Paint_The_Town_Red: true,
   Realm_Of_Kings: true,
@@ -279,6 +281,7 @@ const handleSelectAll = () => {
     Heroes_Of_Asgard: selectAll,
     Into_The_Cosmos: selectAll,
     Messiah_Complex: selectAll,
+    Midnight_Sons: selectAll,
     Noir: selectAll,
     Paint_The_Town_Red: selectAll,
     Realm_Of_Kings: selectAll,
@@ -305,7 +308,7 @@ const handleSelectAll = () => {
 
   //---Expansion Check---
   const expansionCheck = (list, val) => {
-    console.log("expansionCheck");
+    //console.log("expansionCheck");
     let available = false;
     for(let i = 0; i < checkedArr.length; i++){
       //Verifies value is in an available Expansion
@@ -429,11 +432,11 @@ const handleSelectAll = () => {
             }
           }
         }
-        else{
+        else if(scheme[randScheme].leadsType[x] === "henchmen"){
           for(let i = 0; i < henchmen.length; i++){
             if(henchmen[i].name === scheme[randScheme].leads[x]){
               setSchemeLeads(i);
-              //Add indexto Henchmen Arrray
+              //Add index to Henchmen Arrray
               if(henchmenArray.indexOf(i) === -1){
                 henchmenArray.push(i);
                 henchmenCount--;
@@ -542,7 +545,7 @@ const handleSelectAll = () => {
       for(let count = 0; count <= bufferNum; count++){
         hen = Math.floor(Math.random() * (henchmen.length - 1)) + 1;
         let expCheck = expansionCheck(henchmen, hen);
-        if(expCheck === true){
+        if(expCheck === true && hen !== 0){
           if(henchmenArray.indexOf(hen) === -1){
             henchmenArray.push(hen);
           }
@@ -717,6 +720,7 @@ const handleSelectAll = () => {
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Heroes_Of_Asgard} onChange={handleCheck} name="Heroes_Of_Asgard" value="Heroes of Asgard" /> } label={<span className="ExpansionText">Heroes of Asgard</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Into_The_Cosmos} onChange={handleCheck} name="Into_The_Cosmos" value="Into the Cosmos" /> } label={<span className="ExpansionText">Into the Cosmos</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Messiah_Complex} onChange={handleCheck} name="Messiah_Complex" value="Messiah Complex" /> } label={<span className="ExpansionText">Messiah Complex</span>} />
+          <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Midnight_Sons} onChange={handleCheck} name="Midnight_Sons" value="Midnight Sons" /> } label={<span className="ExpansionText">Midnight Sons</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Noir} onChange={handleCheck} name="Noir" value="Noir" /> } label={<span className="ExpansionText">Noir</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Paint_The_Town_Red} onChange={handleCheck} name="Paint_The_Town_Red" value="Paint the Town Red" /> } label={<span className="ExpansionText">Paint the Town Red</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Realm_Of_Kings} onChange={handleCheck} name="Realm_Of_Kings" value="Realm of Kings" />}label={<span className="ExpansionText">Realm of Kings</span>}/>

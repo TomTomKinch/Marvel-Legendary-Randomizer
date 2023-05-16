@@ -192,6 +192,10 @@ body{
   margin-top: 10px;
 }
 
+.MuiFormControlLabel {
+  
+}
+
 .ExpansionText {
   color: #ffffff;
   font-family: 'ComicBook';

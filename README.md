@@ -46,3 +46,7 @@ Randomizer for Marvel Legendary Deck building Game
 Key: 
 - X -> done
 - _ -> TODO
+
+# Running Locally
+- npm start
+- url -> http://localhost:3000/Marvel-Legendary-Randomizer/marvel-legendary

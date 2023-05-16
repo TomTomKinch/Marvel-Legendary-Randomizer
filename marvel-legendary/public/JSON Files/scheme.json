@@ -771,13 +771,13 @@
         "ID": "59",
         "name": "The Dark Phoenix Saga",        
         "setup": "10 Twists. Include Hellfire Club as one of the Villain Groups. Add 14 Jean Grey Hero cards to the Villain Deck.",
-        "notes": "",
+        "notes": "*Randomizer Note: Randomizer adds extra hero in case a Jean Grey Hero comes up. Either add Jean Grey Hero to Villain deck or choose a Hero to not play with",
         "leads": ["Hellfire Club"],
         "leadsType": ["villains"],       
         "extraMasterMind": ["0","0","0","0","0"],
         "extraVillain": ["0", "0", "0", "0", "0"],
         "extraHenchmen": ["0","0","0","0","0"],
-        "extraHero": ["0","0","0","0","0"],
+        "extraHero": ["1","1","1","1","1"],
         "set": "X-Men"
     },
     {
@@ -1936,5 +1936,58 @@
         "extraHenchmen": ["0","0","0","0","0"],
         "extraHero": ["0","0","0","0","0"],
         "set": "Black Panther"
+    },
+    {
+        "ID": "149",
+        "name": "Midnight Massacre",
+        "setup": "11 Twists. Add all 14 cards for any Blade Hero to the Villain Deck.",
+        "notes": "*Randomizer Note: Randomizer adds extra hero, in case a Blade Hero comes up. Either add Blade Hero to Villain deck or choose a Hero to not play with",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["1","1","1","1","1"],
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "150",
+        "name": "Ritual Sacrifice to Summon Chthon",
+        "setup": "6 Twists, plus 1 per player. Add Lilin as an extra Villain Group. If using Lilith: Use 1 Twist total (and still use an extra Villain Group).",
+        "notes": "",
+        "leads": ["Lilin"],
+        "leadsType": ["villains"],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["1", "1", "1", "1", "1"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "151",
+        "name": "Sire Vampires at the Blood Bank",
+        "setup": "10 Twists. Add an extra Henchmen Group of 10 cards as 'Vampire Neonates.' Put this Scheme above the Bank to mark it as the 'Blood Bank.'",
+        "notes": "*Randomizer Note: Randomizer adds extra henchmen. Pick one to be the 'Vampire Neonates'",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["1","1","1","1","1"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "152",
+        "name": "Wager at BlackJack for Heroes' Souls",
+        "setup": "11 Twists. Add two extra Heroes",
+        "notes": "",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["2","2","2","2","2"],
+        "set": "Midnight Sons"
     }
+    
 ]

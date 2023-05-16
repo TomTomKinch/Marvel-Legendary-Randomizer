@@ -838,5 +838,25 @@
         "leads": "Enemies of Wakanda",
         "leadsType": "villains",
         "set": "Black Panther"
+    },
+    {
+        "ID": "85",
+        "name": "Lilith, Mother of Demons",
+        "hp": "8",
+        "masterStrike": "Lilith Hunts for Victims. If she KOs a Bystander this way, each player gains a Wound to the top of their deck.",
+        "notes": "",
+        "leads": "Lilin",
+        "leadsType": "villains",
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "86",
+        "name": "Zarathos",
+        "hp": "7",
+        "masterStrike": "If any Heroes in the HQ are haunted, each player gains a Wound. Then if Zarathos is not already haunting, he Haunts the highest-cost unhaunted Hero in the HQ.",
+        "notes": "",
+        "leads": "Fallen",
+        "leadsType": "villains",
+        "set": "Midnight Sons"
     }
 ]
