@@ -2448,5 +2448,55 @@
         "color3": "RedBlack",
         "color4": "Black",
         "set": "Black Panther"
+    },
+    {
+        "ID": "240",
+        "name": "Blade, Daywalker",
+        "faction": "Marvel Knights",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Green",
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "241",
+        "name": "Elsa Bloodstone",
+        "faction": "Marvel Knights",
+        "color1": "Yellow",
+        "color2": "Black",
+        "color3": "Black",
+        "color4": "Yellow",
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "242",
+        "name": "Morbius",
+        "faction": "Marvel Knights",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "243",
+        "name": "Werewolf By Night",
+        "faction": "Marvel Knights",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "244",
+        "name": "Wong, Master of the Mystic Arts",
+        "faction": "Marvel Knights",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Midnight Sons"
     }
 ]

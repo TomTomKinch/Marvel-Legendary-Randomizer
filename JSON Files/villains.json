@@ -505,5 +505,15 @@
         "ID": "100",
         "name": "Enemies of Wakanda",
         "set": "Black Panther"
+    },
+    {
+        "ID": "101",
+        "name": "Lilin",
+        "set": "Midnight Sons"
+    },
+    {
+        "ID": "102",
+        "name": "Fallen",
+        "set": "Midnight Sons"
     }
 ]

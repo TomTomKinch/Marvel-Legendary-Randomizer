@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Marvel-Legendary-Randomizer/static/css/main.fafb363a.chunk.css",
-    "main.js": "/Marvel-Legendary-Randomizer/static/js/main.5500a808.chunk.js",
-    "main.js.map": "/Marvel-Legendary-Randomizer/static/js/main.5500a808.chunk.js.map",
+    "main.css": "/Marvel-Legendary-Randomizer/static/css/main.3f564062.chunk.css",
+    "main.js": "/Marvel-Legendary-Randomizer/static/js/main.f56aeb21.chunk.js",
+    "main.js.map": "/Marvel-Legendary-Randomizer/static/js/main.f56aeb21.chunk.js.map",
     "runtime-main.js": "/Marvel-Legendary-Randomizer/static/js/runtime-main.3f0d31b0.js",
     "runtime-main.js.map": "/Marvel-Legendary-Randomizer/static/js/runtime-main.3f0d31b0.js.map",
     "static/js/2.76cceeec.chunk.js": "/Marvel-Legendary-Randomizer/static/js/2.76cceeec.chunk.js",
     "static/js/2.76cceeec.chunk.js.map": "/Marvel-Legendary-Randomizer/static/js/2.76cceeec.chunk.js.map",
     "index.html": "/Marvel-Legendary-Randomizer/index.html",
-    "static/css/main.fafb363a.chunk.css.map": "/Marvel-Legendary-Randomizer/static/css/main.fafb363a.chunk.css.map",
+    "static/css/main.3f564062.chunk.css.map": "/Marvel-Legendary-Randomizer/static/css/main.3f564062.chunk.css.map",
     "static/js/2.76cceeec.chunk.js.LICENSE.txt": "/Marvel-Legendary-Randomizer/static/js/2.76cceeec.chunk.js.LICENSE.txt",
     "static/media/Blue.png": "/Marvel-Legendary-Randomizer/static/media/Blue.c7b3c085.png",
     "static/media/Brotherhood.png": "/Marvel-Legendary-Randomizer/static/media/Brotherhood.2eaa7368.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f0d31b0.js",
     "static/js/2.76cceeec.chunk.js",
-    "static/css/main.fafb363a.chunk.css",
-    "static/js/main.5500a808.chunk.js"
+    "static/css/main.3f564062.chunk.css",
+    "static/js/main.f56aeb21.chunk.js"
   ]
 }
