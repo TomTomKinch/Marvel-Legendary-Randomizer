@@ -35,6 +35,7 @@ function App() {
   let extraMasterMindArray = [];
   let expansionArr = [
     'Base Set',
+    '2099',
     'Annihilation', 
     'Ant-Man',
     'Black Panther',
@@ -62,7 +63,8 @@ function App() {
     'SHIELD', 
     'The New Mutants', 
     'Villains', 
-    'Venom', 
+    'Venom',
+    'Weapon X', 
     'World War Hulk', 
     'X-Men'
   ];
@@ -203,6 +205,7 @@ const [ checked, setChecked ] = useState({
   World_War_Hulk: true,
   X_Men: true,
   //Small
+  _2099: true,
   Annihilation: true,
   AntMan: true,
   Black_Panther: true,
@@ -226,6 +229,7 @@ const [ checked, setChecked ] = useState({
   SHIELD: true,
   The_New_Mutants: true,
   Venom: true,
+  Weapon_X: true
 });
 
 const [ checkedArr, setCheckedArr ] = useState(expansionArr);
@@ -259,6 +263,7 @@ const handleSelectAll = () => {
   //Set all to T or F
   setChecked({
     Base_Set: selectAll,
+    _2099: selectAll,
     Civil_War: selectAll,
     Dark_City: selectAll,
     Secret_Wars_Vol1: selectAll,
@@ -289,6 +294,7 @@ const handleSelectAll = () => {
     SHIELD: selectAll,
     The_New_Mutants: selectAll,
     Venom: selectAll,
+    Weapon_X: selectAll
   });
 
   //Set Checked Array
@@ -703,6 +709,7 @@ const handleSelectAll = () => {
           <button onClick={handleSelectAll} className="CreateGameButton"> Select All </button>
           <br></br>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Base_Set} onChange={handleCheck} name="Base_Set" value="Base Set"/> } label={<span className="ExpansionText">Base Set</span>}/> <br></br>
+          <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked._2099} onChange={handleCheck} name="_2099" value="2099" />}label={<span className="ExpansionText">2099</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Annihilation} onChange={handleCheck} name="Annihilation" value="Annihilation" /> } label={<span className="ExpansionText">Annihilation</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.AntMan} onChange={handleCheck} name="AntMan" value="Ant-Man" /> } label={<span className="ExpansionText">Ant-Man</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Black_Panther} onChange={handleCheck} name="Black_Panther" value="Black Panther"/> } label={<span className="ExpansionText">Black Panther</span>}/>
@@ -731,6 +738,7 @@ const handleSelectAll = () => {
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.The_New_Mutants} onChange={handleCheck} name="The_New_Mutants" value="The New Mutants" /> } label={<span className="ExpansionText">The New Mutants</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Villains} onChange={handleCheck} name="Villains" value="Villains" />  } label={<span className="ExpansionText">Villains</span>} />
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Venom} onChange={handleCheck} name="Venom" value="Venom" />}label={<span className="ExpansionText">Venom</span>}/>
+          <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.Weapon_X} onChange={handleCheck} name="Weapon_X" value="Weapon X" />}label={<span className="ExpansionText">Weapon X</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.World_War_Hulk} onChange={handleCheck} name="World_War_Hulk" value="World War Hulk" /> } label={<span className="ExpansionText">World War Hulk</span>}/>
           <FormControlLabel className="ExpansionSelect" control={ <Checkbox checked={checked.X_Men} onChange={handleCheck} name="X_Men" value="X-Men" /> } label={<span className="ExpansionText">X-Men</span>} />
       </div>

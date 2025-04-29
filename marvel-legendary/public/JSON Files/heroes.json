@@ -2498,5 +2498,95 @@
         "color3": "Red",
         "color4": "Blue",
         "set": "Midnight Sons"
+    },
+    {
+        "ID": "245",
+        "name": "Doctor Doom 2099",
+        "faction": "None",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Blue",
+        "set": "2099"
+    },
+    {
+        "ID": "246",
+        "name": "Ghost Rider 2099",
+        "faction": "Marvel Knights",
+        "color1": "Black",
+        "color2": "Black",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "2099"
+    },
+    {
+        "ID": "247",
+        "name": "Hulk 2099",
+        "faction": "Marvel Knights",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Green",
+        "set": "2099"
+    },    
+    {
+        "ID": "248",
+        "name": "Ravage 2099",
+        "faction": "Marvel Knights",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "2099"
+    },
+    {
+        "ID": "249",
+        "name": "Spider-Man 2099",
+        "faction": "Spiderverse",
+        "color1": "Red",
+        "color2": "Red",
+        "color3": "Green",
+        "color4": "Yellow",
+        "set": "2099"
+    },
+    {
+        "ID": "250",
+        "name": "Fantomex",
+        "faction": "X-Force",
+        "color1": "Blue",
+        "color2": "Black",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "Weapon X"
+    },
+    {
+        "ID": "251",
+        "name": "Marrow",
+        "faction": "X-Force",
+        "color1": "Blue",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Red",
+        "set": "Weapon X"
+    },
+    {
+        "ID": "252",
+        "name": "Weapon H",
+        "faction": "Avengers",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Weapon X"
+    },
+    {
+        "ID": "253",
+        "name": "Weapon X (Wolverine)",
+        "faction": "Marvel Knights",
+        "color1": "Black",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Weapon X"
     }
 ]

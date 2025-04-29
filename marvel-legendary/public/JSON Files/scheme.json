@@ -1988,6 +1988,97 @@
         "extraHenchmen": ["0","0","0","0","0"],
         "extraHero": ["2","2","2","2","2"],
         "set": "Midnight Sons"
+    },
+    {
+        "ID": "153",
+        "name": "Become President of the United States",
+        "setup": "11 Twists",
+        "notes": "",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "2099"
+    },
+    {
+        "ID": "154",
+        "name": "Befoul Earth into a Polluted Wasteland",
+        "setup": "Add an extra Hero. 8 Twists, representing 'Toxic Sludge.'",
+        "notes": "",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["1","1","1","1","1"],
+        "set": "2099"
+    },
+    {
+        "ID": "155",
+        "name": "Pull Reality into Cyberspace",
+        "setup": "7 Twists, representing 'Cyberspace.'",
+        "notes": "",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "2099"
+    },
+    {
+        "ID": "156",
+        "name": "Subjugate Earth with Mega-Corporations",
+        "setup": "Add an extra Hero. 11 Twists.",
+        "notes": "",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["1","1","1","1","1"],
+        "set": "2099"
+    },
+    {
+        "ID": "157",
+        "name": "Condition Logan into Weapon X",
+        "setup": "8 Twists. Include exactly 1 Hero with Wolverine or Logan in its name.",
+        "notes": "*Randomizer Note: Replace a randomized hero with Wolverine or Logan in its name.",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Weapon X"
+    },
+    {
+        "ID": "158",
+        "name": "Go After Heroes' Loved Ones",
+        "setup": "Add an extra Hero. Don't use multiple Heroes that have the same Hero Name. 1 player: 8 Twists. 2-4 players: 10 Twists. 5 players: 11 Twists. Set aside a lowest-cost card for each Hero Name, face up, with 2 face up Bystanders under it as 'Loved Ones.'",
+        "notes": "*Randomizer Note: May need to reroll heroes to not have duplicate Hero names.",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["1","1","1","1","1"],
+        "set": "Weapon X"
+    },
+    {
+        "ID": "159",
+        "name": "Wipe Heroes' Memories",
+        "setup": "Twists equal to the number of players plus 4.",
+        "notes": "",
+        "leads": [""],
+        "leadsType": [""],
+        "extraMasterMind": ["0","0","0","0","0"],
+        "extraVillain": ["0", "0", "0", "0", "0"],
+        "extraHenchmen": ["0","0","0","0","0"],
+        "extraHero": ["0","0","0","0","0"],
+        "set": "Weapon X"
     }
     
 ]
