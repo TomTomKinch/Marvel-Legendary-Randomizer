@@ -515,5 +515,25 @@
         "ID": "102",
         "name": "Fallen",
         "set": "Midnight Sons"
+    },
+    {
+        "ID": "103",
+        "name": "Alchemax Enforcers",
+        "set": "2099"
+    },
+    {
+        "ID": "104",
+        "name": "False Aesir of Alchemax",
+        "set": "2099"
+    },
+    {
+        "ID": "105",
+        "name": "Berserkers",
+        "set": "Weapon X"
+    },
+    {
+        "ID": "106",
+        "name": "Weapon Plus",
+        "set": "Weapon X"
     }
 ]

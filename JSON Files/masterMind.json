@@ -858,5 +858,75 @@
         "leads": "Fallen",
         "leadsType": "villains",
         "set": "Midnight Sons"
+    },
+    {
+        "ID": "87",
+        "name": "Alchemax Executives",
+        "hp": "10",
+        "masterStrike": "Put the two highest-cost Heroes from the HQ into the Escape Pile. Then Cyber-Mod: Each player gains a Wound. Adapt.",
+        "notes": "",
+        "leads": "Alchemax Enforcers",
+        "leadsType": "villains",
+        "set": "2099"
+    },
+    {
+        "ID": "88",
+        "name": "Sinister Six 2099",
+        "hp": "9",
+        "masterStrike": "Each player discards three cards then draws a card. Adapt.",
+        "notes": "Any 'Alchemax' or 'Sinister' Villain Group. Feel free to replace Alchemax Villain group with a Sinister Villain group",
+        "leads": "Alchemax Enforcers",
+        "leadsType": "villains",
+        "set": "2099"
+    },
+    {
+        "ID": "89",
+        "name": "Sinister Six 2099",
+        "hp": "9",
+        "masterStrike": "Each player discards three cards then draws a card. Adapt.",
+        "notes": "Any 'Alchemax' or 'Sinister' Villain Group. Feel free to replace Alchemax Villain group with a Sinister Villain group",
+        "leads": "False Aesir of Alchemax",
+        "leadsType": "villains",
+        "set": "2099"
+    },
+    {
+        "ID": "90",
+        "name": "Omega Red",
+        "hp": "10",
+        "masterStrike": "Each player discards one of their Red Heroes or gains a Wound.",
+        "notes": "Always Leads Any Villain Group. *Randomizer Note: Randomizer picks one from the Waepon X set.",
+        "leads": "Berserkers",
+        "leadsType": "villains",
+        "set": "Weapon X"
+    },
+    {
+        "ID": "91",
+        "name": "Omega Red",
+        "hp": "10",
+        "masterStrike": "Each player discards one of their Red Heroes or gains a Wound.",
+        "notes": "Always Leads Any Villain Group. *Randomizer Note: Randomizer picks one from the Waepon X set.",
+        "leads": "Weapon Plus",
+        "leadsType": "villains",
+        "set": "Weapon X"
+    },
+    {
+        "ID": "92",
+        "name": "Romulus",
+        "hp": "9",
+        "masterStrike": "Each player reveals that they have a greater Weapon X Sequence than Romulus or gains a Wound. Then if this is the fifth Strike this game, this Strike becomes a Scheme Twist that takes effect immediately. (Once per game)",
+        "notes": "",
+        "leads": "Weapon Plus",
+        "leadsType": "villains",
+        "set": "Weapon X"
+    },
+    {
+        "ID": "93",
+        "name": "Sabretooth",
+        "hp": "8",
+        "masterStrike": "Stack this Strike next to Sabretooth as a 'Savagery.'' Each player KOs one of their Heroes that costs more than the number of Savageries. Any player that cannot do so gains a Wound instead.",
+        "notes": "",
+        "leads": "Berserkers",
+        "leadsType": "villains",
+        "set": "Weapon X"
     }
 ]
