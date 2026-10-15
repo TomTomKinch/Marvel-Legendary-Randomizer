@@ -55,4 +55,8 @@ Key:
 - url -> http://localhost:3000/Marvel-Legendary-Randomizer/marvel-legendary
 
 # Push Code
-
+- Be in /Marvel-Legendary-Randomizer/marvel-legendary Folder
+- npm run predeploy
+- npm run deploy
+- Git Username
+- Personal access token
