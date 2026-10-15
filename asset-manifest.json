@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Marvel-Legendary-Randomizer/static/css/main.3f564062.chunk.css",
-    "main.js": "/Marvel-Legendary-Randomizer/static/js/main.2b19d03a.chunk.js",
-    "main.js.map": "/Marvel-Legendary-Randomizer/static/js/main.2b19d03a.chunk.js.map",
+    "main.js": "/Marvel-Legendary-Randomizer/static/js/main.a97a3991.chunk.js",
+    "main.js.map": "/Marvel-Legendary-Randomizer/static/js/main.a97a3991.chunk.js.map",
     "runtime-main.js": "/Marvel-Legendary-Randomizer/static/js/runtime-main.3f0d31b0.js",
     "runtime-main.js.map": "/Marvel-Legendary-Randomizer/static/js/runtime-main.3f0d31b0.js.map",
-    "static/js/2.76cceeec.chunk.js": "/Marvel-Legendary-Randomizer/static/js/2.76cceeec.chunk.js",
-    "static/js/2.76cceeec.chunk.js.map": "/Marvel-Legendary-Randomizer/static/js/2.76cceeec.chunk.js.map",
+    "static/js/2.66491c84.chunk.js": "/Marvel-Legendary-Randomizer/static/js/2.66491c84.chunk.js",
+    "static/js/2.66491c84.chunk.js.map": "/Marvel-Legendary-Randomizer/static/js/2.66491c84.chunk.js.map",
     "index.html": "/Marvel-Legendary-Randomizer/index.html",
     "static/css/main.3f564062.chunk.css.map": "/Marvel-Legendary-Randomizer/static/css/main.3f564062.chunk.css.map",
-    "static/js/2.76cceeec.chunk.js.LICENSE.txt": "/Marvel-Legendary-Randomizer/static/js/2.76cceeec.chunk.js.LICENSE.txt",
+    "static/js/2.66491c84.chunk.js.LICENSE.txt": "/Marvel-Legendary-Randomizer/static/js/2.66491c84.chunk.js.LICENSE.txt",
     "static/media/Blue.png": "/Marvel-Legendary-Randomizer/static/media/Blue.c7b3c085.png",
     "static/media/Brotherhood.png": "/Marvel-Legendary-Randomizer/static/media/Brotherhood.2eaa7368.png",
     "static/media/Cabal.png": "/Marvel-Legendary-Randomizer/static/media/Cabal.e6895029.png",
     "static/media/Champions.png": "/Marvel-Legendary-Randomizer/static/media/Champions.533bbff4.png",
+    "static/media/Check Mate.png": "/Marvel-Legendary-Randomizer/static/media/Check Mate.41796937.png",
     "static/media/Home-Page.css": "/Marvel-Legendary-Randomizer/static/media/Comic-Book.d567fcfd.otf",
     "static/media/Expansions.160593a9.PNG": "/Marvel-Legendary-Randomizer/static/media/Expansions.160593a9.PNG",
     "static/media/Five.ad4ebe6f.PNG": "/Marvel-Legendary-Randomizer/static/media/Five.ad4ebe6f.PNG",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3f0d31b0.js",
-    "static/js/2.76cceeec.chunk.js",
+    "static/js/2.66491c84.chunk.js",
     "static/css/main.3f564062.chunk.css",
-    "static/js/main.2b19d03a.chunk.js"
+    "static/js/main.a97a3991.chunk.js"
   ]
 }

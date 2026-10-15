@@ -173,5 +173,45 @@
         "ID": "34",
         "name": "Sentinel Squad O*N*E*",
         "set": "Messiah Complex"
+    },
+    {
+        "ID": "35",
+        "name": "Doombot Legion",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "36",
+        "name": "Hand Ninjas",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "37",
+        "name": "Savage Land Mutates",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "38",
+        "name": "Sentinel",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "39",
+        "name": "Beastiamorphs",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "40",
+        "name": "Devoted Goons",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "41",
+        "name": "H.I.V.E. Soldiers",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "42",
+        "name": "The Manhunters",
+        "set": "DC Base Set"
     }
 ]

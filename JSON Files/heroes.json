@@ -2588,5 +2588,295 @@
         "color3": "Yellow",
         "color4": "Yellow",
         "set": "Weapon X"
+    },
+    {
+        "ID": "254",
+        "name": "Black Widow",
+        "faction": "Avengers",
+        "color1": "Red",
+        "color2": "Black",
+        "color3": "Black",
+        "color4": "Red",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "255",
+        "name": "Captain America",
+        "faction": "Avengers",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Red",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "256",
+        "name": "Cyclops",
+        "faction": "X-Men",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "257",
+        "name": "Emma Frost",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Red",
+        "color3": "Yellow",
+        "color4": "Green",
+        "set": "Base Set 2nd Edition"
+    },    
+    {
+        "ID": "258",
+        "name": "Gambit",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Yellow",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "259",
+        "name": "Hawkeye",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "Blue",
+        "color3": "Blue",
+        "color4": "Blue",
+        "set": "Base Set 2nd Edition"
+    },    
+    {
+        "ID": "260",
+        "name": "Hulk",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "261",
+        "name": "Iron Man",
+        "faction": "Avengers",
+        "color1": "Black",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "Base Set 2nd Edition"
+    },    
+    {
+        "ID": "262",
+        "name": "Nick Fury",
+        "faction": "SHIELD",
+        "color1": "Red",
+        "color2": "Black",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "263",
+        "name": "Rogue",
+        "faction": "X-Men",
+        "color1": "Red",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "Base Set 2nd Edition"
+    },    
+    {
+        "ID": "264",
+        "name": "Spider-Man",
+        "faction": "Spiderverse",
+        "color1": "Yellow",
+        "color2": "Black",
+        "color3": "Green",
+        "color4": "Yellow",
+        "set": "Base Set 2nd Edition"
+    },
+        {
+        "ID": "265",
+        "name": "Spider-Man (Miles Morales)",
+        "faction": "Spiderverse",
+        "color1": "Green",
+        "color2": "Yellow",
+        "color3": "Red",
+        "color4": "Black",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "266",
+        "name": "Storm",
+        "faction": "X-Men",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Blue",
+        "set": "Base Set 2nd Edition"
+    },    
+    {
+        "ID": "267",
+        "name": "Thor",
+        "faction": "Avengers",
+        "color1": "Green",
+        "color2": "Green",
+        "color3": "Blue",
+        "color4": "Green",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "268",
+        "name": "Wolverine",
+        "faction": "X-Men",
+        "color1": "Yellow",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "269",
+        "name": "Aquaman",
+        "faction": "Justice League",
+        "color1": "Green",
+        "color2": "Green",
+        "color3": "Red",
+        "color4": "Green",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "270",
+        "name": "Batman",
+        "faction": "Justice League",
+        "color1": "Black",
+        "color2": "Red",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "271",
+        "name": "Black Canary",
+        "faction": "Birds of Prey",
+        "color1": "Blue",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Blue",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "272",
+        "name": "Cyborg",
+        "faction": "Teen Titans",
+        "color1": "Black",
+        "color2": "Green",
+        "color3": "Black",
+        "color4": "Black",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "273",
+        "name": "The Flash (Barry Allen)",
+        "faction": "Justice League",
+        "color1": "Red",
+        "color2": "Red",
+        "color3": "Yellow",
+        "color4": "Red",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "274",
+        "name": "Green Arrow",
+        "faction": "Justice League",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Black",
+        "color4": "BlueGreen",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "275",
+        "name": "Green Lantern (John Stewart)",
+        "faction": "Justice League",
+        "color1": "Blue",
+        "color2": "Black",
+        "color3": "Green",
+        "color4": "Blue",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "276",
+        "name": "Hawkgirl",
+        "faction": "Justice League",
+        "color1": "Yellow",
+        "color2": "Green",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "277",
+        "name": "Martian Manhunter",
+        "faction": "Justice League",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Yellow",
+        "color4": "GreenBlack",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "278",
+        "name": "Nightwing",
+        "faction": "Teen Titans",
+        "color1": "Black",
+        "color2": "Yellow",
+        "color3": "Yellow",
+        "color4": "Yellow",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "279",
+        "name": "Starfire",
+        "faction": "Teen Titans",
+        "color1": "Blue",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "280",
+        "name": "Superman",
+        "faction": "Justice League",
+        "color1": "Green",
+        "color2": "Blue",
+        "color3": "Green",
+        "color4": "Green",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "281",
+        "name": "Wonder Woman",
+        "faction": "Justice League",
+        "color1": "Yellow",
+        "color2": "Yellow",
+        "color3": "Green",
+        "color4": "Yellow",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "282",
+        "name": "Zatanna",
+        "faction": "Justice League Dark",
+        "color1": "Red",
+        "color2": "Blue",
+        "color3": "Red",
+        "color4": "Red",
+        "set": "DC Base Set"
     }
 ]
