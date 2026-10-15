@@ -39,8 +39,6 @@
         "name": "Spider-Foes",
         "set": "Base Set"
     },
-
-
     {
         "ID": "9",
         "name": "CSA Special Marshals",
@@ -535,5 +533,80 @@
         "ID": "106",
         "name": "Weapon Plus",
         "set": "Weapon X"
+    },
+    {
+        "ID": "107",
+        "name": "Brotherhood of Mutants",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "108",
+        "name": "Enemies of Asgard",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "109",
+        "name": "Hydra",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "110",
+        "name": "Masters of Evil",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "111",
+        "name": "Radiation",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "112",
+        "name": "Sinister Spider-Foes",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "113",
+        "name": "Sinister Syndicate",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "114",
+        "name": "Skrulls",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "115",
+        "name": "Fearsome Five",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "116",
+        "name": "Gotham City Underworld",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "117",
+        "name": "Legion of Doom",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "118",
+        "name": "Rogues",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "119",
+        "name": "Superman Revenge Squad",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "120",
+        "name": "Titans for Hire",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "121",
+        "name": "Villainy Inc.",
+        "set": "DC Base Set"
     }
 ]

@@ -928,5 +928,115 @@
         "leads": "Berserkers",
         "leadsType": "villains",
         "set": "Weapon X"
+    },
+    {
+        "ID": "94",
+        "name": "Doctor Doom",
+        "hp": "10",
+        "masterStrike": "Stack this Strike next to Doctor Doom as an 'Omen of Doom.' Then each player discards cards equal to the number of Omens or gains a Wound.",
+        "notes": "",
+        "leads": "Doombot Legion",
+        "leadsType": "henchmen",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "95",
+        "name": "Doctor Octopus",
+        "hp": "8",
+        "masterStrike": "Stack this Strike next to Doctor Doom as an 'Omen of Doom.' Then each player discards cards equal to the number of Omens or gains a Wound.",
+        "notes": "",
+        "leads": "Sinister Spider-Foes",
+        "leadsType": "villains",
+        "set": "Base Set 2nd Edition"
+    },
+     {
+        "ID": "96",
+        "name": "Doctor Octopus",
+        "hp": "8",
+        "masterStrike": "Stack this Strike next to Doctor Doom as an 'Omen of Doom.' Then each player discards cards equal to the number of Omens or gains a Wound.",
+        "notes": "",
+        "leads": "Sinister Syndicate",
+        "leadsType": "villains",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "97",
+        "name": "Loki",
+        "hp": "11",
+        "masterStrike": "Each player discards a Strength Hero or stacks a non-grey Hero from their hand next to Loki as a Hypno-Thrall.",
+        "notes": "",
+        "leads": "Enemies of Asgard",
+        "leadsType": "villains",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "98",
+        "name": "Magneto",
+        "hp": "9",
+        "masterStrike": "Each player discards an X-Men Hero or gains a Wound.",
+        "notes": "",
+        "leads": "Brotherhood of Mutants",
+        "leadsType": "villains",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "99",
+        "name": "Red Skull, Hydra Overlord",
+        "hp": "7",
+        "masterStrike": "Each player reveals a Tech Hero or discards down to 4 cards.",
+        "notes": "",
+        "leads": "Hydra",
+        "leadsType": "villains",
+        "set": "Base Set 2nd Edition"
+    },
+    {
+        "ID": "100",
+        "name": "Captain Cold",
+        "hp": "8",
+        "masterStrike": "Turn each Hero in the HQ face down, 'Frozen', and randomly mix them up. Players can't recruit face down Heroes. Each stays face down until you pay 1(fight) to 'Unfreeze' it or it leaves the HQ.",
+        "notes": "",
+        "leads": "Rogues",
+        "leadsType": "villains",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "101",
+        "name": "Circe",
+        "hp": "9",
+        "masterStrike": "Take the leftmost Hero from the HQ and the lowest-cost non-grey Hero from each player's discard pile. Stack them next to Circe as 'Devolved Pig' Villains. You can fight them, starting from the top. They have (fight) equal to their cost and 'Fight: Either KO this card or choose a player to gain it as a Hero.",
+        "notes": "",
+        "leads": "Beastiamorphs",
+        "leadsType": "henchmen",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "102",
+        "name": "Deathstroke",
+        "hp": "7",
+        "masterStrike": "Each Player discards an Instinct Hero or gains a Wound",
+        "notes": "",
+        "leads": "Titans for Hire",
+        "leadsType": "villains",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "103",
+        "name": "The Joker",
+        "hp": "10",
+        "masterStrike": "Each player may reveal a Covert Hero. Any player who doesn't must draw two cards, then randomly discard down to four cards.",
+        "notes": "",
+        "leads": "Gotham City Underworld",
+        "leadsType": "villains",
+        "set": "DC Base Set"
+    },
+    {
+        "ID": "104",
+        "name": "Lex Luthor",
+        "hp": "6",
+        "masterStrike": "Reduce Hope. Then, if there is no Hope, each player gains a Wound. Otherwise, Reduce Hope again.",
+        "notes": "",
+        "leads": "Legion of Doom",
+        "leadsType": "villains",
+        "set": "DC Base Set"
     }
 ]
