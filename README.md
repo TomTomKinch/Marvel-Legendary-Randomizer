@@ -1,6 +1,9 @@
 # Marvel-Legendary-Randomizer
 Randomizer for Marvel Legendary Deck building Game
 
+# Site Access
+- https://tomtomkinch.github.io/Marvel-Legendary-Randomizer/
+
 # Todo List
 - X Basic Layout (CSS styling)
 - X Card Values to JSON file
@@ -50,3 +53,6 @@ Key:
 # Running Locally
 - npm start
 - url -> http://localhost:3000/Marvel-Legendary-Randomizer/marvel-legendary
+
+# Push Code
+
